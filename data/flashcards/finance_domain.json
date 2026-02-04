@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:30:00",
+  "domain": "Finance Performance Domain",
+  "cards": [
+    {
+      "id": "fin_001",
+      "question": "What is the difference between Cost Baseline and Project Budget?",
+      "answer": "Cost Baseline = time-phased budget for planned work (used for performance measurement). Project Budget = cost baseline PLUS management reserve. The baseline is what you're measured against; management reserve is extra for unknowns.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "If you include management reserve in your baseline, you'll show better variance than reality. The baseline should reflect planned work only. Management reserve is your 'insurance' for true surprises.",
+      "related_concepts": ["Contingency Reserve", "Management Reserve", "Budget Buildup", "Earned Value"]
+    },
+    {
+      "id": "fin_002",
+      "question": "What is the difference between Contingency Reserve and Management Reserve?",
+      "answer": "Contingency Reserve = for KNOWN risks (identified in risk register) - part of the cost baseline, used by PM. Management Reserve = for UNKNOWN risks (unforeseen events) - outside baseline, typically requires sponsor approval to use.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "This is 'known unknowns' vs 'unknown unknowns'. Contingency handles risks you identified. Management reserve handles surprises you couldn't predict. Using one for the other violates proper risk/budget management.",
+      "related_concepts": ["Risk Management", "Budget Reserves", "Known Unknowns", "Unknown Unknowns"]
+    },
+    {
+      "id": "fin_003",
+      "question": "WHY does the Finance domain emphasize value maximization, not just cost control?",
+      "answer": "Because the cheapest project isn't necessarily the best one. Finance connects to strategy - a project that costs more but delivers greater ROI, faster time-to-market, or higher quality may be the better investment.",
+      "knowledge_area": "Finance",
+      "card_type": "why",
+      "why_it_matters": "Pure cost focus leads to penny-wise, pound-foolish decisions. Cutting corners that hurt quality or delay delivery destroys value. Finance management should optimize the RATIO of value delivered to resources consumed.",
+      "related_concepts": ["ROI", "Value Delivery", "Business Case", "Cost-Benefit Analysis"]
+    },
+    {
+      "id": "fin_004",
+      "question": "What is the difference between CapEx and OpEx?",
+      "answer": "CapEx (Capital Expenditures) = funds for acquiring/upgrading physical assets (property, equipment, technology). OpEx (Operating Expenditures) = ongoing costs of daily operations (salaries, rent, utilities). They're often budgeted and approved differently.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "Many organizations treat CapEx and OpEx differently for accounting, tax, and approval purposes. A PM who tries to shift costs between categories without understanding this creates financial reporting problems.",
+      "related_concepts": ["Financial Constraints", "Budget Categories", "Accounting", "Investment Control"]
+    },
+    {
+      "id": "fin_005",
+      "question": "WHY is variance analysis (comparing actual to planned costs) so important?",
+      "answer": "Because variance tells you if you're on track and enables corrective action. Early detection of overspending allows you to adjust before it's too late. Without variance analysis, you only learn you're over budget when the money runs out.",
+      "knowledge_area": "Finance",
+      "card_type": "why",
+      "why_it_matters": "Variance isn't just 'we spent more than planned.' It's a diagnostic tool. Negative variance might mean scope creep, poor estimates, or inefficiency. Understanding WHY variance exists guides the right corrective action.",
+      "related_concepts": ["Earned Value", "Cost Control", "Trend Analysis", "Forecasting"]
+    },
+    {
+      "id": "fin_006",
+      "question": "What is Earned Value Management (EVM)?",
+      "answer": "A methodology that integrates scope, schedule, and cost to objectively measure project performance. It compares planned value (what should have been done), earned value (what was actually done), and actual cost (what it cost).",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "EVM answers questions like: 'Are we getting value for our spending?' You can be under budget but behind schedule (inefficient). EVM reveals the true picture by combining cost AND progress in one framework.",
+      "related_concepts": ["PV", "EV", "AC", "CPI", "SPI", "Variance Analysis"]
+    },
+    {
+      "id": "fin_007",
+      "question": "What are the common estimating techniques for costs?",
+      "answer": "Analogous (top-down using similar past projects), Parametric (statistical models like $/sq ft), Bottom-up (detailed estimates rolled up), Three-point/PERT (optimistic, pessimistic, most likely), Expert Judgment.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "Each technique fits different situations. Analogous is fast but rough. Bottom-up is accurate but time-consuming. Three-point handles uncertainty. Using the wrong technique for your situation produces unreliable estimates.",
+      "related_concepts": ["Accuracy", "Precision", "Basis of Estimates", "Cost Estimation"]
+    },
+    {
+      "id": "fin_008",
+      "question": "WHY might a project's financial management differ based on development approach?",
+      "answer": "Adaptive projects have evolving scope, so traditional fixed budgets don't fit. Instead, they might budget per iteration or timeframe, adjusting funding based on actual progress and changing priorities each cycle.",
+      "knowledge_area": "Finance",
+      "card_type": "why",
+      "why_it_matters": "Trying to set a fixed budget for undefined scope is fiction. Agile acknowledges this by funding in increments and reassessing. This matches financial commitment to knowledge - you fund what you know.",
+      "related_concepts": ["Agile Budgeting", "Iterative Funding", "Time-Boxing", "Value-Based Prioritization"]
+    },
+    {
+      "id": "fin_009",
+      "question": "What are common financial metrics for measuring project value?",
+      "answer": "ROI (Return on Investment), IRR (Internal Rate of Return), NPV (Net Present Value), Payback Period, ROA (Return on Assets), BCR (Benefit-Cost Ratio). Each measures value differently.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "Different stakeholders care about different metrics. Executives might want ROI. Finance might want NPV. Understanding what each measures helps you speak the stakeholder's language and justify the project in terms they value.",
+      "related_concepts": ["Business Case", "Value Justification", "Investment Analysis", "Project Selection"]
+    },
+    {
+      "id": "fin_010",
+      "question": "WHY is understanding funding sources important for project managers?",
+      "answer": "Because funding affects constraints - grants may have reporting requirements, customer contracts have payment schedules, internal budgets may expire at fiscal year-end. The source of money shapes how and when you can spend it.",
+      "knowledge_area": "Finance",
+      "card_type": "why",
+      "why_it_matters": "A PM who doesn't understand funding constraints may plan to spend money that's not yet available, or lose budget because it wasn't spent before year-end. Funding timing affects cash flow and project execution.",
+      "related_concepts": ["Cash Flow", "Funding Constraints", "Payment Terms", "Budget Timing"]
+    },
+    {
+      "id": "fin_011",
+      "question": "What is Cost Variance (CV)?",
+      "answer": "CV = Earned Value (EV) - Actual Cost (AC). Measures cost performance in currency. Positive CV = under budget (spent less than the value earned). Negative CV = over budget.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "CV tells you whether you're getting value for your spending. Unlike simple 'actual vs. budget', CV relates spending to actual progress. Spending less means nothing if you're also delivering less.",
+      "related_concepts": ["Earned Value", "CPI", "Variance Analysis", "Performance Reporting"]
+    },
+    {
+      "id": "fin_012",
+      "question": "What is Cost Performance Index (CPI)?",
+      "answer": "CPI = EV / AC. A ratio showing cost efficiency. CPI = 1.0 means on budget. CPI > 1.0 means under budget (getting more than $1 value per $1 spent). CPI < 1.0 means over budget.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "CPI is the most critical EVM metric because it's a strong predictor of final cost. Once established, CPI rarely improves - a project with 0.8 CPI will likely finish about 25% over budget.",
+      "related_concepts": ["Earned Value", "Cost Variance", "Forecasting", "EAC"]
+    },
+    {
+      "id": "fin_013",
+      "question": "What is Estimate at Completion (EAC)?",
+      "answer": "The expected total cost of the project when complete. Multiple formulas exist: EAC = BAC/CPI (if current efficiency continues), EAC = AC + (BAC-EV) (if original estimates hold), and others.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "EAC tells stakeholders 'what will this actually cost?' rather than 'what did we plan?' It enables early warning and corrective action. Different formulas apply to different assumptions about future performance.",
+      "related_concepts": ["CPI", "BAC", "Forecasting", "Variance at Completion"]
+    },
+    {
+      "id": "fin_014",
+      "question": "What is Estimate to Complete (ETC)?",
+      "answer": "ETC = the expected cost to finish the remaining work. ETC = EAC - AC. It answers 'how much MORE will we need to spend?' rather than total cost.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "Stakeholders often ask 'how much more money do you need?' rather than total cost. ETC tells them what's still required. It's also useful for replanning remaining work.",
+      "related_concepts": ["EAC", "Remaining Work", "Budget Forecasting", "Corrective Action"]
+    },
+    {
+      "id": "fin_015",
+      "question": "What is Variance at Completion (VAC)?",
+      "answer": "VAC = BAC - EAC. The expected budget surplus or shortfall at project completion. Positive VAC = project expected to finish under budget. Negative VAC = expected overrun.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "VAC gives stakeholders early visibility into whether they'll need more funding. A VAC of -$50,000 means 'start preparing for an extra $50K request' not 'surprise at the end'.",
+      "related_concepts": ["EAC", "BAC", "Budget Variance", "Forecasting"]
+    },
+    {
+      "id": "fin_016",
+      "question": "What is TCPI (To-Complete Performance Index)?",
+      "answer": "TCPI = (BAC - EV) / (BAC - AC) or (BAC - EV) / (EAC - AC). Shows the cost efficiency required on remaining work to meet a target (BAC or EAC).",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "TCPI answers 'how efficient must we be going forward?' If TCPI > 1.0, you need to be MORE efficient than planned. If TCPI is much > 1.0 (like 1.3), meeting the budget may be unrealistic.",
+      "related_concepts": ["CPI", "Recovery Planning", "Performance Target", "Feasibility"]
+    },
+    {
+      "id": "fin_017",
+      "question": "WHY is the Time Value of Money important in project selection?",
+      "answer": "Because a dollar today is worth more than a dollar in the future (due to inflation and opportunity cost). NPV and IRR account for this when comparing projects with different timing of costs and benefits.",
+      "knowledge_area": "Finance",
+      "card_type": "why",
+      "why_it_matters": "A project returning $1M in year 1 is better than one returning $1M in year 5 (same nominal amount, different real value). Financial metrics that ignore timing can select inferior projects.",
+      "related_concepts": ["NPV", "IRR", "Discount Rate", "Present Value"]
+    },
+    {
+      "id": "fin_018",
+      "question": "What is the difference between Direct Costs and Indirect Costs?",
+      "answer": "Direct Costs = clearly attributable to the project (team salaries, materials). Indirect Costs = shared across projects or organization (rent, utilities, administrative overhead). Indirect costs are often allocated via a rate.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "Understanding this affects budgeting accuracy. Direct costs are controllable by the PM. Indirect costs are often 'allocated' to projects using formulas - the PM may have little control over them.",
+      "related_concepts": ["Cost Types", "Overhead", "Burden Rate", "Cost Allocation"]
+    },
+    {
+      "id": "fin_019",
+      "question": "What is Life Cycle Costing?",
+      "answer": "Considering the TOTAL cost of ownership over the life of the product/asset - not just project/development costs, but operations, maintenance, support, and disposal costs too.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "A cheap project that creates expensive-to-maintain products destroys value. Life cycle costing prevents 'throw it over the wall' thinking and ensures total cost of ownership is optimized, not just development cost.",
+      "related_concepts": ["Total Cost of Ownership", "Sustainability", "Value Analysis", "Long-term Thinking"]
+    },
+    {
+      "id": "fin_020",
+      "question": "WHY should project funding be linked to stage gates or decision points?",
+      "answer": "Because it prevents sunk cost fallacy and enables course correction. Releasing funds incrementally based on demonstrated progress protects the organization from continuing to invest in failing projects.",
+      "knowledge_area": "Finance",
+      "card_type": "why",
+      "why_it_matters": "Full upfront funding commits the organization regardless of what's learned. Incremental funding at gates lets stakeholders evaluate 'does continued investment make sense?' with current information.",
+      "related_concepts": ["Investment Control", "Go/No-Go Decisions", "Phase Gates", "Governance"]
+    },
+    {
+      "id": "fin_021",
+      "question": "What is Planned Value (PV) in Earned Value Management?",
+      "answer": "PV = the authorized budget assigned to scheduled work. It's what you PLANNED to accomplish by now, in currency terms. Also called Budgeted Cost of Work Scheduled (BCWS).",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "PV is your baseline - what SHOULD have been done. Without it, you can't measure if you're ahead or behind schedule. It's time-phased: PV at week 4 differs from PV at week 8.",
+      "related_concepts": ["EV", "AC", "Schedule Variance", "Performance Baseline"]
+    },
+    {
+      "id": "fin_022",
+      "question": "What is Earned Value (EV) in Earned Value Management?",
+      "answer": "EV = the measure of work ACTUALLY performed, expressed in budget terms. It's the value of what you've accomplished. Also called Budgeted Cost of Work Performed (BCWP).",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "EV is the heart of EVM - it answers 'what did we actually accomplish?' If you spent money but didn't complete work, EV stays low while AC rises. EV connects spending to progress.",
+      "related_concepts": ["PV", "AC", "Percent Complete", "Work Packages"]
+    },
+    {
+      "id": "fin_023",
+      "question": "What is Actual Cost (AC) in Earned Value Management?",
+      "answer": "AC = the realized cost incurred for work performed. It's what you ACTUALLY spent. Also called Actual Cost of Work Performed (ACWP).",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "AC is reality - money out the door. Comparing AC to EV shows efficiency (are we getting value for spending?). Comparing AC to PV alone is misleading because it ignores how much work got done.",
+      "related_concepts": ["PV", "EV", "Cost Variance", "CPI"]
+    },
+    {
+      "id": "fin_024",
+      "question": "What is Schedule Performance Index (SPI)?",
+      "answer": "SPI = EV / PV. A ratio showing schedule efficiency. SPI = 1.0 means on schedule. SPI > 1.0 means ahead of schedule (accomplished more than planned). SPI < 1.0 means behind schedule.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "SPI tells you schedule efficiency in a single number. An SPI of 0.8 means for every 10 days planned, only 8 days of work got done. Combined with CPI, you see the full performance picture.",
+      "related_concepts": ["CPI", "Schedule Variance", "Forecasting", "Trend Analysis"]
+    },
+    {
+      "id": "fin_025",
+      "question": "What is Schedule Variance (SV)?",
+      "answer": "SV = EV - PV. Measures schedule performance in currency. Positive SV = ahead of schedule (earned more value than planned). Negative SV = behind schedule. Note: SV approaches zero as project ends regardless of delays.",
+      "knowledge_area": "Finance",
+      "card_type": "definition",
+      "why_it_matters": "SV tells you HOW MUCH you're ahead or behind in budget terms. A $10,000 SV means you've accomplished $10K more work than planned. Unlike SPI, SV loses meaning near project end.",
+      "related_concepts": ["SPI", "EV", "PV", "Schedule Control"]
+    }
+  ]
+}

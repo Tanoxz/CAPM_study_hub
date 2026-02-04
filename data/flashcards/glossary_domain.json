@@ -1,0 +1,187 @@
+{
+  "deck_id": "glossary_domain",
+  "name": "PM Glossary & Terms",
+  "description": "Key project management terminology and definitions",
+  "cards": [
+    {
+      "id": "gloss_001",
+      "question": "What is a deliverable?",
+      "answer": "Any unique and verifiable product, result, or capability produced to complete a process, phase, or project.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Deliverables are what you're producing. They must be verifiable - you can prove they're done and meet requirements.",
+      "related_concepts": ["Scope", "Work packages", "Acceptance criteria"]
+    },
+    {
+      "id": "gloss_002",
+      "question": "What is a milestone?",
+      "answer": "A significant point or event in a project. Milestones have zero duration - they mark achievement, not work.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Milestones are checkpoints for progress tracking. They don't consume time; they mark time.",
+      "related_concepts": ["Schedule", "Progress tracking", "Phase gates"]
+    },
+    {
+      "id": "gloss_003",
+      "question": "What is a baseline?",
+      "answer": "An approved version of a work product (scope, schedule, cost) used as a basis for comparison. Changes require formal change control.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Without baselines, you can't measure variance. The baseline is 'the plan' against which you compare 'actual.'",
+      "related_concepts": ["Change control", "Variance analysis", "Performance measurement"]
+    },
+    {
+      "id": "gloss_004",
+      "question": "What is the project management plan?",
+      "answer": "The document that describes how the project will be executed, monitored, and controlled. Includes subsidiary plans for scope, schedule, cost, quality, resources, communications, risk, procurement, and stakeholder management.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "It's not just a schedule. The PM plan integrates all planning elements into a coherent approach.",
+      "related_concepts": ["Planning", "Integration", "Subsidiary plans"]
+    },
+    {
+      "id": "gloss_005",
+      "question": "What is organizational process assets (OPA)?",
+      "answer": "Plans, processes, policies, procedures, and knowledge bases specific to the organization that influence project management.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "You don't start from scratch. OPAs include templates, lessons learned, and historical information to leverage.",
+      "related_concepts": ["Enterprise factors", "Lessons learned", "Templates"]
+    },
+    {
+      "id": "gloss_006",
+      "question": "What are enterprise environmental factors (EEF)?",
+      "answer": "Conditions not under the project team's control that influence the project, such as organizational culture, market conditions, regulations, and infrastructure.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "EEFs are constraints and influences you must work within. You can't change the market or regulations.",
+      "related_concepts": ["Constraints", "External factors", "Context"]
+    },
+    {
+      "id": "gloss_007",
+      "question": "What is progressive elaboration?",
+      "answer": "The iterative process of continuously improving and detailing a plan as more information becomes available.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "You can't know everything at the start. Plans are refined as the project progresses and understanding deepens.",
+      "related_concepts": ["Planning", "Iteration", "Rolling wave"]
+    },
+    {
+      "id": "gloss_008",
+      "question": "What is rolling wave planning?",
+      "answer": "Planning in waves - detailed planning for near-term work, higher-level planning for future work that will be elaborated later.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Don't waste time detailing work that's months away. Plan in detail only what you can reasonably know.",
+      "related_concepts": ["Progressive elaboration", "Planning", "Iteration"]
+    },
+    {
+      "id": "gloss_009",
+      "question": "What is a work package?",
+      "answer": "The lowest level of the WBS - a deliverable or component that can be estimated, scheduled, and controlled.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Work packages are where estimation happens. They're small enough to estimate but still represent deliverables, not activities.",
+      "related_concepts": ["WBS", "Decomposition", "Estimation"]
+    },
+    {
+      "id": "gloss_010",
+      "question": "What is scope creep?",
+      "answer": "Uncontrolled expansion of project scope without adjustments to time, cost, and resources. The silent killer of projects.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Small additions seem harmless but accumulate. Formal change control prevents scope creep.",
+      "related_concepts": ["Change control", "Scope management", "Baseline"]
+    },
+    {
+      "id": "gloss_011",
+      "question": "What is gold plating?",
+      "answer": "Adding features or functionality not in the requirements. Sounds helpful but wastes resources and adds risk.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Deliver what was requested - no more, no less. 'Nice to have' additions should go through change control.",
+      "related_concepts": ["Scope creep", "Requirements", "Value"]
+    },
+    {
+      "id": "gloss_012",
+      "question": "What is a change request?",
+      "answer": "A formal proposal to modify any document, deliverable, or baseline. Processed through integrated change control.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Changes aren't bad - uncontrolled changes are. The process ensures impact is assessed before approval.",
+      "related_concepts": ["Change control", "CCB", "Impact analysis"]
+    },
+    {
+      "id": "gloss_013",
+      "question": "What is the Change Control Board (CCB)?",
+      "answer": "A formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Provides governance over changes. Composition varies by organization but typically includes key stakeholders.",
+      "related_concepts": ["Change control", "Governance", "Decision-making"]
+    },
+    {
+      "id": "gloss_014",
+      "question": "What is a project phase?",
+      "answer": "A collection of logically related project activities culminating in one or more deliverables. Phases are typically sequential.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Phases structure the project into manageable chunks with clear deliverables and review points.",
+      "related_concepts": ["Life cycle", "Phase gates", "Deliverables"]
+    },
+    {
+      "id": "gloss_015",
+      "question": "What is a phase gate (or stage gate)?",
+      "answer": "A review at the end of a phase to decide whether to continue, modify, or terminate the project.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Phase gates are decision points. They prevent throwing good money after bad if the project should stop.",
+      "related_concepts": ["Governance", "Go/no-go", "Phase"]
+    },
+    {
+      "id": "gloss_016",
+      "question": "What is the triple constraint (iron triangle)?",
+      "answer": "The interdependency of scope, time, and cost. Changing one typically affects the others. Quality is often shown in the center.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "You can't change one without affecting others. Stakeholders who want more scope must accept more time or cost.",
+      "related_concepts": ["Trade-offs", "Constraints", "Balance"]
+    },
+    {
+      "id": "gloss_017",
+      "question": "What is a project charter?",
+      "answer": "A document that formally authorizes the project and gives the PM authority to apply organizational resources.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Without a charter, the PM has no official authority. It links the project to organizational strategy.",
+      "related_concepts": ["Initiation", "Authorization", "PM authority"]
+    },
+    {
+      "id": "gloss_018",
+      "question": "What is the project sponsor?",
+      "answer": "The person or group who provides resources and support, champions the project, and is accountable for project success.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "The sponsor is the PM's ally at the executive level. They remove obstacles and provide organizational support.",
+      "related_concepts": ["Stakeholders", "Governance", "Support"]
+    },
+    {
+      "id": "gloss_019",
+      "question": "What is the difference between a program and a project?",
+      "answer": "A program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Programs deliver strategic benefits through coordination. Projects deliver specific outputs.",
+      "related_concepts": ["Portfolio", "Strategic alignment", "Benefits"]
+    },
+    {
+      "id": "gloss_020",
+      "question": "What is a portfolio in project management?",
+      "answer": "Projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives.",
+      "knowledge_area": "Glossary",
+      "card_type": "definition",
+      "why_it_matters": "Portfolio management ensures the right projects are done. Project management ensures projects are done right.",
+      "related_concepts": ["Strategy", "Prioritization", "Resource allocation"]
+    }
+  ]
+}

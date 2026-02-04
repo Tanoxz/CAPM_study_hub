@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:00:00",
+  "domain": "Scope Performance Domain",
+  "cards": [
+    {
+      "id": "scope_001",
+      "question": "What is the primary purpose of the Scope Performance Domain?",
+      "answer": "To ensure the project encompasses ALL required work and ONLY the required work - no more, no less. This optimizes costs and schedule to maximize project value.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Scope creep (adding unplanned work) is one of the top causes of project failure. Equally dangerous is missing required work. The Scope domain keeps both in check.",
+      "related_concepts": ["Value Delivery", "Requirements", "WBS"]
+    },
+    {
+      "id": "scope_002",
+      "question": "WHY does PMBOK combine Scope and Quality in the same Performance Domain?",
+      "answer": "Because quality is defined by meeting stakeholder expectations and fulfilling requirements - which ARE the scope. You can't assess quality without knowing what was supposed to be delivered.",
+      "knowledge_area": "Scope",
+      "card_type": "why",
+      "why_it_matters": "This connection shows that scope isn't just 'what we build' but 'what we build to what standard'. Separating them leads to deliverables that technically meet requirements but don't satisfy stakeholders.",
+      "related_concepts": ["Quality", "Acceptance Criteria", "Stakeholder Expectations"]
+    },
+    {
+      "id": "scope_003",
+      "question": "What is a Business Case and why does it matter for scope?",
+      "answer": "A documented economic feasibility study that establishes the validity of benefits. It outlines costs, benefits, how value will be created, and project success criteria.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "The business case is the 'why' behind the project. Every scope decision should trace back to whether it supports the business case. If it doesn't add value per the business case, question why it's in scope.",
+      "related_concepts": ["Value", "Project Justification", "Benefits Realization"]
+    },
+    {
+      "id": "scope_004",
+      "question": "What is the difference between Product Scope and Project Scope?",
+      "answer": "Product Scope = features and functions of the deliverable itself. Project Scope = all the WORK needed to deliver that product (including PM activities, documentation, testing, etc.).",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Confusing these leads to underestimating effort. You might perfectly define the product but forget to account for training, documentation, deployment, and project management work.",
+      "related_concepts": ["Deliverables", "Work Packages", "WBS"]
+    },
+    {
+      "id": "scope_005",
+      "question": "WHY should requirements be traceable throughout the project?",
+      "answer": "Traceability ensures every requirement has a source (who asked for it), is implemented (where in the deliverable), and is verified (how we'll confirm it works). It prevents 'orphan' features and missed requirements.",
+      "knowledge_area": "Scope",
+      "card_type": "why",
+      "why_it_matters": "Without traceability, you can't prove you delivered what was asked, can't identify impact when requirements change, and can't verify completeness. Audits become nightmares.",
+      "related_concepts": ["Requirements Traceability Matrix", "Verification", "Validation"]
+    },
+    {
+      "id": "scope_006",
+      "question": "What is the Work Breakdown Structure (WBS)?",
+      "answer": "A hierarchical decomposition of the total scope into smaller, manageable work packages. It represents ALL work required - if it's not in the WBS, it's not in the project.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "The WBS is the foundation for estimating, scheduling, and assigning work. It's also a communication tool showing stakeholders exactly what's included. '100% rule' - must capture 100% of scope.",
+      "related_concepts": ["Work Packages", "Decomposition", "Scope Baseline"]
+    },
+    {
+      "id": "scope_007",
+      "question": "WHY is 'Validate Scope' different from 'Control Quality'?",
+      "answer": "Validate Scope = stakeholder ACCEPTANCE (did we build the right thing?). Control Quality = technical CORRECTNESS (did we build it right?). A deliverable can pass quality checks but still be rejected by stakeholders.",
+      "knowledge_area": "Scope",
+      "card_type": "why",
+      "why_it_matters": "A car might pass all mechanical tests (quality) but the customer wanted a truck (scope). You need both: build it correctly AND build what was actually needed.",
+      "related_concepts": ["Acceptance", "Quality Control", "Stakeholder Satisfaction"]
+    },
+    {
+      "id": "scope_008",
+      "question": "What are Acceptance Criteria?",
+      "answer": "Specific conditions that must be met before deliverables are accepted. They define 'done' in measurable terms - what exactly must be true for the stakeholder to sign off.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Vague acceptance criteria lead to disputes. 'The system should be fast' is not acceptance criteria. 'Response time under 2 seconds for 95% of requests' IS. Clear criteria prevent scope disputes.",
+      "related_concepts": ["Definition of Done", "Validation", "Scope Verification"]
+    },
+    {
+      "id": "scope_009",
+      "question": "WHY do adaptive (agile) approaches handle scope differently than predictive?",
+      "answer": "In adaptive approaches, detailed scope emerges over time through iterations. You define high-level scope upfront but refine details based on feedback. This embraces change rather than resisting it.",
+      "knowledge_area": "Scope",
+      "card_type": "why",
+      "why_it_matters": "Predictive assumes you can know everything upfront - works for well-understood projects. Adaptive assumes learning happens - works for novel/complex projects. Wrong choice = wrong scope management.",
+      "related_concepts": ["Product Backlog", "Progressive Elaboration", "Iterations"]
+    },
+    {
+      "id": "scope_010",
+      "question": "What is Scope Creep vs. Gold Plating?",
+      "answer": "Scope Creep = unauthorized expansion of scope (stakeholders adding features without proper change control). Gold Plating = team adding unrequested features thinking it adds value (it usually doesn't).",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Both consume resources without approved benefit. Scope creep comes from outside the team; gold plating comes from inside. Both bypass the business case and change control process.",
+      "related_concepts": ["Change Control", "Scope Baseline", "Project Constraints"]
+    },
+    {
+      "id": "scope_011",
+      "question": "What is the Scope Baseline?",
+      "answer": "The approved version of the scope statement, WBS, and WBS dictionary. It's the reference point for measuring scope performance. Any changes require formal change control.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Without a baseline, you can't measure variance. The baseline is your 'contract' for what's in scope. It protects both the team (from unauthorized additions) and stakeholders (from missing deliverables).",
+      "related_concepts": ["WBS", "Change Control", "Scope Statement", "Configuration Management"]
+    },
+    {
+      "id": "scope_012",
+      "question": "What is a WBS Dictionary?",
+      "answer": "A document providing detailed information about each WBS component - description, acceptance criteria, responsible party, resources, cost estimates, and schedule information. It's the 'what exactly does this mean' for each work package.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "The WBS shows WHAT work exists; the dictionary explains WHAT EACH PIECE MEANS. Without it, two people might interpret 'User Interface Design' completely differently.",
+      "related_concepts": ["WBS", "Work Packages", "Scope Baseline", "Decomposition"]
+    },
+    {
+      "id": "scope_013",
+      "question": "WHY is the '100% Rule' critical for WBS creation?",
+      "answer": "The 100% Rule requires the WBS to capture 100% of work defined by the project scope - no more, no less. Each level must represent 100% of the work in its parent. This ensures nothing is missed and nothing extra sneaks in.",
+      "knowledge_area": "Scope",
+      "card_type": "why",
+      "why_it_matters": "Violating the 100% rule means either missing work (project will be incomplete) or including extra work (wasted resources). The rule forces completeness and prevents scope creep at the planning level.",
+      "related_concepts": ["WBS", "Decomposition", "Scope Completeness", "Work Packages"]
+    },
+    {
+      "id": "scope_014",
+      "question": "What is Progressive Elaboration?",
+      "answer": "The iterative process of increasing detail in project plans as more information becomes available. You plan at a high level early, then add detail as the project progresses and understanding grows.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "You can't know everything upfront. Progressive elaboration acknowledges this reality without abandoning planning. It's NOT scope creep - it's refining HOW you'll deliver already-defined scope.",
+      "related_concepts": ["Rolling Wave Planning", "Iteration", "Agile", "Planning"]
+    },
+    {
+      "id": "scope_015",
+      "question": "What techniques are used for Collecting Requirements?",
+      "answer": "Interviews, focus groups, facilitated workshops, questionnaires/surveys, observation, prototypes, benchmarking, context diagrams, document analysis. Different techniques suit different stakeholder types and requirement types.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "One technique rarely captures all requirements. Executives prefer interviews; end users reveal needs through observation. Using multiple techniques uncovers requirements that a single method would miss.",
+      "related_concepts": ["Requirements", "Stakeholder Analysis", "Elicitation", "Requirements Documentation"]
+    },
+    {
+      "id": "scope_016",
+      "question": "WHY is a Prototype valuable for requirements gathering?",
+      "answer": "Because stakeholders often can't articulate what they want until they see something. Prototypes make abstract requirements tangible, revealing misunderstandings early when changes are cheap.",
+      "knowledge_area": "Scope",
+      "card_type": "why",
+      "why_it_matters": "The cost of finding a requirements error increases dramatically over time. A prototype costing $5,000 might prevent $500,000 in rework by revealing misalignment before full development begins.",
+      "related_concepts": ["Elicitation", "Iterative Development", "User Feedback", "Requirements Validation"]
+    },
+    {
+      "id": "scope_017",
+      "question": "What is the Control Scope process?",
+      "answer": "Monitoring scope status, managing changes to the scope baseline, and ensuring all requested changes go through Integrated Change Control. It prevents both uncontrolled expansion AND unauthorized reductions.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Scope doesn't just creep outward - it can also be quietly reduced. Control Scope ensures the baseline is actively managed in both directions, protecting the value proposition.",
+      "related_concepts": ["Change Control", "Scope Baseline", "Variance Analysis", "Scope Creep"]
+    },
+    {
+      "id": "scope_018",
+      "question": "What is the difference between Verified Deliverables and Accepted Deliverables?",
+      "answer": "Verified = passed quality control checks (technically correct). Accepted = stakeholder has formally approved (meets their needs). Verification comes from the project team; acceptance comes from stakeholders.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Verification without acceptance means you built something technically perfect that nobody wanted. Both gates are required: quality team verifies, then stakeholders accept. Order matters.",
+      "related_concepts": ["Quality Control", "Validate Scope", "Stakeholder Acceptance", "Sign-off"]
+    },
+    {
+      "id": "scope_019",
+      "question": "WHY should requirements be categorized (functional, non-functional, etc.)?",
+      "answer": "Because different requirement types need different handling. Functional requirements describe WHAT the system does. Non-functional describe HOW it performs (speed, security). Mixing them leads to incomplete coverage of quality attributes.",
+      "knowledge_area": "Scope",
+      "card_type": "why",
+      "why_it_matters": "Teams often focus on functional requirements (features) and miss non-functional ones (performance, security, usability). Categorization ensures all types are captured, analyzed, and tested appropriately.",
+      "related_concepts": ["Requirements Classification", "Quality Attributes", "System Requirements", "Acceptance Criteria"]
+    },
+    {
+      "id": "scope_020",
+      "question": "What is Definition of Ready vs. Definition of Done in Agile?",
+      "answer": "Definition of Ready = criteria for a backlog item to enter a sprint (clear, estimated, small enough). Definition of Done = criteria for work to be considered complete (coded, tested, documented, deployed). Ready is entry criteria; Done is exit criteria.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "Starting unclear work (not 'ready') causes mid-sprint confusion. Declaring work done prematurely ('almost done') creates hidden technical debt. Both definitions create shared understanding of expectations.",
+      "related_concepts": ["Agile", "Sprint Planning", "Acceptance Criteria", "Quality Standards"]
+    }
+  ]
+}

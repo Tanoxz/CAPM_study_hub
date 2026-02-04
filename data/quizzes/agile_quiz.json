@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-22T20:00:00",
+  "domain": "Agile Frameworks/Methodologies (ECO Domain 3)",
+  "questions": [
+    {
+      "id": "agile_q001",
+      "question": "A team is working on a complex software project where requirements are expected to change frequently. The customer wants to see progress regularly and provide feedback. Which development approach is most appropriate?",
+      "options": [
+        "Predictive approach with detailed upfront planning",
+        "Adaptive/Agile approach with iterative delivery",
+        "Hybrid approach starting predictive then switching to agile",
+        "Sequential approach with formal change control"
+      ],
+      "correct_answer": 1,
+      "explanation": "Adaptive/Agile approaches are designed for high-uncertainty work where requirements evolve. Frequent delivery of working increments enables customer feedback and course correction - exactly what this scenario needs.",
+      "knowledge_area": "Agile Fundamentals",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q002",
+      "question": "During a Sprint Review, stakeholders request a significant new feature. What should the Scrum Team do?",
+      "options": [
+        "Add it immediately to the current sprint",
+        "Reject it since the sprint backlog is frozen",
+        "Have the Product Owner add it to the Product Backlog for prioritization",
+        "Schedule an emergency planning session"
+      ],
+      "correct_answer": 2,
+      "explanation": "New requests go to the Product Backlog, where the Product Owner prioritizes them against other work. The Sprint Backlog is set during Sprint Planning; changes during the sprint disrupt focus and commitment.",
+      "knowledge_area": "Scrum",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q003",
+      "question": "A Scrum Master notices the Development Team is consistently waiting for the Product Owner to clarify requirements. What is the BEST action?",
+      "options": [
+        "Tell the team to make assumptions and proceed",
+        "Escalate to senior management",
+        "Facilitate better backlog refinement sessions",
+        "Assign a team member to act as backup Product Owner"
+      ],
+      "correct_answer": 2,
+      "explanation": "The Scrum Master's role is to remove impediments and improve processes. Better backlog refinement ensures stories are ready BEFORE Sprint Planning, addressing the root cause rather than symptoms.",
+      "knowledge_area": "Scrum",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q004",
+      "question": "Which Agile Manifesto value is demonstrated when a team delivers a working product increment rather than extensive documentation?",
+      "options": [
+        "Individuals and interactions over processes and tools",
+        "Working software over comprehensive documentation",
+        "Customer collaboration over contract negotiation",
+        "Responding to change over following a plan"
+      ],
+      "correct_answer": 1,
+      "explanation": "Working software over comprehensive documentation means prioritizing deliverables that provide value. Documentation has value but should not delay or replace actual working product.",
+      "knowledge_area": "Agile Fundamentals",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q005",
+      "question": "A Kanban team has a column with 8 items waiting while the next column has 2 items being worked on. What does this indicate?",
+      "options": [
+        "The team is highly productive",
+        "There is a bottleneck creating a backlog",
+        "WIP limits are working correctly",
+        "The team needs more resources"
+      ],
+      "correct_answer": 1,
+      "explanation": "Items piling up in one column while the next column has capacity indicates a bottleneck. This flow problem needs to be addressed - perhaps by having upstream team members help with the constraint.",
+      "knowledge_area": "Kanban",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q006",
+      "question": "What is the PRIMARY purpose of the Daily Scrum?",
+      "options": [
+        "For the Scrum Master to assign tasks",
+        "To report status to management",
+        "For the Development Team to synchronize and plan for the day",
+        "To update the Product Backlog priorities"
+      ],
+      "correct_answer": 2,
+      "explanation": "The Daily Scrum is for the Development Team to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as needed. It's a synchronization meeting, not a status report to management.",
+      "knowledge_area": "Scrum",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q007",
+      "question": "A team has completed their sprint work early. What should they do with the remaining time?",
+      "options": [
+        "End the sprint early and start the next one",
+        "Take time off until the sprint ends",
+        "Pull more work from the Product Backlog",
+        "Extend the Definition of Done"
+      ],
+      "correct_answer": 2,
+      "explanation": "If the sprint goal is met early, the team can pull additional items from the Product Backlog in consultation with the Product Owner. Sprints are fixed-length; ending early disrupts rhythm.",
+      "knowledge_area": "Scrum",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q008",
+      "question": "Which statement BEST describes servant leadership in Scrum?",
+      "options": [
+        "The Scrum Master makes decisions for the team to save time",
+        "The Product Owner serves the customers by writing detailed specifications",
+        "Leaders focus on removing impediments and enabling team success",
+        "The Development Team serves management by meeting deadlines"
+      ],
+      "correct_answer": 2,
+      "explanation": "Servant leadership means serving the team's needs - removing obstacles, coaching, facilitating - rather than commanding. The goal is creating an environment where self-organizing teams can succeed.",
+      "knowledge_area": "Agile Leadership",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q009",
+      "question": "A team using XP practices discovers a bug in code written two months ago. What practice would have caught this sooner?",
+      "options": [
+        "Pair programming",
+        "Continuous integration with automated testing",
+        "Sprint retrospectives",
+        "Product backlog refinement"
+      ],
+      "correct_answer": 1,
+      "explanation": "Continuous integration with automated testing catches bugs when they're introduced, not months later. The faster feedback loop of CI/CD dramatically reduces the cost and effort of fixing defects.",
+      "knowledge_area": "XP",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q010",
+      "question": "WHY do agile teams prefer face-to-face conversation for conveying information?",
+      "options": [
+        "It's faster than writing documentation",
+        "It's the most efficient and effective method for sharing information",
+        "Documentation can be misinterpreted",
+        "Agile doesn't allow written communication"
+      ],
+      "correct_answer": 1,
+      "explanation": "Agile Principle #6 states face-to-face conversation is 'the most efficient and effective method.' It enables immediate clarification, non-verbal cues, and builds relationships - though documentation still has its place.",
+      "knowledge_area": "Agile Principles",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q011",
+      "question": "A Sprint Retrospective reveals that integration issues consistently delay the team. What should happen next?",
+      "options": [
+        "Document the issue for next quarter's planning",
+        "The team commits to a specific improvement action for the next sprint",
+        "Escalate to the PMO for resource allocation",
+        "Add buffer time to future sprint estimates"
+      ],
+      "correct_answer": 1,
+      "explanation": "Retrospectives should lead to actionable improvements. The team should identify a specific experiment to try next sprint (e.g., more frequent integration, pair programming during integration).",
+      "knowledge_area": "Scrum",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q012",
+      "question": "What distinguishes a high-performing agile team from a traditional team?",
+      "options": [
+        "They never miss deadlines",
+        "They require less management oversight",
+        "They are self-organizing and continuously improving",
+        "They have more senior developers"
+      ],
+      "correct_answer": 2,
+      "explanation": "High-performing agile teams are self-organizing (decide HOW to do work) and committed to continuous improvement through retrospectives. This produces ownership and innovation that traditional command-and-control can't match.",
+      "knowledge_area": "Agile Teams",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q013",
+      "question": "A Product Owner is unavailable for several days. What impact does this have?",
+      "options": [
+        "None - the team can work from the existing backlog",
+        "The team cannot make progress",
+        "Decisions about scope and priority may be delayed",
+        "The Scrum Master should assume PO responsibilities"
+      ],
+      "correct_answer": 2,
+      "explanation": "While the team can continue working on committed items, questions about acceptance criteria, priorities, and new requests will be delayed. The PO's availability is crucial for agility.",
+      "knowledge_area": "Scrum",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q014",
+      "question": "What is the main purpose of WIP limits in Kanban?",
+      "options": [
+        "To prevent team members from being overworked",
+        "To improve flow by limiting work-in-progress",
+        "To ensure equal distribution of tasks",
+        "To track individual productivity"
+      ],
+      "correct_answer": 1,
+      "explanation": "WIP limits expose bottlenecks and improve flow. When a column hits its limit, the team must help clear it before pulling new work - this is the 'stop starting, start finishing' philosophy.",
+      "knowledge_area": "Kanban",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q015",
+      "question": "During Sprint Planning, the Development Team realizes they cannot commit to all the items the Product Owner wants. What should happen?",
+      "options": [
+        "The team should work overtime to fit everything in",
+        "The Product Owner should reduce scope or reprioritize",
+        "The sprint length should be extended",
+        "Lower priority items should be done with less quality"
+      ],
+      "correct_answer": 1,
+      "explanation": "The team commits only to what they can realistically complete. The PO decides which items are most important if scope must be reduced. Quality is never compromised for scope.",
+      "knowledge_area": "Scrum",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q016",
+      "question": "Which statement about the Definition of Done is TRUE?",
+      "options": [
+        "It can change from sprint to sprint based on what's needed",
+        "It applies to the whole increment, not individual items",
+        "It should be consistent and applied to all work equally",
+        "It's defined by the Product Owner"
+      ],
+      "correct_answer": 2,
+      "explanation": "The Definition of Done must be consistent - all work is held to the same quality standard. Varying the DoD hides technical debt and creates unpredictable quality.",
+      "knowledge_area": "Scrum",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q017",
+      "question": "A manager asks the Scrum Master to report which team members are most productive. What should the Scrum Master do?",
+      "options": [
+        "Provide individual velocity metrics",
+        "Explain that agile measures team performance, not individuals",
+        "Create a detailed productivity report",
+        "Ask each team member to self-report their output"
+      ],
+      "correct_answer": 1,
+      "explanation": "Agile emphasizes team performance over individual metrics. Individual measurements encourage local optimization, gaming, and undermine collaboration. Velocity is a team metric.",
+      "knowledge_area": "Agile Metrics",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "agile_q018",
+      "question": "What is the relationship between agile and lean?",
+      "options": [
+        "They are competing methodologies",
+        "Agile is a subset of lean thinking",
+        "Lean is a subset of agile approaches",
+        "They are completely unrelated"
+      ],
+      "correct_answer": 1,
+      "explanation": "Agile and Kanban are subsets of lean thinking. Lean provides the philosophy (eliminate waste, optimize flow, respect people) while agile provides specific practices for applying those principles.",
+      "knowledge_area": "Agile Fundamentals",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q019",
+      "question": "A team wants to use both Scrum and Kanban practices. What is this combination called?",
+      "options": [
+        "Hybrid agile",
+        "Scrumban",
+        "Lean-Agile",
+        "Adaptive Scrum"
+      ],
+      "correct_answer": 1,
+      "explanation": "Scrumban combines Scrum's structure (sprints, roles, events) with Kanban's flow practices (visualization, WIP limits). It's a common hybrid for teams wanting more flexibility than pure Scrum.",
+      "knowledge_area": "Agile Frameworks",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "agile_q020",
+      "question": "A stakeholder complains that they don't know what the agile team is working on. What is the BEST response?",
+      "options": [
+        "Create detailed status reports",
+        "Invite them to Sprint Reviews to see completed work",
+        "Share the Gantt chart",
+        "Limit stakeholder communication to reduce disruption"
+      ],
+      "correct_answer": 1,
+      "explanation": "Sprint Reviews are designed for stakeholder inspection and feedback. This maintains transparency while keeping the team focused during sprints. Regular demos are more valuable than status reports.",
+      "knowledge_area": "Scrum",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    }
+  ]
+}

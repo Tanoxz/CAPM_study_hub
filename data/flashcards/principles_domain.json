@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "updated": "2026-02-02T16:33:26.799307",
+  "cards": [
+    {
+      "id": "prin_001",
+      "question": "What is the Stewardship principle?",
+      "answer": "Be a diligent, respectful, and caring steward - taking care of your project and acting with its best interests in mind at all times. Core values: integrity, honesty, fairness, responsibility.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 15,
+      "repetitions": 3,
+      "next_review": "2026-02-17T16:33:04.161368",
+      "why_it_matters": "Stewardship means you're the guardian of project resources, reputation, and outcomes. It's about ethical behavior even when it's difficult - standing up for what's right, following through on commitments.",
+      "related_concepts": [
+        "Ethics",
+        "Integrity",
+        "PMI Code of Ethics",
+        "Responsibility"
+      ]
+    },
+    {
+      "id": "prin_002",
+      "question": "WHY is Team accountability a culture, not a single person's job?",
+      "answer": "Because if only one person (the PM) holds everyone accountable, it creates a bottleneck and dependency. When EVERYONE holds everyone accountable, misalignment is caught faster and team ownership increases.",
+      "knowledge_area": "Principles",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 15,
+      "repetitions": 3,
+      "next_review": "2026-02-17T16:29:04.054929",
+      "why_it_matters": "Team accountability cultures are self-correcting. Problems surface faster, peer pressure reinforces standards, and the PM isn't the only one enforcing quality. It distributes leadership.",
+      "related_concepts": [
+        "Team Building",
+        "Accountability",
+        "Self-Organizing Teams",
+        "Culture"
+      ]
+    },
+    {
+      "id": "prin_003",
+      "question": "What is the Stakeholder Engagement principle?",
+      "answer": "Engage stakeholders to understand their interests and needs. Know their motivations, tailor communication appropriately, and recognize that the stakeholder community may change throughout the project.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 6,
+      "repetitions": 2,
+      "next_review": "2026-02-08T16:29:36.369203",
+      "why_it_matters": "Stakeholder needs drive requirements. Misunderstanding stakeholders leads to delivering the wrong thing. Engagement isn't just informing - it's dialogue, listening, and adjusting based on feedback.",
+      "related_concepts": [
+        "Stakeholder Analysis",
+        "Communication",
+        "Requirements",
+        "Engagement"
+      ]
+    },
+    {
+      "id": "prin_004",
+      "question": "How does the Value principle define value?",
+      "answer": "Value = the balance between benefits gained and resources spent. Perception of value differs between stakeholders. Framework: 'We are moving from X to Y by [date] with projected benefit of [value].'",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-02-03T16:26:20.802131",
+      "why_it_matters": "Value isn't just features delivered - it's benefits relative to cost. A cheap project that delivers little value is worse than an expensive one with high ROI. Always tie work to value delivery.",
+      "related_concepts": [
+        "Benefits Realization",
+        "Business Case",
+        "ROI",
+        "Prioritization"
+      ]
+    },
+    {
+      "id": "prin_005",
+      "question": "WHY does the Holistic Thinking principle emphasize systems thinking?",
+      "answer": "Because projects exist within larger systems - organizational, technical, social. Changes in one area affect others. Failure to see the whole system leads to unintended consequences and missed dependencies.",
+      "knowledge_area": "Principles",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 15,
+      "repetitions": 3,
+      "next_review": "2026-02-17T16:28:11.846712",
+      "why_it_matters": "A 'successful' project that breaks something else isn't truly successful. Systems thinking reveals interdependencies, feedback loops, and ripple effects that narrow focus would miss.",
+      "related_concepts": [
+        "Systems Thinking",
+        "Integration",
+        "Dependencies",
+        "Complexity"
+      ]
+    },
+    {
+      "id": "prin_006",
+      "question": "What is the Leadership principle about?",
+      "answer": "Motivate, influence, coach, and learn. PMs typically lack formal authority over team members - leadership means getting things done through influence, inspiration, and servant leadership rather than command.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-03T16:32:44.484390",
+      "why_it_matters": "Matrix organizations mean PMs don't control resources directly. Leadership through influence is essential. Servant leadership - enabling team success - often works better than directive approaches.",
+      "related_concepts": [
+        "Servant Leadership",
+        "Influence",
+        "Motivation",
+        "Coaching"
+      ]
+    },
+    {
+      "id": "prin_007",
+      "question": "What is the Tailoring principle?",
+      "answer": "Tailor the delivery approach based on context - organizational culture, team maturity, what you're delivering. Not all projects need every process, deliverable, and governance item.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.7,
+      "interval": 16,
+      "repetitions": 3,
+      "next_review": "2026-02-18T16:26:52.494715",
+      "why_it_matters": "One-size-fits-all approaches waste effort on unnecessary process or miss needed rigor. Tailoring matches governance intensity to project needs - light for simple projects, robust for complex ones.",
+      "related_concepts": [
+        "Adaptive Approaches",
+        "Context",
+        "Governance",
+        "Right-Sizing"
+      ]
+    },
+    {
+      "id": "prin_008",
+      "question": "WHY does the Quality principle say 'build quality in' rather than 'inspect quality in'?",
+      "answer": "Because inspection finds defects after they're created (costly rework). Building quality in prevents defects through good processes, standards, and practices - cheaper and more effective than testing at the end.",
+      "knowledge_area": "Principles",
+      "card_type": "why",
+      "easiness": 2.7,
+      "interval": 16,
+      "repetitions": 3,
+      "next_review": "2026-02-18T16:31:34.936947",
+      "why_it_matters": "Testing doesn't create quality - it reveals its absence. If you only rely on testing, you're constantly finding and fixing problems. Prevention (quality built in) is always cheaper than detection.",
+      "related_concepts": [
+        "Quality Management",
+        "Prevention vs. Inspection",
+        "Cost of Quality",
+        "Continuous Improvement"
+      ]
+    },
+    {
+      "id": "prin_009",
+      "question": "What factors contribute to project Complexity?",
+      "answer": "Uncertainty about scope, newer technologies, multiple stakeholders, multiple partners, system interdependencies, new territory/markets. Complexity = the state of being intricate or complicated.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 6,
+      "repetitions": 2,
+      "next_review": "2026-02-08T16:27:36.267365",
+      "why_it_matters": "Complex projects need different approaches than simple ones. Recognizing complexity factors helps you plan for them - more collaboration, more learning cycles, breaking work into manageable pieces.",
+      "related_concepts": [
+        "Uncertainty",
+        "Systems Thinking",
+        "Adaptive Planning",
+        "Risk"
+      ]
+    },
+    {
+      "id": "prin_010",
+      "question": "What does the Risk principle mean by 'optimize risk responses'?",
+      "answer": "Not just avoid or minimize risk, but find the right balance. Risks include opportunities (positive) that should be enhanced or exploited, not just threats to mitigate. Optimization means appropriate response, not elimination.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 16,
+      "repetitions": 3,
+      "next_review": "2026-02-18T16:33:26.736123",
+      "why_it_matters": "Risk aversion can kill innovation and opportunity. 'Optimize' means spending the right amount of effort on each risk based on its impact and probability - not over-responding or under-responding.",
+      "related_concepts": [
+        "Risk Management",
+        "Opportunities",
+        "Threats",
+        "Risk Appetite"
+      ]
+    },
+    {
+      "id": "prin_011",
+      "question": "What does Adaptability and Resilience mean for projects?",
+      "answer": "Ability to switch paths (adaptability) and bounce back after setbacks (resilience). Applies to individuals, teams, AND organizations. Developed collaboratively, not in isolation.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.7,
+      "interval": 16,
+      "repetitions": 3,
+      "next_review": "2026-02-18T16:30:12.285325",
+      "why_it_matters": "Projects rarely go exactly as planned. Teams that can't adapt get stuck; teams that can't recover from setbacks fail. Building these capabilities makes project success more likely despite uncertainty.",
+      "related_concepts": [
+        "Agile Mindset",
+        "Learning Culture",
+        "Change Management",
+        "Flexibility"
+      ]
+    },
+    {
+      "id": "prin_012",
+      "question": "What is the Change Management principle?",
+      "answer": "Enable change to achieve the envisioned future state. Projects ARE about delivering change. Key questions: What is the change? Why required? Impact on those affected? How will people be supported?",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 15,
+      "repetitions": 3,
+      "next_review": "2026-02-17T16:26:01.788480",
+      "why_it_matters": "Technical delivery without organizational change adoption fails. People are at the heart of change. Even perfect deliverables fail if users don't adopt them. Change management ensures benefits are realized.",
+      "related_concepts": [
+        "Organizational Change",
+        "Adoption",
+        "Benefits Realization",
+        "User Support"
+      ]
+    },
+    {
+      "id": "prin_013",
+      "question": "WHY are PM principles 'not prescriptive'?",
+      "answer": "Because context varies - what works in one situation may not work in another. Principles guide mindset and behavior rather than dictating specific actions. They're broad to allow diverse application.",
+      "knowledge_area": "Principles",
+      "card_type": "why",
+      "easiness": 2.6,
+      "interval": 16,
+      "repetitions": 3,
+      "next_review": "2026-02-18T16:26:31.839037",
+      "why_it_matters": "Prescriptive rules fail when context changes. Principles provide direction while allowing judgment. A PM who understands principles can adapt to novel situations; one who only knows rules is stuck.",
+      "related_concepts": [
+        "Tailoring",
+        "Judgment",
+        "Context",
+        "Flexibility"
+      ]
+    },
+    {
+      "id": "prin_014",
+      "question": "What three mindset dimensions underlie the PM principles?",
+      "answer": "Proactive (anticipate, plan, embed quality), Ownership (accountability, empowerment), and Value-Driven (focus on value, integrate sustainability). Together they create the PM mindset.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-02-03T16:28:26.686226",
+      "why_it_matters": "The principles aren't random - they cluster around these dimensions. Understanding the dimensions helps you remember and apply the principles consistently across different project situations.",
+      "related_concepts": [
+        "Mindset",
+        "PM Philosophy",
+        "Principles Framework",
+        "Integration"
+      ]
+    },
+    {
+      "id": "prin_015",
+      "question": "WHY does Servant Leadership work well for project managers?",
+      "answer": "Because PMs often lack formal authority but need team cooperation. Servant leaders focus on enabling team success rather than commanding - removing obstacles, providing resources, creating conditions for performance.",
+      "knowledge_area": "Principles",
+      "card_type": "why",
+      "easiness": 2.8000000000000003,
+      "interval": 17,
+      "repetitions": 3,
+      "next_review": "2026-02-19T16:28:43.182226",
+      "why_it_matters": "Command-and-control doesn't work when you can't actually command. Servant leadership earns respect and voluntary commitment. Teams follow servant leaders because they WANT to, not because they must.",
+      "related_concepts": [
+        "Leadership",
+        "Influence",
+        "Team Development",
+        "Empowerment"
+      ]
+    },
+    {
+      "id": "prin_016",
+      "question": "What is the PMI Code of Ethics and why does it matter?",
+      "answer": "A set of values (responsibility, respect, fairness, honesty) that guides professional conduct for project managers. It establishes expectations for ethical behavior in the profession.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.7,
+      "interval": 16,
+      "repetitions": 3,
+      "next_review": "2026-02-18T16:32:11.370296",
+      "why_it_matters": "Ethical dilemmas arise in projects - pressure to misreport status, hide problems, cut corners. The Code provides a framework for making right decisions even when they're difficult.",
+      "related_concepts": [
+        "Stewardship",
+        "Integrity",
+        "Professional Conduct",
+        "Ethics"
+      ]
+    },
+    {
+      "id": "prin_017",
+      "question": "WHY should change management questions be answered early?",
+      "answer": "Because understanding what's changing, why, and how people will be affected shapes the entire project approach. Late consideration of change impact leads to resistance, poor adoption, and failed benefits realization.",
+      "knowledge_area": "Principles",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 15,
+      "repetitions": 3,
+      "next_review": "2026-02-17T16:31:27.151203",
+      "why_it_matters": "Change resistance often kills projects. Early identification of who's affected and how enables proactive engagement, training planning, and support mechanisms before resistance builds.",
+      "related_concepts": [
+        "Change Management",
+        "Stakeholder Analysis",
+        "Adoption Planning",
+        "Communication"
+      ]
+    },
+    {
+      "id": "prin_018",
+      "question": "How do principles complement performance domains?",
+      "answer": "Principles describe the MINDSET (why/how to think). Performance domains describe the MECHANICS (what to do). Principles guide behavior across all domains; domains operationalize the principles in specific areas.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 1.8599999999999997,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-03T16:30:51.618133",
+      "why_it_matters": "You can follow domain processes without the right mindset and fail. You can have the right mindset without domain knowledge and flounder. Both are needed - principles + domains = complete PM.",
+      "related_concepts": [
+        "Performance Domains",
+        "Mindset vs. Mechanics",
+        "Integration",
+        "PMBOK Structure"
+      ]
+    },
+    {
+      "id": "prin_019",
+      "question": "WHY does the Complexity principle emphasize 'continuous learning'?",
+      "answer": "Because complex situations can't be fully understood upfront. Learning as you go - through action, feedback, and reflection - is the only way to navigate true complexity. Static plans fail in complex environments.",
+      "knowledge_area": "Principles",
+      "card_type": "why",
+      "easiness": 2.1799999999999997,
+      "interval": 6,
+      "repetitions": 2,
+      "next_review": "2026-02-08T16:27:07.153905",
+      "why_it_matters": "Complex ≠ complicated. Complicated can be analyzed and solved. Complex emerges and evolves. The only response is continuous learning, adaptation, and humility about what you don't know.",
+      "related_concepts": [
+        "Complexity",
+        "Adaptive Approaches",
+        "Learning Organization",
+        "Iteration"
+      ]
+    },
+    {
+      "id": "prin_020",
+      "question": "What does 'integrate sustainability within all project areas' mean?",
+      "answer": "Consider environmental, social, and economic sustainability (triple bottom line: people, profit, planet) across all project decisions - not as an afterthought but woven throughout planning and execution.",
+      "knowledge_area": "Principles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 15,
+      "repetitions": 3,
+      "next_review": "2026-02-17T16:26:43.641471",
+      "why_it_matters": "Projects that ignore sustainability create long-term harm even if they deliver short-term value. Sustainability integration ensures project outcomes are responsible and aligned with broader societal needs.",
+      "related_concepts": [
+        "Sustainability",
+        "Triple Bottom Line",
+        "Social Responsibility",
+        "Long-term Thinking"
+      ]
+    }
+  ]
+}

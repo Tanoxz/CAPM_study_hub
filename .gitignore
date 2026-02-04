@@ -1,0 +1,42 @@
+# ABOUTME: Git ignore file for CAPM Study Hub
+# ABOUTME: Excludes Python artifacts, PDFs (copyrighted), and IDE files
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# PDFs (copyrighted material - do not distribute)
+*.pdf
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+credentials*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Archive of raw scraped content (large, not needed in repo)
+archive/raw/
+
+# Claude Code local settings
+.claude/

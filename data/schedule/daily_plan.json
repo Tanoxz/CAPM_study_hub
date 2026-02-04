@@ -1,0 +1,2850 @@
+{
+  "version": 3,
+  "generated": "2026-02-02T11:54:25.118567",
+  "certification": "CAPM",
+  "exam_date": "2026-03-23",
+  "start_date": "2026-02-02",
+  "daily_goal_minutes": 90,
+  "total_days": 49,
+  "days": [
+    {
+      "date": "2026-02-02",
+      "day_number": 1,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d1_a1",
+          "activity_type": "watch",
+          "title": "The Risk Register",
+          "duration_minutes": 17,
+          "topic_id": "M06",
+          "lesson_id": "L06.05",
+          "status": "completed",
+          "completed_date": "2026-02-02T10:56:09.189054",
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d1_a2",
+          "activity_type": "read",
+          "title": "Read: Tailoring (ECO Domain 2)",
+          "duration_minutes": 30,
+          "topic_id": "tailoring",
+          "lesson_id": null,
+          "status": "completed",
+          "completed_date": "2026-02-02T11:12:00.430131",
+          "details": {
+            "has_flashcards": true
+          }
+        },
+        {
+          "id": "d1_a3",
+          "activity_type": "watch",
+          "title": "Requirements Traceability Matrix",
+          "duration_minutes": 20,
+          "topic_id": "M06",
+          "lesson_id": "L06.06",
+          "status": "completed",
+          "completed_date": "2026-02-02T10:56:09.189054",
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d1_a4",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "completed",
+          "completed_date": "2026-02-02T16:33:35.778301",
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "day_number": 2,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d2_a5",
+          "activity_type": "watch",
+          "title": "The Artifacts Game",
+          "duration_minutes": 19,
+          "topic_id": "M06",
+          "lesson_id": "L06.99",
+          "status": "completed",
+          "completed_date": "2026-02-03T11:36:03.641397",
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d2_a6",
+          "activity_type": "read",
+          "title": "Read: Tools & Techniques (ECO Domain 2)",
+          "duration_minutes": 40,
+          "topic_id": "tools",
+          "lesson_id": null,
+          "status": "completed",
+          "completed_date": "2026-02-03T12:00:24.291732",
+          "details": {
+            "has_flashcards": true
+          }
+        },
+        {
+          "id": "d2_a7",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Tailoring Domain",
+          "duration_minutes": 20,
+          "topic_id": "tailoring",
+          "lesson_id": null,
+          "status": "completed",
+          "completed_date": "2026-02-03T16:07:45.662242",
+          "details": {
+            "deck": "tailoring_domain.json",
+            "card_count": 20
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "day_number": 3,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d3_a8",
+          "activity_type": "watch",
+          "title": "Intro to Agile and Scrum Lessons",
+          "duration_minutes": 4,
+          "topic_id": "M07",
+          "lesson_id": "L07.00",
+          "status": "completed",
+          "completed_date": "2026-02-04T13:45:19.407003",
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d3_a9",
+          "activity_type": "read",
+          "title": "Read: Procurement Management (ECO Domain 2)",
+          "duration_minutes": 35,
+          "topic_id": "procurement",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "has_flashcards": true
+          }
+        },
+        {
+          "id": "d3_a10",
+          "activity_type": "watch",
+          "title": "Agile Project Management Overview",
+          "duration_minutes": 34,
+          "topic_id": "M07",
+          "lesson_id": "L07.01",
+          "status": "completed",
+          "completed_date": "2026-02-04T14:08:00.312878",
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d3_a11",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 17,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "completed",
+          "completed_date": "2026-02-04T14:11:39.146949",
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "day_number": 4,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d4_a12",
+          "activity_type": "watch",
+          "title": "The Agile Manifesto",
+          "duration_minutes": 77,
+          "topic_id": "M07",
+          "lesson_id": "L07.02",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-06",
+      "day_number": 5,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d5_a13",
+          "activity_type": "watch",
+          "title": "Introduction to Scrum",
+          "duration_minutes": 38,
+          "topic_id": "M07",
+          "lesson_id": "L07.03",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d5_a14",
+          "activity_type": "watch",
+          "title": "Scrum - Scrum & Agile Defined",
+          "duration_minutes": 29,
+          "topic_id": "M07",
+          "lesson_id": "L07.04",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d5_a15",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Tools Domain",
+          "duration_minutes": 20,
+          "topic_id": "tools",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "tools_domain.json",
+            "card_count": 20
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "day_number": 6,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d6_a16",
+          "activity_type": "watch",
+          "title": "Scrum - Roles Overview",
+          "duration_minutes": 13,
+          "topic_id": "M07",
+          "lesson_id": "L07.05",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d6_a17",
+          "activity_type": "read",
+          "title": "Read: Glossary & Terms (ECO Domain 1)",
+          "duration_minutes": 20,
+          "topic_id": "glossary",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "has_flashcards": true
+          }
+        },
+        {
+          "id": "d6_a18",
+          "activity_type": "watch",
+          "title": "Scrum - Roles & Responsibilities Detailed Review",
+          "duration_minutes": 16,
+          "topic_id": "M07",
+          "lesson_id": "L07.06",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d6_a19",
+          "activity_type": "watch",
+          "title": "Scrum - Strategic Meetings",
+          "duration_minutes": 24,
+          "topic_id": "M07",
+          "lesson_id": "L07.07",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d6_a20",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 17,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-08",
+      "day_number": 7,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d7_a21",
+          "activity_type": "watch",
+          "title": "Scrum - Sprint Meetings",
+          "duration_minutes": 34,
+          "topic_id": "M07",
+          "lesson_id": "L07.08",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        },
+        {
+          "id": "d7_a22",
+          "activity_type": "watch",
+          "title": "Scrum - Artifacts",
+          "duration_minutes": 43,
+          "topic_id": "M07",
+          "lesson_id": "L07.09",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain3"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-09",
+      "day_number": 8,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d8_a23",
+          "activity_type": "watch",
+          "title": "Project Stage: Initiating a Project",
+          "duration_minutes": 21,
+          "topic_id": "M08",
+          "lesson_id": "L08.01",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d8_a24",
+          "activity_type": "watch",
+          "title": "Project Stage: Planning a Project",
+          "duration_minutes": 23,
+          "topic_id": "M08",
+          "lesson_id": "L08.02",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d8_a25",
+          "activity_type": "watch",
+          "title": "Project Stage: Executing/Delivering a Project",
+          "duration_minutes": 22,
+          "topic_id": "M08",
+          "lesson_id": "L08.03",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d8_a26",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Glossary Domain",
+          "duration_minutes": 20,
+          "topic_id": "glossary",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "glossary_domain.json",
+            "card_count": 20
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "day_number": 9,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d9_a27",
+          "activity_type": "watch",
+          "title": "Project Stage: Monitoring & Controlling a Project",
+          "duration_minutes": 24,
+          "topic_id": "M08",
+          "lesson_id": "L08.04",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d9_a28",
+          "activity_type": "watch",
+          "title": "Project Stage: Closing/Cancelling a Project",
+          "duration_minutes": 25,
+          "topic_id": "M08",
+          "lesson_id": "L08.05",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d9_a29",
+          "activity_type": "watch",
+          "title": "Project Planning",
+          "duration_minutes": 25,
+          "topic_id": "M09",
+          "lesson_id": "L09.01",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d9_a30",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 16,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "day_number": 10,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d10_a31",
+          "activity_type": "watch",
+          "title": "Navigating Benefits management",
+          "duration_minutes": 17,
+          "topic_id": "M09",
+          "lesson_id": "L09.02",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d10_a32",
+          "activity_type": "watch",
+          "title": "Mastering Scope Management",
+          "duration_minutes": 22,
+          "topic_id": "M09",
+          "lesson_id": "L09.03",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d10_a33",
+          "activity_type": "watch",
+          "title": "Resources Management",
+          "duration_minutes": 24,
+          "topic_id": "M09",
+          "lesson_id": "L09.04",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d10_a34",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "day_number": 11,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d11_a35",
+          "activity_type": "watch",
+          "title": "Project Scheduling",
+          "duration_minutes": 21,
+          "topic_id": "M09",
+          "lesson_id": "L09.05.1",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d11_a36",
+          "activity_type": "watch",
+          "title": "Network Diagram and Critical Path",
+          "duration_minutes": 27,
+          "topic_id": "M09",
+          "lesson_id": "L09.05.2",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d11_a37",
+          "activity_type": "watch",
+          "title": "Project Cost Essentials",
+          "duration_minutes": 24,
+          "topic_id": "M09",
+          "lesson_id": "L09.06.1",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d11_a38",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 18,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "day_number": 12,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d12_a39",
+          "activity_type": "watch",
+          "title": "Earned Value Management",
+          "duration_minutes": 25,
+          "topic_id": "M09",
+          "lesson_id": "L09.06.2",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d12_a40",
+          "activity_type": "watch",
+          "title": "Risk Management",
+          "duration_minutes": 25,
+          "topic_id": "M09",
+          "lesson_id": "L09.07",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d12_a41",
+          "activity_type": "watch",
+          "title": "Navigating Project Issues",
+          "duration_minutes": 14,
+          "topic_id": "M09",
+          "lesson_id": "L09.08",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d12_a42",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-14",
+      "day_number": 13,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d13_a43",
+          "activity_type": "watch",
+          "title": "Quality Management",
+          "duration_minutes": 15,
+          "topic_id": "M09",
+          "lesson_id": "L09.10",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d13_a44",
+          "activity_type": "watch",
+          "title": "Stakeholder Engagement",
+          "duration_minutes": 13,
+          "topic_id": "M09",
+          "lesson_id": "L09.11",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d13_a45",
+          "activity_type": "watch",
+          "title": "Communication Management",
+          "duration_minutes": 21,
+          "topic_id": "M09",
+          "lesson_id": "L09.12",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d13_a46",
+          "activity_type": "watch",
+          "title": "Reporting",
+          "duration_minutes": 11,
+          "topic_id": "M09",
+          "lesson_id": "L09.13",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d13_a47",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "day_number": 14,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d14_a48",
+          "activity_type": "watch",
+          "title": "Lessons Learned",
+          "duration_minutes": 9,
+          "topic_id": "M09",
+          "lesson_id": "L09.16",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain2"
+          }
+        },
+        {
+          "id": "d14_a49",
+          "activity_type": "read",
+          "title": "Read: Agile Frameworks (ECO Domain 3)",
+          "duration_minutes": 90,
+          "topic_id": "agile",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "has_flashcards": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "day_number": 15,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d15_a50",
+          "activity_type": "watch",
+          "title": "Introduction to Business Analysis",
+          "duration_minutes": 33,
+          "topic_id": "M10",
+          "lesson_id": "L10.01",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain4"
+          }
+        },
+        {
+          "id": "d15_a51",
+          "activity_type": "watch",
+          "title": "Stakeholder Analysis",
+          "duration_minutes": 28,
+          "topic_id": "M10",
+          "lesson_id": "L10.02",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain4"
+          }
+        },
+        {
+          "id": "d15_a52",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Agile Domain",
+          "duration_minutes": 20,
+          "topic_id": "agile",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "agile_domain.json",
+            "card_count": 20
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "day_number": 16,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d16_a53",
+          "activity_type": "watch",
+          "title": "Requirements Elicitation",
+          "duration_minutes": 33,
+          "topic_id": "M10",
+          "lesson_id": "L10.04",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain4"
+          }
+        },
+        {
+          "id": "d16_a54",
+          "activity_type": "watch",
+          "title": "Solution Evaluation and Acceptance",
+          "duration_minutes": 29,
+          "topic_id": "M10",
+          "lesson_id": "L10.08",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain4"
+          }
+        },
+        {
+          "id": "d16_a55",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "day_number": 17,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d17_a56",
+          "activity_type": "watch",
+          "title": "Strategy Analysis and Product Roadmaps",
+          "duration_minutes": 27,
+          "topic_id": "M10",
+          "lesson_id": "L10.09",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain4"
+          }
+        },
+        {
+          "id": "d17_a57",
+          "activity_type": "watch",
+          "title": "Life Cycle Models and BA Competencies",
+          "duration_minutes": 32,
+          "topic_id": "M10",
+          "lesson_id": "L10.10",
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "eco_domain": "domain4"
+          }
+        },
+        {
+          "id": "d17_a58",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "day_number": 18,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d18_a59",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d18_a60",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d18_a61",
+          "activity_type": "quiz",
+          "title": "Quiz: Risk Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "risk",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "risk_quiz.json"
+          }
+        },
+        {
+          "id": "d18_a62",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-20",
+      "day_number": 19,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d19_a63",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d19_a64",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d19_a65",
+          "activity_type": "quiz",
+          "title": "Quiz: Tailoring (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tailoring",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tailoring_quiz.json"
+          }
+        },
+        {
+          "id": "d19_a66",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-21",
+      "day_number": 20,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d20_a67",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d20_a68",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d20_a69",
+          "activity_type": "quiz",
+          "title": "Quiz: Tools & Techniques (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tools",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tools_quiz.json"
+          }
+        },
+        {
+          "id": "d20_a70",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-22",
+      "day_number": 21,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d21_a71",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d21_a72",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d21_a73",
+          "activity_type": "quiz",
+          "title": "Quiz: Procurement Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "procurement",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "procurement_quiz.json"
+          }
+        },
+        {
+          "id": "d21_a74",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-23",
+      "day_number": 22,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d22_a75",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d22_a76",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d22_a77",
+          "activity_type": "quiz",
+          "title": "Quiz: Agile Frameworks (ECO Domain 3)",
+          "duration_minutes": 20,
+          "topic_id": "agile",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "agile_quiz.json"
+          }
+        },
+        {
+          "id": "d22_a78",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "day_number": 23,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d23_a79",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d23_a80",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d23_a81",
+          "activity_type": "quiz",
+          "title": "Quiz: Business Analysis (ECO Domain 4)",
+          "duration_minutes": 20,
+          "topic_id": "business_analysis",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "business_analysis_quiz.json"
+          }
+        },
+        {
+          "id": "d23_a82",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "day_number": 24,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d24_a83",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d24_a84",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d24_a85",
+          "activity_type": "quiz",
+          "title": "Quiz: Governance (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "governance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "governance_quiz.json"
+          }
+        },
+        {
+          "id": "d24_a86",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "day_number": 25,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d25_a87",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d25_a88",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d25_a89",
+          "activity_type": "quiz",
+          "title": "Quiz: Scope Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "scope",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "scope_quiz.json"
+          }
+        },
+        {
+          "id": "d25_a90",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-27",
+      "day_number": 26,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d26_a91",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d26_a92",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d26_a93",
+          "activity_type": "quiz",
+          "title": "Quiz: Schedule Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "schedule",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "schedule_quiz.json"
+          }
+        },
+        {
+          "id": "d26_a94",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-02-28",
+      "day_number": 27,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d27_a95",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d27_a96",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d27_a97",
+          "activity_type": "quiz",
+          "title": "Quiz: Finance/Cost Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "finance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "finance_quiz.json"
+          }
+        },
+        {
+          "id": "d27_a98",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-01",
+      "day_number": 28,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d28_a99",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d28_a100",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d28_a101",
+          "activity_type": "quiz",
+          "title": "Quiz: Stakeholder Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "stakeholders",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "stakeholders_quiz.json"
+          }
+        },
+        {
+          "id": "d28_a102",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "day_number": 29,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d29_a103",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d29_a104",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d29_a105",
+          "activity_type": "quiz",
+          "title": "Quiz: Resource Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "resources",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "resources_quiz.json"
+          }
+        },
+        {
+          "id": "d29_a106",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "day_number": 30,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d30_a107",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d30_a108",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d30_a109",
+          "activity_type": "quiz",
+          "title": "Quiz: Risk Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "risk",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "risk_quiz.json"
+          }
+        },
+        {
+          "id": "d30_a110",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "day_number": 31,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d31_a111",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d31_a112",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d31_a113",
+          "activity_type": "quiz",
+          "title": "Quiz: Tailoring (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tailoring",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tailoring_quiz.json"
+          }
+        },
+        {
+          "id": "d31_a114",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "day_number": 32,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d32_a115",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d32_a116",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d32_a117",
+          "activity_type": "quiz",
+          "title": "Quiz: Tools & Techniques (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tools",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tools_quiz.json"
+          }
+        },
+        {
+          "id": "d32_a118",
+          "activity_type": "review",
+          "title": "Review: Weak areas or previous content",
+          "duration_minutes": 30,
+          "topic_id": null,
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "focus": "weak_areas"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "day_number": 33,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d33_a119",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d33_a120",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d33_a121",
+          "activity_type": "quiz",
+          "title": "Quiz: Procurement Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "procurement",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "procurement_quiz.json"
+          }
+        },
+        {
+          "id": "d33_a122",
+          "activity_type": "quiz",
+          "title": "Quiz: Agile Frameworks (ECO Domain 3)",
+          "duration_minutes": 20,
+          "topic_id": "agile",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "agile_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "day_number": 34,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d34_a123",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d34_a124",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d34_a125",
+          "activity_type": "quiz",
+          "title": "Quiz: Agile Frameworks (ECO Domain 3)",
+          "duration_minutes": 20,
+          "topic_id": "agile",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "agile_quiz.json"
+          }
+        },
+        {
+          "id": "d34_a126",
+          "activity_type": "quiz",
+          "title": "Quiz: Business Analysis (ECO Domain 4)",
+          "duration_minutes": 20,
+          "topic_id": "business_analysis",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "business_analysis_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "day_number": 35,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d35_a127",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d35_a128",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d35_a129",
+          "activity_type": "quiz",
+          "title": "Quiz: Business Analysis (ECO Domain 4)",
+          "duration_minutes": 20,
+          "topic_id": "business_analysis",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "business_analysis_quiz.json"
+          }
+        },
+        {
+          "id": "d35_a130",
+          "activity_type": "quiz",
+          "title": "Quiz: Governance (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "governance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "governance_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "day_number": 36,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d36_a131",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d36_a132",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d36_a133",
+          "activity_type": "quiz",
+          "title": "Quiz: Governance (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "governance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "governance_quiz.json"
+          }
+        },
+        {
+          "id": "d36_a134",
+          "activity_type": "quiz",
+          "title": "Quiz: Scope Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "scope",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "scope_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "day_number": 37,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d37_a135",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d37_a136",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d37_a137",
+          "activity_type": "quiz",
+          "title": "Quiz: Scope Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "scope",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "scope_quiz.json"
+          }
+        },
+        {
+          "id": "d37_a138",
+          "activity_type": "quiz",
+          "title": "Quiz: Schedule Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "schedule",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "schedule_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-11",
+      "day_number": 38,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d38_a139",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d38_a140",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d38_a141",
+          "activity_type": "quiz",
+          "title": "Quiz: Schedule Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "schedule",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "schedule_quiz.json"
+          }
+        },
+        {
+          "id": "d38_a142",
+          "activity_type": "quiz",
+          "title": "Quiz: Finance/Cost Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "finance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "finance_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "day_number": 39,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d39_a143",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d39_a144",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d39_a145",
+          "activity_type": "quiz",
+          "title": "Quiz: Finance/Cost Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "finance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "finance_quiz.json"
+          }
+        },
+        {
+          "id": "d39_a146",
+          "activity_type": "quiz",
+          "title": "Quiz: Stakeholder Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "stakeholders",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "stakeholders_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "day_number": 40,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d40_a147",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d40_a148",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d40_a149",
+          "activity_type": "quiz",
+          "title": "Quiz: Stakeholder Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "stakeholders",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "stakeholders_quiz.json"
+          }
+        },
+        {
+          "id": "d40_a150",
+          "activity_type": "quiz",
+          "title": "Quiz: Resource Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "resources",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "resources_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "day_number": 41,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d41_a151",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d41_a152",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d41_a153",
+          "activity_type": "quiz",
+          "title": "Quiz: Resource Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "resources",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "resources_quiz.json"
+          }
+        },
+        {
+          "id": "d41_a154",
+          "activity_type": "quiz",
+          "title": "Quiz: Risk Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "risk",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "risk_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-15",
+      "day_number": 42,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d42_a155",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d42_a156",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d42_a157",
+          "activity_type": "quiz",
+          "title": "Quiz: Risk Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "risk",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "risk_quiz.json"
+          }
+        },
+        {
+          "id": "d42_a158",
+          "activity_type": "quiz",
+          "title": "Quiz: Tailoring (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tailoring",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tailoring_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "day_number": 43,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d43_a159",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d43_a160",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d43_a161",
+          "activity_type": "quiz",
+          "title": "Quiz: Tailoring (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tailoring",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tailoring_quiz.json"
+          }
+        },
+        {
+          "id": "d43_a162",
+          "activity_type": "quiz",
+          "title": "Quiz: Tools & Techniques (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tools",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tools_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "day_number": 44,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d44_a163",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d44_a164",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d44_a165",
+          "activity_type": "quiz",
+          "title": "Quiz: Tools & Techniques (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "tools",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "tools_quiz.json"
+          }
+        },
+        {
+          "id": "d44_a166",
+          "activity_type": "quiz",
+          "title": "Quiz: Procurement Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "procurement",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "procurement_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "day_number": 45,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d45_a167",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d45_a168",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d45_a169",
+          "activity_type": "quiz",
+          "title": "Quiz: Procurement Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "procurement",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "procurement_quiz.json"
+          }
+        },
+        {
+          "id": "d45_a170",
+          "activity_type": "quiz",
+          "title": "Quiz: Agile Frameworks (ECO Domain 3)",
+          "duration_minutes": 20,
+          "topic_id": "agile",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "agile_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "day_number": 46,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d46_a171",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d46_a172",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d46_a173",
+          "activity_type": "quiz",
+          "title": "Quiz: Agile Frameworks (ECO Domain 3)",
+          "duration_minutes": 20,
+          "topic_id": "agile",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "agile_quiz.json"
+          }
+        },
+        {
+          "id": "d46_a174",
+          "activity_type": "quiz",
+          "title": "Quiz: Business Analysis (ECO Domain 4)",
+          "duration_minutes": 20,
+          "topic_id": "business_analysis",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "business_analysis_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "day_number": 47,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d47_a175",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d47_a176",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d47_a177",
+          "activity_type": "quiz",
+          "title": "Quiz: Business Analysis (ECO Domain 4)",
+          "duration_minutes": 20,
+          "topic_id": "business_analysis",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "business_analysis_quiz.json"
+          }
+        },
+        {
+          "id": "d47_a178",
+          "activity_type": "quiz",
+          "title": "Quiz: Governance (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "governance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "governance_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "day_number": 48,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d48_a179",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d48_a180",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d48_a181",
+          "activity_type": "quiz",
+          "title": "Quiz: Governance (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "governance",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "governance_quiz.json"
+          }
+        },
+        {
+          "id": "d48_a182",
+          "activity_type": "quiz",
+          "title": "Quiz: Scope Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "scope",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "scope_quiz.json"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "day_number": 49,
+      "target_minutes": 90,
+      "activities": [
+        {
+          "id": "d49_a183",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Principles Domain",
+          "duration_minutes": 20,
+          "topic_id": "principles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "principles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d49_a184",
+          "activity_type": "flashcards",
+          "title": "Flashcards: Life Cycles Domain",
+          "duration_minutes": 20,
+          "topic_id": "life_cycles",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "deck": "life_cycles_domain.json",
+            "spaced_rep": true
+          }
+        },
+        {
+          "id": "d49_a185",
+          "activity_type": "quiz",
+          "title": "Quiz: Scope Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "scope",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "scope_quiz.json"
+          }
+        },
+        {
+          "id": "d49_a186",
+          "activity_type": "quiz",
+          "title": "Quiz: Schedule Management (ECO Domain 2)",
+          "duration_minutes": 20,
+          "topic_id": "schedule",
+          "lesson_id": null,
+          "status": "pending",
+          "completed_date": null,
+          "details": {
+            "quiz_bank": "schedule_quiz.json"
+          }
+        }
+      ]
+    }
+  ],
+  "_preservation_info": {
+    "preserved_count": 3,
+    "preservation_applied": true
+  }
+}

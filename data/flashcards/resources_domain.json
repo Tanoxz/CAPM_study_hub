@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:30:00",
+  "domain": "Resources Performance Domain",
+  "cards": [
+    {
+      "id": "res_001",
+      "question": "What does the Resources Performance Domain cover?",
+      "answer": "Both human resources (project team members) AND physical/virtual resources (equipment, materials, facilities, software, licenses). It addresses planning, acquiring, developing, and managing all resources needed for project success.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Many PMs focus only on people. But physical resources - equipment availability, material delivery, software licenses - can block progress just as badly as staffing gaps. Both require proactive management.",
+      "related_concepts": ["Resource Management Plan", "Team Development", "Resource Calendars", "Procurement"]
+    },
+    {
+      "id": "res_002",
+      "question": "What is the difference between a Project Manager and a Resource Manager?",
+      "answer": "Project Manager = leads the project team toward project objectives. Resource Manager = has management authority over resources (often functional managers). The PM may need to negotiate with resource managers to acquire team members.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "In matrix organizations, PMs don't 'own' their team members. Resource managers do. Understanding this power dynamic helps PMs navigate the organizational politics of acquiring and retaining good resources.",
+      "related_concepts": ["Matrix Organization", "Functional Manager", "Authority", "Negotiation"]
+    },
+    {
+      "id": "res_003",
+      "question": "WHY does PMBOK distinguish 'Lead the Team' as its own process?",
+      "answer": "Because leadership (influencing, motivating, enabling) differs from management (planning, coordinating, measuring). High-performing teams need both. Technical management without leadership produces compliance but not commitment.",
+      "knowledge_area": "Resources",
+      "card_type": "why",
+      "why_it_matters": "You can manage perfectly - track tasks, report status, follow processes - and still fail if people aren't motivated. Leadership creates the environment where people WANT to contribute their best work.",
+      "related_concepts": ["Team Development", "Servant Leadership", "Motivation", "Emotional Intelligence"]
+    },
+    {
+      "id": "res_004",
+      "question": "What are characteristics of high-performing project teams?",
+      "answer": "Open communication, shared understanding of goals, shared ownership of outcomes, mutual trust, collaboration (not silos), adaptability, resilience, empowerment/autonomy, and recognition of contributions.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "High-performing teams aren't accidents - they're cultivated. Knowing these characteristics gives you targets to work toward. Missing any one (like trust or communication) can undermine the others.",
+      "related_concepts": ["Team Building", "Psychological Safety", "Team Charter", "Collaboration"]
+    },
+    {
+      "id": "res_005",
+      "question": "WHY is acquiring the 'right' resources more important than just 'getting' resources?",
+      "answer": "Because skill mismatches hurt project outcomes. Getting 5 junior developers when you need 2 seniors increases coordination overhead and risk. Alternative resources may need training time and produce lower quality initially.",
+      "knowledge_area": "Resources",
+      "card_type": "why",
+      "why_it_matters": "Resource quantity doesn't equal capability. A PM should document the impact of resource substitutions (skill gaps, training needs, schedule risk) rather than just accepting whoever is available.",
+      "related_concepts": ["Resource Requirements", "Skill Assessment", "Resource Calendars", "Risk Management"]
+    },
+    {
+      "id": "res_006",
+      "question": "What is a RACI matrix?",
+      "answer": "A Responsibility Assignment Matrix showing who is Responsible (does the work), Accountable (ultimately answerable), Consulted (provides input), and Informed (kept updated) for each task or deliverable.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Unclear responsibilities cause work to fall through cracks or be duplicated. RACI clarifies expectations. Key rule: only ONE person is Accountable per task (someone must own it), though multiple may be Responsible.",
+      "related_concepts": ["Roles and Responsibilities", "Team Charter", "Accountability", "Communication"]
+    },
+    {
+      "id": "res_007",
+      "question": "WHY do virtual/distributed teams require different management approaches?",
+      "answer": "Because face-to-face interaction builds trust and collaboration more naturally. Virtual teams need deliberate effort - more structured communication, collaboration technology, explicit working agreements, and sometimes in-person kickoffs.",
+      "knowledge_area": "Resources",
+      "card_type": "why",
+      "why_it_matters": "Virtual teams are now common, but the challenges are real. Without intentional practices, remote team members feel isolated, communication breaks down, and collaboration suffers. Technology enables but doesn't guarantee success.",
+      "related_concepts": ["Colocation", "Communication Technology", "Team Building", "Virtual Collaboration Tools"]
+    },
+    {
+      "id": "res_008",
+      "question": "What is the Tuckman Model of team development?",
+      "answer": "Five stages: Forming (team assembles, polite), Storming (conflict as personalities clash), Norming (team establishes ways of working), Performing (high productivity), Adjourning (team disbands after project).",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Teams don't instantly perform well. Storming is NORMAL and necessary - trying to skip it suppresses healthy conflict. Understanding stages helps PMs support teams through transitions rather than expecting instant productivity.",
+      "related_concepts": ["Team Development", "Conflict Management", "Team Charter", "Group Dynamics"]
+    },
+    {
+      "id": "res_009",
+      "question": "WHY is empowerment important for project team members?",
+      "answer": "Because empowered people make better decisions closer to the work, feel ownership of outcomes, are more motivated, and adapt faster than those waiting for permission. Micromanagement kills engagement and slows everything down.",
+      "knowledge_area": "Resources",
+      "card_type": "why",
+      "why_it_matters": "Command-and-control works poorly for knowledge work. Creative problem-solving requires autonomy. Teams with appropriate empowerment (clear boundaries, not unlimited authority) outperform those that must escalate every decision.",
+      "related_concepts": ["Servant Leadership", "Delegation", "Self-Organizing Teams", "Autonomy"]
+    },
+    {
+      "id": "res_010",
+      "question": "What is the purpose of Monitor and Control Resourcing?",
+      "answer": "To ensure physical/virtual resources are available as planned, monitor planned vs. actual resource utilization, take corrective action for shortages or surpluses, and release resources when no longer needed.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Resources that aren't monitored get misallocated - equipment sits idle while other projects wait, or materials arrive late because no one tracked delivery. Proactive monitoring prevents these costly surprises.",
+      "related_concepts": ["Resource Calendars", "Performance Reviews", "Resource Optimization", "Issue Management"]
+    },
+    {
+      "id": "res_011",
+      "question": "What is a Resource Breakdown Structure (RBS)?",
+      "answer": "A hierarchical representation of resources by category and type. Like a WBS for work, but for resources - showing all project resources organized by type (labor, equipment, materials, etc.).",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "The RBS helps ensure you've identified all resource needs and supports resource leveling and optimization. It's also useful for categorizing costs and identifying resource shortages by type.",
+      "related_concepts": ["WBS", "Resource Planning", "Resource Categories", "Resource Identification"]
+    },
+    {
+      "id": "res_012",
+      "question": "What is Emotional Intelligence (EI) and why does it matter for PMs?",
+      "answer": "EI is the ability to recognize, understand, and manage your own emotions and those of others. Components include self-awareness, self-regulation, motivation, empathy, and social skills.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Projects are done by people with emotions. A PM who can't read the room, manage their own stress, or empathize with team struggles will damage morale and relationships. High EI correlates with leadership effectiveness.",
+      "related_concepts": ["Leadership", "Team Management", "Interpersonal Skills", "Self-Awareness"]
+    },
+    {
+      "id": "res_013",
+      "question": "What are the five conflict management styles in the Thomas-Kilmann model?",
+      "answer": "Competing (assertive, uncooperative), Collaborating (assertive, cooperative), Compromising (moderate both), Avoiding (unassertive, uncooperative), Accommodating (unassertive, cooperative).",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "No single style works for all conflicts. Collaborating is ideal but time-consuming. Competing works for urgent issues. Accommodating preserves relationships. Knowing when to use which is key.",
+      "related_concepts": ["Conflict Resolution", "Team Dynamics", "Interpersonal Skills", "Negotiation"]
+    },
+    {
+      "id": "res_014",
+      "question": "WHY should project teams establish ground rules?",
+      "answer": "Ground rules set expectations for acceptable behavior - meeting etiquette, communication norms, decision-making process, conflict resolution approach. They prevent misunderstandings and create a foundation for accountability.",
+      "knowledge_area": "Resources",
+      "card_type": "why",
+      "why_it_matters": "Without explicit ground rules, people assume their own rules apply - leading to friction. Ground rules agreed upon together create shared standards everyone's committed to. It's prevention, not reaction.",
+      "related_concepts": ["Team Charter", "Working Agreements", "Team Norms", "Expectations"]
+    },
+    {
+      "id": "res_015",
+      "question": "What is Colocation and why might it improve team performance?",
+      "answer": "Colocation places team members in the same physical location. It improves communication (spontaneous conversations), builds relationships faster, enables quick problem-solving, and strengthens team identity.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Remote work is now common, but colocation has real benefits. Even temporary colocation (kickoff week, critical phases) can accelerate team formation. Virtual teams need extra effort to replicate these benefits.",
+      "related_concepts": ["Team Building", "Communication", "Virtual Teams", "War Room"]
+    },
+    {
+      "id": "res_016",
+      "question": "What is Recognition and Rewards and why does it matter?",
+      "answer": "Formal and informal ways of acknowledging team member contributions. Can be monetary (bonuses) or non-monetary (public recognition, opportunities). Aligned with what individuals value.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "People need to feel valued. Recognition reinforces desired behaviors and boosts morale. But it must be genuine and fair - perceived favoritism or hollow praise backfires. Know what each person values.",
+      "related_concepts": ["Motivation", "Team Morale", "Performance Management", "Individual Differences"]
+    },
+    {
+      "id": "res_017",
+      "question": "WHY is training considered an investment, not just a cost?",
+      "answer": "Because trained team members are more productive, make fewer mistakes, need less supervision, and can handle more complex work. The upfront cost pays back in improved performance throughout the project.",
+      "knowledge_area": "Resources",
+      "card_type": "why",
+      "why_it_matters": "Cutting training budgets saves money short-term but costs more in errors, rework, and missed opportunities. Teams with skill gaps underperform. Training closes gaps and builds organizational capability.",
+      "related_concepts": ["Team Development", "Skill Gap Analysis", "Capability Building", "ROI"]
+    },
+    {
+      "id": "res_018",
+      "question": "What is Pre-assignment of resources?",
+      "answer": "When team members are designated before the project starts - through contractual agreements, specialized expertise requirements, or promises made in the proposal/business case.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Pre-assigned resources are constraints, not choices. If a specific expert was promised, you must plan around their availability. Pre-assignment can be helpful (guaranteed key skills) or limiting (stuck with specific people).",
+      "related_concepts": ["Resource Acquisition", "Constraints", "Staffing", "Contractual Requirements"]
+    },
+    {
+      "id": "res_019",
+      "question": "What negotiation skills do PMs need for resource acquisition?",
+      "answer": "Understanding interests (not just positions), finding win-win solutions, building relationships for future negotiations, knowing your BATNA (best alternative), and separating people from problems.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "PMs rarely have authority to simply assign resources. They must negotiate with functional managers, other PMs, and vendors. Poor negotiation = poor resources. Good negotiation = right people, right time.",
+      "related_concepts": ["Influence Without Authority", "Stakeholder Management", "Resource Acquisition", "Matrix Organizations"]
+    },
+    {
+      "id": "res_020",
+      "question": "What is a Resource Histogram?",
+      "answer": "A bar chart showing the amount of time a resource is scheduled to work over a series of time periods. Used to identify over-allocation and resource conflicts visually.",
+      "knowledge_area": "Resources",
+      "card_type": "definition",
+      "why_it_matters": "Histograms make resource problems visible. A line showing maximum availability reveals when someone is over-allocated. Visual tools communicate resource issues to stakeholders more effectively than spreadsheets.",
+      "related_concepts": ["Resource Leveling", "Over-allocation", "Resource Planning", "Schedule Visualization"]
+    }
+  ]
+}

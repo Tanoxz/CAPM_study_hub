@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "updated": "2026-01-28T11:34:56.348472",
+  "cards": [
+    {
+      "id": "lc_001",
+      "question": "What are the three main project life cycle approaches?",
+      "answer": "Predictive (plan-driven, waterfall), Adaptive (agile, iterative), and Hybrid (combining elements of both). Choice depends on requirements clarity, change frequency, and organizational context.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:30:16.629485",
+      "why_it_matters": "No single approach works for all projects. Matching the approach to project characteristics is critical. Wrong choice leads to either unnecessary rigidity or chaotic lack of control.",
+      "related_concepts": [
+        "Tailoring",
+        "Development Approach",
+        "Methodology Selection",
+        "Context"
+      ]
+    },
+    {
+      "id": "lc_002",
+      "question": "What characterizes a Predictive (Waterfall) life cycle?",
+      "answer": "Sequential phases (requirements → design → build → test → deploy). Scope defined upfront, changes controlled formally. Works best when requirements are stable and well-understood.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:29:15.984383",
+      "why_it_matters": "Predictive works well for construction, regulated industries, and stable requirements. It provides clear milestones and control but struggles when requirements emerge or change frequently.",
+      "related_concepts": [
+        "Waterfall",
+        "Phase Gates",
+        "Change Control",
+        "Requirements Stability"
+      ]
+    },
+    {
+      "id": "lc_003",
+      "question": "WHY does Predictive fail when requirements are uncertain?",
+      "answer": "Because it assumes you can define everything upfront. If requirements are wrong or change, late rework is extremely expensive. The cost of change curve rises steeply in later phases.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "why",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:31:49.818251",
+      "why_it_matters": "Forcing predictive on uncertain projects creates 'we built what you asked for, not what you needed' disasters. Early phases lock in decisions; late changes require extensive rework.",
+      "related_concepts": [
+        "Cost of Change",
+        "Requirements Uncertainty",
+        "Risk Management",
+        "Approach Selection"
+      ]
+    },
+    {
+      "id": "lc_004",
+      "question": "What characterizes an Adaptive (Agile) life cycle?",
+      "answer": "Iterative delivery in short cycles (sprints). Scope emerges and evolves based on feedback. Embraces change rather than resisting it. Works best when requirements are uncertain or rapidly changing.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:34:26.231266",
+      "why_it_matters": "Adaptive delivers value early and often, enables course correction, and responds to emerging needs. However, it requires customer involvement and tolerance for evolving scope.",
+      "related_concepts": [
+        "Agile",
+        "Scrum",
+        "Iterations",
+        "Continuous Delivery"
+      ]
+    },
+    {
+      "id": "lc_005",
+      "question": "What is a Sprint (Iteration)?",
+      "answer": "A fixed-length time period (typically 1-4 weeks) in which a specific set of work is completed and made ready for review. Each sprint produces a potentially shippable increment.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:34:56.276310",
+      "why_it_matters": "Sprints create predictable rhythm, frequent delivery points, and regular feedback opportunities. The time-box forces prioritization and prevents scope creep within the iteration.",
+      "related_concepts": [
+        "Time-boxing",
+        "Iteration",
+        "Increment",
+        "Scrum"
+      ]
+    },
+    {
+      "id": "lc_006",
+      "question": "WHY do Agile approaches require customer involvement?",
+      "answer": "Because scope emerges through feedback. Without regular customer input, the team can't validate direction, prioritize correctly, or course-correct. Agile without customer involvement drifts.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:30:25.260111",
+      "why_it_matters": "Agile's power comes from rapid feedback loops. A product owner or customer representative must be available to answer questions, review work, and adjust priorities each iteration.",
+      "related_concepts": [
+        "Product Owner",
+        "Customer Collaboration",
+        "Feedback Loops",
+        "Prioritization"
+      ]
+    },
+    {
+      "id": "lc_007",
+      "question": "What is a Hybrid life cycle?",
+      "answer": "A combination of predictive and adaptive elements tailored to project needs. Example: predictive overall schedule with agile development sprints, or waterfall for infrastructure with agile for applications.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:31:26.094605",
+      "why_it_matters": "Pure approaches rarely fit complex reality. Hybrid lets you use predictive where you need stability (contracts, milestones) and adaptive where you need flexibility (emerging requirements).",
+      "related_concepts": [
+        "Tailoring",
+        "Mixed Approaches",
+        "Best of Both",
+        "Context-Driven"
+      ]
+    },
+    {
+      "id": "lc_008",
+      "question": "What is a Product Backlog?",
+      "answer": "A prioritized list of features, enhancements, and fixes to be built. Constantly refined and reprioritized. The single source of requirements in agile - items move from backlog into sprints.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:34:45.108901",
+      "why_it_matters": "The backlog replaces detailed upfront requirements documents. It's living and dynamic - priorities change as learning occurs. It also serves as the change control mechanism in agile.",
+      "related_concepts": [
+        "Agile",
+        "User Stories",
+        "Prioritization",
+        "Backlog Refinement"
+      ]
+    },
+    {
+      "id": "lc_009",
+      "question": "What is a User Story?",
+      "answer": "A short description of a feature from the user's perspective. Format: 'As a [type of user], I want [goal] so that [benefit].' Includes acceptance criteria defining 'done'.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:29:26.238040",
+      "why_it_matters": "User stories focus on VALUE to users, not technical specifications. The format forces thinking about WHO benefits, WHAT they need, and WHY it matters. This keeps work user-centered.",
+      "related_concepts": [
+        "Backlog",
+        "Requirements",
+        "Acceptance Criteria",
+        "Value-Driven"
+      ]
+    },
+    {
+      "id": "lc_010",
+      "question": "WHY are retrospectives essential in adaptive approaches?",
+      "answer": "Because continuous improvement requires reflection. Retrospectives ask: What went well? What didn't? What will we change? Without them, teams repeat mistakes and miss improvement opportunities.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:29:38.110894",
+      "why_it_matters": "Agile isn't just about iterating work - it's about iterating HOW you work. Retrospectives enable the team to adapt its process, not just its product. This drives continuous improvement.",
+      "related_concepts": [
+        "Continuous Improvement",
+        "Lessons Learned",
+        "Team Development",
+        "Adaptation"
+      ]
+    },
+    {
+      "id": "lc_011",
+      "question": "What are the common Agile ceremonies/events?",
+      "answer": "Sprint Planning (what to do), Daily Standup (sync and blockers), Sprint Review (demo to stakeholders), Sprint Retrospective (improve process). Each has a specific purpose.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:34:36.771140",
+      "why_it_matters": "These ceremonies create the feedback loops and communication rhythms that make agile work. Skipping them breaks the inspect-and-adapt cycle that enables agility.",
+      "related_concepts": [
+        "Scrum",
+        "Ceremonies",
+        "Communication",
+        "Feedback Loops"
+      ]
+    },
+    {
+      "id": "lc_012",
+      "question": "What is Velocity in agile?",
+      "answer": "The amount of work a team completes in a sprint, typically measured in story points. Used to forecast how much work can be done in future sprints based on historical performance.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:31:41.441058",
+      "why_it_matters": "Velocity enables empirical planning. Rather than guessing capacity, you measure actual throughput. After a few sprints, you can reliably predict future delivery based on real data.",
+      "related_concepts": [
+        "Story Points",
+        "Estimation",
+        "Forecasting",
+        "Empirical Process"
+      ]
+    },
+    {
+      "id": "lc_013",
+      "question": "WHY shouldn't Velocity be compared between different teams?",
+      "answer": "Because story points are relative estimates unique to each team. One team's '5 points' differs from another's. Velocity is for internal forecasting, not team-to-team comparison.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:30:00.065114",
+      "why_it_matters": "Using velocity for comparison creates gaming (inflating points) and misses the purpose. It's a planning tool for the team, not a performance metric. Comparing distorts behavior.",
+      "related_concepts": [
+        "Story Points",
+        "Team Metrics",
+        "Gaming",
+        "Purpose of Measurement"
+      ]
+    },
+    {
+      "id": "lc_014",
+      "question": "What is a Minimum Viable Product (MVP)?",
+      "answer": "The smallest version of a product that delivers enough value to be usable and provides learning about customer needs. It's not a half-baked product - it's a focused, functional subset.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:33:38.165896",
+      "why_it_matters": "MVP enables early validation before building everything. You learn if you're on the right track with minimal investment. Wrong assumptions are caught early when changes are cheap.",
+      "related_concepts": [
+        "Lean Startup",
+        "Validation",
+        "Early Delivery",
+        "Learning"
+      ]
+    },
+    {
+      "id": "lc_015",
+      "question": "What is Incremental delivery vs. Iterative development?",
+      "answer": "Incremental = delivering pieces of the whole (each piece is complete, adds new functionality). Iterative = refining through cycles (each iteration improves what exists). Agile uses both.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:32:45.308748",
+      "why_it_matters": "Incremental builds piece by piece. Iterative refines through feedback. Combined, you build new features (incremental) while improving existing ones based on feedback (iterative).",
+      "related_concepts": [
+        "Agile",
+        "Continuous Improvement",
+        "Delivery Strategy",
+        "Refinement"
+      ]
+    },
+    {
+      "id": "lc_016",
+      "question": "WHY do phase gates exist in predictive approaches?",
+      "answer": "To provide formal decision points for continuing, modifying, or terminating the project. Gates ensure appropriate review, approval, and resource commitment before proceeding to costly later phases.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:32:18.798783",
+      "why_it_matters": "Gates prevent wasting resources on projects that should stop. They force stakeholders to consciously decide whether to continue based on current information rather than momentum.",
+      "related_concepts": [
+        "Governance",
+        "Go/No-Go Decisions",
+        "Investment Control",
+        "Stage Gates"
+      ]
+    },
+    {
+      "id": "lc_017",
+      "question": "What factors help choose between Predictive and Adaptive?",
+      "answer": "Requirements stability, rate of change, risk tolerance, customer availability, team experience, organizational culture, contract type, and regulatory requirements.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:33:12.870127",
+      "why_it_matters": "The choice isn't about which is 'better' - it's about fit. Stable requirements + fixed contract = predictive. Emerging requirements + available customer = adaptive. Context determines approach.",
+      "related_concepts": [
+        "Tailoring",
+        "Context",
+        "Decision Factors",
+        "Approach Selection"
+      ]
+    },
+    {
+      "id": "lc_018",
+      "question": "What is a Daily Standup (Daily Scrum)?",
+      "answer": "A brief (15 min) daily meeting where team members answer: What did I do yesterday? What will I do today? What's blocking me? It's for team sync, not status reporting to management.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:32:05.762828",
+      "why_it_matters": "Standups surface blockers quickly and keep the team synchronized. They're peer-to-peer, not hierarchical reporting. Turning them into status meetings destroys their value.",
+      "related_concepts": [
+        "Scrum",
+        "Communication",
+        "Blockers",
+        "Team Coordination"
+      ]
+    },
+    {
+      "id": "lc_019",
+      "question": "WHY is 'fixed scope' risky in uncertain environments?",
+      "answer": "Because it assumes you know what's needed upfront. If requirements are wrong or change, you either deliver the wrong thing (scope locked) or blow budget/schedule (scope changes).",
+      "knowledge_area": "Life Cycles",
+      "card_type": "why",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:33:23.412287",
+      "why_it_matters": "Agile often fixes time and cost while varying scope. This acknowledges uncertainty. Fixing scope when you're uncertain locks in potentially wrong decisions made with incomplete information.",
+      "related_concepts": [
+        "Iron Triangle",
+        "Constraints",
+        "Uncertainty",
+        "Adaptive Planning"
+      ]
+    },
+    {
+      "id": "lc_020",
+      "question": "What is a Release in agile context?",
+      "answer": "A set of features deployed to production. A release may contain multiple sprints' worth of work. Not every sprint needs to be released - releases are business decisions about when to deploy.",
+      "knowledge_area": "Life Cycles",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-29T11:30:37.175552",
+      "why_it_matters": "Sprints produce potentially shippable increments; releases actually ship. The distinction allows technical readiness every sprint while business controls deployment timing.",
+      "related_concepts": [
+        "Deployment",
+        "Sprint",
+        "Continuous Delivery",
+        "Release Planning"
+      ]
+    }
+  ]
+}

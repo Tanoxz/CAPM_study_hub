@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:45:00",
+  "domain": "Schedule Performance Domain",
+  "questions": [
+    {
+      "id": "sched_q001",
+      "question": "A project manager adds 3 more developers to a late project hoping to get back on track. Two weeks later, the project is even further behind. What likely happened?",
+      "options": [
+        "The developers weren't qualified",
+        "Brooks's Law - adding people to a late project increases coordination overhead and often makes it later",
+        "The schedule baseline was wrong",
+        "The project should have been canceled"
+      ],
+      "correct_answer": 1,
+      "explanation": "Brooks's Law states adding people to a late software project makes it later. New team members need onboarding, increase communication paths, and require knowledge transfer from existing members. At some point, coordination overhead exceeds the benefit of additional hands.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "sched_q002",
+      "question": "Activity A takes 5 days with one person. If you add a second person of equal skill, what is the MOST LIKELY duration?",
+      "options": [
+        "2.5 days - exactly half",
+        "More than 2.5 days due to coordination overhead and knowledge sharing",
+        "5 days - duration doesn't change",
+        "Less than 2.5 days due to synergy"
+      ],
+      "correct_answer": 1,
+      "explanation": "The law of diminishing returns means doubling resources rarely halves duration. Coordination overhead, knowledge transfer, and task dependencies mean two people typically take more than half the time of one. Some tasks (like a 24-hour test) have fixed duration regardless of resources.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q003",
+      "question": "Activity B cannot start until Activity A is 50% complete. What type of dependency and modification does this represent?",
+      "options": [
+        "Finish-to-Start with no modification",
+        "Start-to-Start with a lag (delay)",
+        "Finish-to-Finish with a lead",
+        "External dependency"
+      ],
+      "correct_answer": 1,
+      "explanation": "Start-to-Start (SS) means B can start when A starts, but the 50% requirement adds a lag (delay) before B begins. Leads accelerate; lags delay. This is common when tasks can partially overlap but one needs to get a head start.",
+      "knowledge_area": "Schedule",
+      "difficulty": "hard",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q004",
+      "question": "A project is behind schedule. The PM proposes doing sequential activities in parallel to recover time. What is this technique and its primary risk?",
+      "options": [
+        "Crashing - risk is cost overrun",
+        "Fast Tracking - risk is rework if parallel activities have issues",
+        "Resource Leveling - risk is extending the schedule",
+        "Rolling Wave - risk is incomplete planning"
+      ],
+      "correct_answer": 1,
+      "explanation": "Fast Tracking performs sequential activities in parallel to compress schedule. Unlike Crashing (which adds resources/cost), Fast Tracking is 'free' but increases risk - if the parallel activities have problems, rework cascades. It trades schedule for risk.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q005",
+      "question": "The longest path through the project network is 45 days. Activity X is on this path. If Activity X is delayed by 3 days, what happens to the project?",
+      "options": [
+        "Nothing - the project has buffer",
+        "The project finish date is delayed by 3 days",
+        "Only Activity X is affected",
+        "It depends on the float"
+      ],
+      "correct_answer": 1,
+      "explanation": "Activity X is on the Critical Path (the longest path). Critical path activities have zero float - any delay to them delays the entire project by the same amount. A 3-day delay to X means a 3-day delay to the project. This is why the critical path gets special attention.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q006",
+      "question": "Early in a 2-year project, detailed schedules exist only for the first 3 months. Later work is shown as summary milestones. What planning approach is this?",
+      "options": [
+        "Poor planning - all work should be detailed upfront",
+        "Rolling Wave Planning - detail near-term work, refine future work as more is known",
+        "Agile sprints only work for short projects",
+        "The schedule is incomplete and shouldn't be approved"
+      ],
+      "correct_answer": 1,
+      "explanation": "Rolling Wave Planning details near-term work while keeping future work at a high level. As the project progresses and more information becomes available, future work is progressively elaborated. This acknowledges that detailed planning of uncertain future work creates false precision.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "sched_q007",
+      "question": "An agile team completed 30 story points in Sprint 1 and 32 story points in Sprint 2. What is their velocity and what does it help predict?",
+      "options": [
+        "Velocity is 62 points; it predicts the total project cost",
+        "Velocity is approximately 31 points/sprint; it helps forecast how much work can be completed in future sprints",
+        "Velocity measures individual performance",
+        "Velocity can only be calculated after the project ends"
+      ],
+      "correct_answer": 1,
+      "explanation": "Velocity is the rate of work completion per iteration (averaging ~31 points/sprint). It enables empirical forecasting - instead of guessing, you measure actual delivery and project forward. Velocity is a team metric, not individual, and stabilizes after a few sprints.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q008",
+      "question": "Why is the Schedule Baseline different from the current Project Schedule?",
+      "options": [
+        "They should be identical",
+        "The baseline is the approved target (frozen); the project schedule shows actual progress and forecasts",
+        "The baseline is for external stakeholders; the schedule is internal",
+        "The baseline includes risks; the schedule doesn't"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Schedule Baseline is the approved, 'frozen' plan used for performance measurement and variance analysis. The Project Schedule is the living document showing actual progress and current forecasts. Comparing them reveals whether you're on track or have variance.",
+      "knowledge_area": "Schedule",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "sched_q009",
+      "question": "The PM uses Crashing to recover a delayed schedule. What is the PRIMARY tradeoff being made?",
+      "options": [
+        "Quality is sacrificed for speed",
+        "Cost increases (more resources) to reduce duration",
+        "Scope is reduced to meet the deadline",
+        "Risk is accepted for schedule recovery"
+      ],
+      "correct_answer": 1,
+      "explanation": "Crashing adds resources to critical path activities to reduce duration. The tradeoff is cost - you spend more (overtime, additional staff, expedited procurement) to gain schedule. Unlike Fast Tracking, Crashing doesn't inherently increase risk but does increase budget.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "sched_q010",
+      "question": "What are the four steps for developing a project schedule in the correct order?",
+      "options": [
+        "Estimate, Sequence, Define, Adjust",
+        "Define Activities, Determine Sequence, Estimate Effort/Duration, Adjust",
+        "Plan, Execute, Monitor, Control",
+        "Initiate, Plan, Execute, Close"
+      ],
+      "correct_answer": 1,
+      "explanation": "The four steps are: 1) Define Activities - identify what work is needed, 2) Determine Sequence - establish dependencies, 3) Estimate Effort and Duration - calculate time/work required, 4) Adjust - review and revise until acceptable. The order matters because each step builds on the previous one.",
+      "knowledge_area": "Schedule",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "sched_q011",
+      "question": "Activity A has Total Float of 5 days and Free Float of 0 days. If A is delayed 3 days, what happens?",
+      "options": [
+        "Nothing - there's 5 days of float",
+        "The successor activity's start is delayed, but not the project end",
+        "The project end date is delayed",
+        "Float can't be different values"
+      ],
+      "correct_answer": 1,
+      "explanation": "Total Float = delay without affecting project end (5 days). Free Float = delay without affecting ANY successor (0 days). A 3-day delay uses 3 of 5 total float (project still OK) but exceeds free float (successor is delayed). This distinction matters for understanding downstream impacts.",
+      "knowledge_area": "Schedule",
+      "difficulty": "hard",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q012",
+      "question": "Three estimates: Optimistic = 6 days, Most Likely = 10 days, Pessimistic = 20 days. Using PERT, what is the expected duration?",
+      "options": [
+        "12 days - simple average",
+        "11 days - PERT weighted average: (6 + 4×10 + 20) ÷ 6",
+        "10 days - use Most Likely",
+        "13 days - average of extremes"
+      ],
+      "correct_answer": 1,
+      "explanation": "PERT formula: (O + 4M + P) ÷ 6 = (6 + 40 + 20) ÷ 6 = 66 ÷ 6 = 11 days. The formula weights Most Likely heavily (4×) while accounting for uncertainty in extremes. This produces probabilistic estimates rather than single-point guesses.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q013",
+      "question": "The PM applies Resource Leveling to the schedule. What typically happens to the project end date?",
+      "options": [
+        "It stays the same",
+        "It often extends - leveling delays activities to resolve over-allocation",
+        "It shortens - leveling is an optimization",
+        "Leveling doesn't affect dates"
+      ],
+      "correct_answer": 1,
+      "explanation": "Resource Leveling removes over-allocations by delaying activities until resources are available. If one person is scheduled for two parallel tasks, one must wait. This typically extends the schedule - it's a tradeoff of schedule for resource feasibility.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "sched_q014",
+      "question": "What is the difference between Resource Leveling and Resource Smoothing?",
+      "options": [
+        "They are the same thing",
+        "Leveling may extend schedule to fix over-allocation; Smoothing stays within float to reduce peaks",
+        "Leveling is for people; Smoothing is for equipment",
+        "Leveling is mandatory; Smoothing is optional"
+      ],
+      "correct_answer": 1,
+      "explanation": "Leveling resolves over-allocation even if it extends the schedule. Smoothing adjusts activities within their float to reduce resource peaks/valleys without extending the schedule. Leveling prioritizes resource feasibility; Smoothing prioritizes schedule while improving resource distribution.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "sched_q015",
+      "question": "SPI = 0.85. What does this mean for the project?",
+      "options": [
+        "The project is 85% complete",
+        "The project is earning only 85 cents of value for every dollar of work planned - behind schedule",
+        "The project is 15% ahead of schedule",
+        "The project will finish 85 days early"
+      ],
+      "correct_answer": 1,
+      "explanation": "SPI (Schedule Performance Index) = EV ÷ PV. An SPI of 0.85 means for every dollar of work planned, only 85 cents worth was completed. The project is behind schedule. SPI > 1.0 = ahead; SPI < 1.0 = behind; SPI = 1.0 = on schedule.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q016",
+      "question": "What significant point in a project has zero duration and marks completion of a deliverable or phase?",
+      "options": [
+        "Critical path activity",
+        "Milestone - a significant event with zero duration",
+        "Work package",
+        "Phase gate"
+      ],
+      "correct_answer": 1,
+      "explanation": "A Milestone is a significant point or event with zero duration. It marks completion of major deliverables or phases (e.g., 'Design Complete', 'Beta Release'). Milestones are communication anchors that stakeholders understand better than task-level details.",
+      "knowledge_area": "Schedule",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "sched_q017",
+      "question": "A project can start Task B before Task A finishes (Task A 50% → Task B starts). What dependency and modification creates this overlap?",
+      "options": [
+        "Finish-to-Start with a lag",
+        "Start-to-Start with a lead (negative lag accelerating start)",
+        "Finish-to-Finish",
+        "Start-to-Finish"
+      ],
+      "correct_answer": 1,
+      "explanation": "A Lead is an overlap between activities - the successor can start before the predecessor finishes. This accelerates the schedule. Leads are negative lags. If B starts when A is 50% done, there's a Start-to-Start relationship with the overlap represented as a lead or lag depending on calculation method.",
+      "knowledge_area": "Schedule",
+      "difficulty": "hard",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q018",
+      "question": "Why calculate both Forward Pass and Backward Pass through the network?",
+      "options": [
+        "To double-check for errors",
+        "Forward gives earliest dates, Backward gives latest dates - the difference reveals float",
+        "Only one is needed",
+        "Forward is for predictive; Backward is for agile"
+      ],
+      "correct_answer": 1,
+      "explanation": "Forward Pass calculates Early Start/Finish (soonest possible). Backward Pass calculates Late Start/Finish (latest without delaying project). The difference between early and late dates is Float. Activities where Early = Late have zero float and are on the Critical Path.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "sched_q019",
+      "question": "A concrete pour must cure for 7 days before the next activity can start. How is this modeled in the schedule?",
+      "options": [
+        "Add a 7-day activity called 'Curing'",
+        "Use a Finish-to-Start dependency with a 7-day Lag",
+        "Use a 7-day Lead",
+        "Add 7 days to the next activity's duration"
+      ],
+      "correct_answer": 1,
+      "explanation": "A Lag is waiting time between activities - the successor must wait after the predecessor finishes. The 7-day curing period is a real delay modeled as a lag on the FS dependency. This keeps the schedule realistic by representing actual constraints.",
+      "knowledge_area": "Schedule",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "sched_q020",
+      "question": "The Critical Chain Method differs from Critical Path Method primarily by including what consideration?",
+      "options": [
+        "Quality requirements",
+        "Resource constraints and strategic buffer placement",
+        "Stakeholder availability",
+        "Risk assessment"
+      ],
+      "correct_answer": 1,
+      "explanation": "Critical Chain Method considers resource dependencies (not just logical dependencies) and manages uncertainty through strategic buffers. Unlike CPM which ignores resources, Critical Chain recognizes that resource contention affects schedule. Buffers at end (project buffer) and merge points (feeding buffers) protect the schedule.",
+      "knowledge_area": "Schedule",
+      "difficulty": "hard",
+      "question_type": "concept"
+    }
+  ]
+}

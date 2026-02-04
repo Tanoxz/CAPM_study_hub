@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:30:00",
+  "domain": "Schedule Performance Domain",
+  "cards": [
+    {
+      "id": "sched_001",
+      "question": "What is the difference between Duration and Effort?",
+      "answer": "Duration = calendar time to complete an activity (days, weeks). Effort = labor units required (person-hours, person-days). A 5-day duration task might require 40 hours of effort if one person works full-time, or 80 hours if two people work.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Confusing these causes bad estimates. Adding people doesn't always cut duration proportionally (coordination overhead). A 24-hour stress test has fixed duration regardless of how many people watch it.",
+      "related_concepts": ["Estimating", "Resource Allocation", "Law of Diminishing Returns", "Critical Path"]
+    },
+    {
+      "id": "sched_002",
+      "question": "What are the four steps to developing a schedule?",
+      "answer": "1) Define Activities - identify specific actions needed. 2) Determine Sequence - establish dependencies and order. 3) Estimate Effort and Duration - calculate work and time needed. 4) Adjust - review and revise until acceptable.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "This sequence matters. You can't sequence activities you haven't defined. You can't estimate duration without knowing the sequence (which reveals parallelism). Adjustment comes last when you have the full picture.",
+      "related_concepts": ["WBS", "Network Diagram", "Activity Attributes", "Schedule Baseline"]
+    },
+    {
+      "id": "sched_003",
+      "question": "WHY is Rolling Wave Planning used in schedule development?",
+      "answer": "Because detailed planning for far-future work is unreliable when information is incomplete. Rolling wave plans near-term work in detail while keeping future work at a high level, adding detail as the project progresses and more is known.",
+      "knowledge_area": "Schedule",
+      "card_type": "why",
+      "why_it_matters": "Detailed plans for uncertain future work create false precision. You'll replan anyway. Rolling wave acknowledges reality - plan what you know, refine as you learn. It's progressive elaboration applied to scheduling.",
+      "related_concepts": ["Progressive Elaboration", "Iterative Planning", "Uncertainty", "Adaptive Planning"]
+    },
+    {
+      "id": "sched_004",
+      "question": "What are the four types of logical relationships (dependencies)?",
+      "answer": "Finish-to-Start (FS): A must finish before B starts. Start-to-Start (SS): A must start before B can start. Finish-to-Finish (FF): A must finish before B can finish. Start-to-Finish (SF): A must start before B can finish (rare).",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Most people only think of Finish-to-Start. But real projects have other dependencies. Two activities might need to start together (SS) or finish together (FF). Using wrong relationships creates unrealistic schedules.",
+      "related_concepts": ["Precedence Diagramming", "Network Diagram", "Leads and Lags", "Critical Path"]
+    },
+    {
+      "id": "sched_005",
+      "question": "What is the Critical Path Method?",
+      "answer": "A technique that calculates the longest sequence of dependent activities and determines the minimum project duration. Activities on the critical path have zero float - any delay to them delays the entire project.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "The critical path tells you where to focus. Speeding up non-critical activities doesn't help the project finish earlier. Delays on critical activities always delay the project. It's your schedule's backbone.",
+      "related_concepts": ["Float/Slack", "Schedule Compression", "Network Diagram", "Forward/Backward Pass"]
+    },
+    {
+      "id": "sched_006",
+      "question": "WHY might adding more resources NOT reduce duration proportionally?",
+      "answer": "Law of diminishing returns: adding resources increases coordination overhead, learning curves, knowledge transfer time, and communication complexity. At some point, adding more people actually INCREASES duration (Brooks's Law).",
+      "knowledge_area": "Schedule",
+      "card_type": "why",
+      "why_it_matters": "This is why 'throwing people at a problem' fails. Nine women can't have a baby in one month. Some tasks have fixed durations regardless of resources. Smart PMs know when more resources help vs. hurt.",
+      "related_concepts": ["Resource Optimization", "Brooks's Law", "Crashing", "Fixed Duration"]
+    },
+    {
+      "id": "sched_007",
+      "question": "What is the difference between a Schedule Baseline and a Project Schedule?",
+      "answer": "Schedule Baseline = the approved, 'frozen' version used for comparison (changed only through formal change control). Project Schedule = the current working schedule showing actual progress and forecasts, updated regularly.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Without a baseline, you can't measure variance - the schedule just keeps changing and you lose accountability. The baseline is your target; the current schedule shows reality. Comparing them reveals problems.",
+      "related_concepts": ["Change Control", "Variance Analysis", "Performance Measurement", "Earned Value"]
+    },
+    {
+      "id": "sched_008",
+      "question": "What is Schedule Compression and what are its two main techniques?",
+      "answer": "Schedule compression shortens the schedule without reducing scope. Crashing = adding resources to critical path activities (costs more). Fast Tracking = doing sequential activities in parallel (increases risk).",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Both techniques have tradeoffs. Crashing costs money but is safer. Fast tracking is 'free' but risky - if parallel activities have issues, rework cascades. Choose based on whether you have more budget or more risk tolerance.",
+      "related_concepts": ["Critical Path", "Risk Management", "Resource Allocation", "Cost-Schedule Tradeoff"]
+    },
+    {
+      "id": "sched_009",
+      "question": "WHY should the schedule be flexible throughout the project?",
+      "answer": "Because knowledge gained, risks that emerge, and external influences change the optimal path. A rigid schedule that ignores new information forces suboptimal execution. Flexibility enables adaptation to reality.",
+      "knowledge_area": "Schedule",
+      "card_type": "why",
+      "why_it_matters": "Plans are living documents, not commitments written in stone. The goal is delivering value, not following the original schedule blindly. Smart schedule management balances stability (baseline) with adaptability (replanning).",
+      "related_concepts": ["Adaptive Planning", "Change Control", "Progressive Elaboration", "Agile"]
+    },
+    {
+      "id": "sched_010",
+      "question": "What is Velocity in adaptive/agile scheduling?",
+      "answer": "The rate at which deliverables are produced, validated, and accepted in a given iteration (e.g., story points per sprint). It's used to forecast how much work can be completed in future iterations.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Velocity replaces detailed upfront planning with empirical measurement. After a few iterations, you know how fast the team actually delivers - not how fast you hoped. This enables realistic forecasting based on real data.",
+      "related_concepts": ["Sprints", "Story Points", "Burndown Charts", "Iteration Planning"]
+    },
+    {
+      "id": "sched_011",
+      "question": "What is Float (Slack) and what are its types?",
+      "answer": "Float = time an activity can be delayed without affecting something else. Total Float = delay without affecting project end date. Free Float = delay without affecting ANY successor. Zero float = critical path activity.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Float tells you where you have flexibility. Activities with float can slip without crisis. Activities with zero float need protection - any delay becomes a project delay. Float is your schedule's shock absorber.",
+      "related_concepts": ["Critical Path", "Network Analysis", "Schedule Flexibility", "Forward/Backward Pass"]
+    },
+    {
+      "id": "sched_012",
+      "question": "What are Leads and Lags in scheduling?",
+      "answer": "Lead = overlap between activities (successor starts before predecessor finishes, accelerating the schedule). Lag = waiting time between activities (successor must wait after predecessor finishes, delaying the schedule).",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Leads can shorten schedules (start painting before all drywall is done). Lags model real delays (concrete must cure before loading). Using them correctly makes schedules realistic rather than theoretical.",
+      "related_concepts": ["Dependencies", "Fast Tracking", "Network Diagram", "Schedule Compression"]
+    },
+    {
+      "id": "sched_013",
+      "question": "What is a Milestone?",
+      "answer": "A significant point or event in a project with zero duration. It marks the completion of a major deliverable or phase. Examples: 'Design approved', 'Beta released', 'Contract signed'.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Milestones are communication anchors. Stakeholders understand 'Phase 1 Complete' better than '47 tasks done'. They're often tied to payments, reviews, or go/no-go decisions. They make progress visible.",
+      "related_concepts": ["Schedule Baseline", "Reporting", "Deliverables", "Phase Gates"]
+    },
+    {
+      "id": "sched_014",
+      "question": "WHY does Resource Leveling often extend the project schedule?",
+      "answer": "Because resource leveling removes over-allocations by delaying activities until resources are available. When one person is assigned to two parallel tasks, one must wait - extending duration to respect the constraint.",
+      "knowledge_area": "Schedule",
+      "card_type": "why",
+      "why_it_matters": "An 'optimal' schedule that ignores resource constraints is fantasy. Resource leveling shows the REALISTIC schedule given actual people/equipment. It trades schedule for feasibility.",
+      "related_concepts": ["Resource Optimization", "Over-allocation", "Resource Constraints", "Realistic Planning"]
+    },
+    {
+      "id": "sched_015",
+      "question": "What is the difference between Resource Leveling and Resource Smoothing?",
+      "answer": "Leveling adjusts activities to resolve over-allocations (may extend schedule). Smoothing adjusts activities within their float to reduce resource peaks/valleys (doesn't extend schedule but may not fully resolve conflicts).",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Leveling prioritizes resource feasibility over schedule. Smoothing prioritizes schedule over perfectly even resource usage. Choose based on whether missing the deadline or exhausting resources is the bigger problem.",
+      "related_concepts": ["Resource Optimization", "Float", "Over-allocation", "Resource Histogram"]
+    },
+    {
+      "id": "sched_016",
+      "question": "What is PERT (Program Evaluation and Review Technique)?",
+      "answer": "An estimating technique using three estimates: Optimistic (O), Most Likely (M), and Pessimistic (P). The expected duration = (O + 4M + P) / 6. This weighted average accounts for uncertainty.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Single-point estimates hide uncertainty. PERT forces you to think about best/worst cases and produces probabilistic estimates. The formula weights 'most likely' heavily (4x) while acknowledging extremes.",
+      "related_concepts": ["Three-Point Estimating", "Uncertainty", "Beta Distribution", "Risk Management"]
+    },
+    {
+      "id": "sched_017",
+      "question": "WHY do we perform a Forward Pass and Backward Pass in network analysis?",
+      "answer": "Forward Pass calculates Early Start/Finish dates (soonest each activity can occur). Backward Pass calculates Late Start/Finish dates (latest without delaying the project). The difference reveals float.",
+      "knowledge_area": "Schedule",
+      "card_type": "why",
+      "why_it_matters": "Together they reveal the critical path (where early = late dates, so no float) and flexibility (where early ≠ late, so float exists). This is the math behind schedule analysis tools.",
+      "related_concepts": ["Critical Path Method", "Float", "Network Diagram", "Schedule Analysis"]
+    },
+    {
+      "id": "sched_018",
+      "question": "What is Schedule Variance (SV)?",
+      "answer": "SV = Earned Value (EV) - Planned Value (PV). Measures schedule performance in currency terms. Positive SV = ahead of schedule (earned more than planned). Negative SV = behind schedule.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "SV puts schedule in business terms. 'We're $50,000 behind schedule' means more to executives than 'we're 2 weeks late'. It integrates with Earned Value Management for holistic performance tracking.",
+      "related_concepts": ["Earned Value", "SPI", "Performance Measurement", "Variance Analysis"]
+    },
+    {
+      "id": "sched_019",
+      "question": "What is Schedule Performance Index (SPI)?",
+      "answer": "SPI = EV / PV. A ratio showing schedule efficiency. SPI = 1.0 means on schedule. SPI > 1.0 means ahead (earning faster than planned). SPI < 1.0 means behind (earning slower than planned).",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "SPI is normalized - you can compare across projects regardless of size. SPI of 0.8 means for every dollar of work planned, you're delivering 80 cents. It's a health indicator for schedule performance.",
+      "related_concepts": ["Earned Value", "Schedule Variance", "CPI", "Forecasting"]
+    },
+    {
+      "id": "sched_020",
+      "question": "What is the Critical Chain Method?",
+      "answer": "A scheduling method that accounts for resource dependencies (not just logical dependencies) and manages uncertainty using buffers. It places buffers at strategic points rather than padding individual activities.",
+      "knowledge_area": "Schedule",
+      "card_type": "definition",
+      "why_it_matters": "Traditional CPM ignores resources. Critical Chain recognizes that resource contention affects the schedule. Project buffers (at the end) and feeding buffers (at merge points) protect the schedule without hidden padding.",
+      "related_concepts": ["Critical Path", "Resource Constraints", "Buffer Management", "Theory of Constraints"]
+    }
+  ]
+}

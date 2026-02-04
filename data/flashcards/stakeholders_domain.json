@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:00:00",
+  "domain": "Stakeholders Performance Domain",
+  "cards": [
+    {
+      "id": "stake_001",
+      "question": "What is a stakeholder?",
+      "answer": "Any individual, group, or organization that may affect, be affected by, or perceive itself to be affected by the project. This includes internal (team, sponsor) and external (customers, regulators) parties.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "The broad definition matters - 'perceive itself to be affected' means even those who THINK they're affected count. Missing a stakeholder who believes they have a stake leads to resistance.",
+      "related_concepts": ["Stakeholder Register", "Stakeholder Analysis", "Power/Interest Grid"]
+    },
+    {
+      "id": "stake_002",
+      "question": "WHY is stakeholder identification done early and revisited throughout?",
+      "answer": "Early identification allows engagement when stakeholders have most influence and changes are cheapest. Revisiting catches new stakeholders who emerge as the project progresses or context changes.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "A stakeholder discovered late who should have been involved early often becomes a resistor. The cost of change increases exponentially over time - early engagement prevents costly late changes.",
+      "related_concepts": ["Cost of Change Curve", "Stakeholder Register Updates", "Progressive Elaboration"]
+    },
+    {
+      "id": "stake_003",
+      "question": "What is a Power/Interest Grid used for?",
+      "answer": "To categorize stakeholders based on their level of authority (power) and their concern about project outcomes (interest). This determines the engagement strategy for each stakeholder.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "Not all stakeholders need the same attention. High power/high interest = manage closely. High power/low interest = keep satisfied. Low power/high interest = keep informed. Low power/low interest = monitor.",
+      "related_concepts": ["Stakeholder Analysis", "Engagement Strategy", "Salience Model"]
+    },
+    {
+      "id": "stake_004",
+      "question": "What is the difference between Stakeholder Engagement and Communications Management?",
+      "answer": "Engagement = understanding and addressing stakeholder needs, expectations, and concerns to gain support. Communications = the mechanisms, formats, and frequencies of information exchange.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "You can have excellent communications (regular updates, clear reports) but poor engagement (not addressing concerns, not building relationships). Both are needed but serve different purposes.",
+      "related_concepts": ["Communications Plan", "Stakeholder Engagement Plan", "Relationship Building"]
+    },
+    {
+      "id": "stake_005",
+      "question": "WHY should negative stakeholders be engaged rather than ignored?",
+      "answer": "Ignoring negative stakeholders doesn't make them go away - it lets their resistance grow unchecked. Engaging them reveals their concerns (which might be valid) and provides opportunity to convert or neutralize opposition.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "A vocal opponent with legitimate concerns might be warning you about real problems. Even if you can't satisfy them, understanding their position helps you prepare for objections and manage risk.",
+      "related_concepts": ["Resistance Management", "Change Management", "Conflict Resolution"]
+    },
+    {
+      "id": "stake_006",
+      "question": "What are the five levels of Stakeholder Engagement?",
+      "answer": "1) Unaware - doesn't know about project. 2) Resistant - opposes the project. 3) Neutral - neither supports nor opposes. 4) Supportive - backs the project. 5) Leading - actively champions the project.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "This assessment matrix shows current vs. desired engagement level. If a key stakeholder is Resistant but needs to be Supportive, that gap identifies where engagement effort is needed.",
+      "related_concepts": ["Stakeholder Assessment Matrix", "Engagement Gap", "Influence Strategies"]
+    },
+    {
+      "id": "stake_007",
+      "question": "WHY does the PMBOK emphasize 'tailoring' communications to stakeholders?",
+      "answer": "Different stakeholders need different information in different formats. Executives want summaries; technical teams want details. Sending everyone the same report wastes time and loses attention.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "Information overload is as bad as information scarcity. A 50-page report to an executive who needs 5 bullet points means they'll read neither. Tailored communication respects stakeholders' time.",
+      "related_concepts": ["Communication Requirements", "Audience Analysis", "Information Distribution"]
+    },
+    {
+      "id": "stake_008",
+      "question": "What is a Stakeholder Register?",
+      "answer": "A project document containing identification, assessment, and classification information about stakeholders. It includes names, roles, expectations, influence, and engagement strategies.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "The register is the single source of truth about stakeholders. It drives engagement planning and helps ensure no one is forgotten. Often contains sensitive information requiring controlled access.",
+      "related_concepts": ["Stakeholder Identification", "Engagement Strategy", "Document Control"]
+    },
+    {
+      "id": "stake_009",
+      "question": "WHY is stakeholder engagement a two-way process, not just broadcasting?",
+      "answer": "Engagement requires understanding stakeholder needs (listening), not just pushing information (telling). Feedback reveals concerns, validates understanding, and builds trust through dialogue.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "One-way communication creates information silos. Stakeholders who feel heard are more supportive. Feedback loops catch problems early before they become crises.",
+      "related_concepts": ["Active Listening", "Feedback Loops", "Two-Way Communication"]
+    },
+    {
+      "id": "stake_010",
+      "question": "What is the Project Sponsor's role regarding stakeholders?",
+      "answer": "The sponsor provides support at executive level, removes organizational obstacles, secures resources, champions the project, and helps manage high-level stakeholders the PM can't reach.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "PMs often lack organizational authority. The sponsor bridges that gap - they can influence executives, secure funding, and resolve political conflicts that would block the PM.",
+      "related_concepts": ["Executive Support", "Project Governance", "Escalation Path"]
+    },
+    {
+      "id": "stake_011",
+      "question": "What is the Salience Model for stakeholder analysis?",
+      "answer": "A model that classifies stakeholders based on three attributes: Power (ability to influence), Legitimacy (appropriateness of involvement), and Urgency (need for immediate attention). More attributes = more salient.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "Power/Interest grids miss urgency. A low-power stakeholder might suddenly become critical if they have urgent, legitimate concerns. Salience helps identify whose needs are most pressing RIGHT NOW.",
+      "related_concepts": ["Stakeholder Analysis", "Power/Interest Grid", "Prioritization", "Engagement Strategy"]
+    },
+    {
+      "id": "stake_012",
+      "question": "WHY is political awareness an important PM skill?",
+      "answer": "Because projects exist in organizational contexts with competing interests, hidden agendas, and power dynamics. Understanding politics helps navigate obstacles, build alliances, and avoid landmines.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "Ignoring politics doesn't make it go away - it just means you're blindsided by it. Politically aware PMs can anticipate resistance, find allies, and frame initiatives in terms stakeholders care about.",
+      "related_concepts": ["Organizational Culture", "Influence", "Coalition Building", "Change Management"]
+    },
+    {
+      "id": "stake_013",
+      "question": "What is a Communications Management Plan?",
+      "answer": "A document describing how project communications will be planned, structured, implemented, and monitored. Includes who needs what information, when, how, and who provides it.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "Without a plan, communication is haphazard - some get too much, others too little, wrong formats, wrong timing. The plan ensures intentional, stakeholder-appropriate information flow.",
+      "related_concepts": ["Information Distribution", "Stakeholder Engagement", "Reporting", "Communication Channels"]
+    },
+    {
+      "id": "stake_014",
+      "question": "What interpersonal skills are most important for stakeholder engagement?",
+      "answer": "Active listening, empathy, building trust, conflict resolution, negotiation, cultural awareness, networking, and political awareness. Technical skills get you the PM role; interpersonal skills determine success.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "Projects succeed or fail based on relationships, not just plans. A PM with strong interpersonal skills can navigate resistance, build support, and resolve conflicts that would derail someone who only has technical skills.",
+      "related_concepts": ["Emotional Intelligence", "Soft Skills", "Leadership", "Influence"]
+    },
+    {
+      "id": "stake_015",
+      "question": "WHY is managing upward (to sponsors and executives) different from managing the team?",
+      "answer": "Because executives have different information needs (summary vs. detail), different time constraints (minutes vs. hours), and different power dynamics (you report to them). The PM must adapt style accordingly.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "Treating executives like team members wastes their time and loses their attention. Treating team members like executives leaves them without the detail they need. Match your approach to the audience.",
+      "related_concepts": ["Stakeholder Tailoring", "Executive Communication", "Influence Without Authority", "Reporting"]
+    },
+    {
+      "id": "stake_016",
+      "question": "What are common sources of conflict on projects?",
+      "answer": "Schedules, priorities, resources, technical approaches, administrative procedures, cost, and personalities. Most conflict stems from competing constraints and differing perspectives on the best approach.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "Knowing sources helps anticipate and prevent conflict. Resource conflicts require negotiation. Technical conflicts require collaboration. Personality conflicts require mediation. Different sources need different responses.",
+      "related_concepts": ["Conflict Resolution", "Negotiation", "Resource Management", "Team Dynamics"]
+    },
+    {
+      "id": "stake_017",
+      "question": "What are the five conflict resolution styles?",
+      "answer": "Withdraw/Avoid (postpone), Smooth/Accommodate (emphasize agreement), Compromise (partial satisfaction), Force/Direct (win-lose), Collaborate/Problem-Solve (win-win). Each fits different situations.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "PMI generally favors Collaborate (best long-term). But sometimes you withdraw (not worth fighting), smooth (preserve relationship), compromise (time-pressured), or force (safety/ethics). Context determines the right approach.",
+      "related_concepts": ["Conflict Management", "Negotiation", "Team Dynamics", "Interpersonal Skills"]
+    },
+    {
+      "id": "stake_018",
+      "question": "WHY does trust take time to build but moments to destroy?",
+      "answer": "Because trust is built through consistent demonstrated behavior over time, but a single betrayal or failure violates expectations and destroys the pattern. Rebuilding requires starting over, which skeptical stakeholders resist.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "PMs must guard trust carefully. Overpromising and underdelivering, missing commitments, or sharing confidential information destroys relationships that took months to build. Consistency builds trust; surprises destroy it.",
+      "related_concepts": ["Relationship Building", "Credibility", "Stakeholder Engagement", "Integrity"]
+    },
+    {
+      "id": "stake_019",
+      "question": "How should stakeholder expectations be managed when they're unrealistic?",
+      "answer": "Through early, honest communication about constraints; involving stakeholders in tradeoff decisions; documenting assumptions; and continuous alignment through regular touchpoints. Never hide bad news hoping it will improve.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "definition",
+      "why_it_matters": "Unrealistic expectations lead to disappointment regardless of actual performance. Proactively managing expectations creates shared understanding. Stakeholders prefer early bad news they can react to over late surprises.",
+      "related_concepts": ["Communication", "Transparency", "Managing Up", "Scope Management"]
+    },
+    {
+      "id": "stake_020",
+      "question": "WHY is cultural awareness important for project stakeholder management?",
+      "answer": "Because cultural differences affect communication styles, decision-making, time orientation, hierarchy expectations, and conflict approaches. What works in one culture may offend in another.",
+      "knowledge_area": "Stakeholders",
+      "card_type": "why",
+      "why_it_matters": "Global projects cross cultural boundaries. Direct communication valued in some cultures seems rude in others. Understanding cultural dimensions (Hofstede's model, etc.) prevents misunderstandings and builds respect.",
+      "related_concepts": ["Global Projects", "Communication Styles", "Diversity", "Cross-Cultural Competence"]
+    }
+  ]
+}

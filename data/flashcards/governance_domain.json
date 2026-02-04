@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:30:00",
+  "domain": "Governance Performance Domain",
+  "cards": [
+    {
+      "id": "gov_001",
+      "question": "What is Project Governance?",
+      "answer": "The framework, functions, and processes that guide project management decisions and activities to optimize value delivery. It includes oversight, decision-making authority, and mechanisms to keep the project aligned with strategic goals.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Governance isn't bureaucracy - it's about protecting and enhancing value. Too much governance wastes resources; too little leads to misalignment and poor performance. The right balance depends on project complexity and approach.",
+      "related_concepts": ["Value Delivery", "Strategic Alignment", "Decision-Making", "Change Control"]
+    },
+    {
+      "id": "gov_002",
+      "question": "WHY is governance tailored differently for predictive vs. adaptive projects?",
+      "answer": "Predictive projects often need structured governance with formal boards and hierarchical approval because changes are costly and scope is fixed. Adaptive projects use self-governance because teams need autonomy to respond quickly to emerging information.",
+      "knowledge_area": "Governance",
+      "card_type": "why",
+      "why_it_matters": "Applying heavy governance to an agile project kills its agility. Applying light governance to a large construction project invites chaos. Match governance intensity to the project's need for control vs. flexibility.",
+      "related_concepts": ["Self-Governance", "Structured Governance", "Tailoring", "Development Approach"]
+    },
+    {
+      "id": "gov_003",
+      "question": "What is the difference between Leading and Lagging Indicators?",
+      "answer": "Leading indicators predict future performance (early warning signs like team engagement, backlog size). Lagging indicators measure past results (deliverables completed, cost variance). Leading indicators allow prevention; lagging indicators confirm what happened.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "If you only use lagging indicators, you're always reacting to problems that already occurred. Leading indicators let you intervene BEFORE variances become serious. Smart governance uses both for early warning AND accountability.",
+      "related_concepts": ["Performance Measurement", "Risk Identification", "Proactive Management", "KPIs"]
+    },
+    {
+      "id": "gov_004",
+      "question": "What does SMART criteria stand for in project goals?",
+      "answer": "Specific, Measurable, Achievable, Realistic, Time-bound. These criteria ensure goals are well-defined, can be tracked, are attainable, grounded in reality, and have deadlines.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Vague goals like 'improve performance' can't be governed because you can't measure them. SMART criteria force clarity that enables objective assessment of whether goals are met.",
+      "related_concepts": ["Goal Setting", "Success Criteria", "Performance Measurement", "Project Objectives"]
+    },
+    {
+      "id": "gov_005",
+      "question": "WHY should governance decisions reference the overarching value proposition?",
+      "answer": "Because value delivery is the fundamental purpose of any project. Every governance decision - expansion, contraction, replanning, or termination - should be evaluated against whether it protects or enhances the original (or revised) value proposition.",
+      "knowledge_area": "Governance",
+      "card_type": "why",
+      "why_it_matters": "Without this anchor, governance becomes process for its own sake. Linking decisions to value prevents scope creep disguised as 'enhancements' and justifies hard decisions like early termination when value is no longer achievable.",
+      "related_concepts": ["Business Case", "Value Creation", "Project Justification", "Decision Criteria"]
+    },
+    {
+      "id": "gov_006",
+      "question": "What is a Project Charter and why is it important?",
+      "answer": "A document that formally authorizes the project, links it to business objectives, and grants the project manager authority to use organizational resources. It establishes the project's legitimacy and the PM's mandate.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Without a charter, the PM lacks formal authority. Stakeholders can question whether the project should exist. The charter protects the PM by documenting organizational commitment and the sponsor's support.",
+      "related_concepts": ["Project Authorization", "Sponsor", "PM Authority", "Business Case"]
+    },
+    {
+      "id": "gov_007",
+      "question": "WHY does PMBOK distinguish Quality Assurance from Quality Control?",
+      "answer": "Quality Assurance = using effective PROCESSES (are we following good practices?). Quality Control = creating correct DELIVERABLES (did we build it right?). You can follow perfect processes and still make defective products - both checks are needed.",
+      "knowledge_area": "Governance",
+      "card_type": "why",
+      "why_it_matters": "QA without QC means you're doing things 'by the book' but may still deliver junk. QC without QA means you catch defects but don't prevent them. QA reduces defects upstream; QC catches what slips through.",
+      "related_concepts": ["Quality Management", "Process Compliance", "Defect Prevention", "Inspection"]
+    },
+    {
+      "id": "gov_008",
+      "question": "What is the role of a Change Control Board (CCB)?",
+      "answer": "A formally established group responsible for reviewing, evaluating, approving, deferring, or rejecting changes to the project - and documenting/communicating those decisions. They protect the baseline from unauthorized changes.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Without a CCB (or equivalent), anyone can change the project scope, and baselines become meaningless. The CCB ensures changes are evaluated for impact on scope, schedule, cost, and risk before approval.",
+      "related_concepts": ["Change Control", "Baseline Management", "Impact Analysis", "Configuration Management"]
+    },
+    {
+      "id": "gov_009",
+      "question": "WHY is knowledge management important throughout the project lifecycle?",
+      "answer": "Because lessons learned at project end are often too late and poorly recalled. Continuous knowledge capture ensures insights are available when still useful - during the current project, not just future ones.",
+      "knowledge_area": "Governance",
+      "card_type": "why",
+      "why_it_matters": "End-of-project lessons learned sessions are often rushed, incomplete, and rarely referenced later. Managing knowledge DURING the project enables course correction and preserves context that's lost by project close.",
+      "related_concepts": ["Lessons Learned", "Explicit Knowledge", "Tacit Knowledge", "Organizational Learning"]
+    },
+    {
+      "id": "gov_010",
+      "question": "What are the common governance scenarios a project might encounter?",
+      "answer": "Project initiation, replanning, expansion/contraction, early termination for positive cause (goals achieved early), and early termination for negative cause (goals no longer achievable). Each requires governance decisions tied to value.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Understanding these scenarios prepares PMs for reality. Not all projects end as planned - sometimes you finish early (success!), sometimes you should stop before wasting more resources (also a governance success).",
+      "related_concepts": ["Project Lifecycle", "Decision Points", "Value Proposition", "Project Closure"]
+    },
+    {
+      "id": "gov_011",
+      "question": "What is Escalation in predictive governance environments?",
+      "answer": "The process of elevating issues or decisions to higher-ranking individuals who have greater authority to remove obstacles, resolve conflicts, or make decisions beyond the project team's authority level.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "PMs don't have authority over everything. When blocked by organizational politics, resource conflicts, or decisions above your pay grade, escalation is the legitimate path. Knowing WHEN to escalate (vs. solving yourself) is a key PM skill.",
+      "related_concepts": ["Authority Levels", "Conflict Resolution", "Sponsor Role", "Decision Rights"]
+    },
+    {
+      "id": "gov_012",
+      "question": "What is Investment Control in governance?",
+      "answer": "Formal stewardship of project funding with defined decision points to evaluate whether continued investment makes business sense. Common in public corporations, government agencies, and projects with external financing (like construction loans).",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Investment control prevents sunk cost fallacy. At each gate, stakeholders ask 'Does continued investment still make sense?' rather than continuing just because money was already spent. It protects organizational resources.",
+      "related_concepts": ["Stage Gates", "Go/No-Go Decisions", "Business Case", "Sunk Cost"]
+    },
+    {
+      "id": "gov_013",
+      "question": "WHY does PMBOK distinguish Explicit Knowledge from Tacit Knowledge?",
+      "answer": "Explicit knowledge (manuals, procedures) can be documented and shared easily. Tacit knowledge (experience, intuition) lives in people's heads and is hard to transfer. They require different management approaches - one is captured in documents, the other through mentoring and collaboration.",
+      "knowledge_area": "Governance",
+      "card_type": "why",
+      "why_it_matters": "If you only capture explicit knowledge, you lose the 'know-how' that makes experts effective. Converting tacit to explicit (when possible) preserves organizational capability. But some knowledge can only transfer person-to-person.",
+      "related_concepts": ["Knowledge Management", "Lessons Learned", "Mentoring", "Organizational Learning"]
+    },
+    {
+      "id": "gov_014",
+      "question": "What is the Hawthorne Effect in project measurement?",
+      "answer": "The phenomenon where the act of measuring something influences the behavior being measured. People change their behavior when they know they're being observed or measured.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "If you measure only output quantity, teams may sacrifice quality for volume. Metrics shape behavior - choose them carefully. What you measure is what you'll get, whether or not it's what you actually wanted.",
+      "related_concepts": ["Metrics Design", "Performance Measurement", "Unintended Consequences", "Behavioral Economics"]
+    },
+    {
+      "id": "gov_015",
+      "question": "What is a Vanity Metric?",
+      "answer": "A measure that shows data but doesn't provide useful information for making decisions. Example: website page views (doesn't tell you if visitors are converting) vs. new customer sign-ups (actionable).",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Vanity metrics feel good but don't drive decisions. 'We had 10,000 page views!' means nothing if none converted. Actionable metrics tell you what to do differently. Focus governance on metrics that inform decisions.",
+      "related_concepts": ["KPIs", "Actionable Metrics", "Data-Driven Decisions", "Performance Reporting"]
+    },
+    {
+      "id": "gov_016",
+      "question": "WHY is Correlation different from Causation in project metrics?",
+      "answer": "Correlation means two things happen together; causation means one CAUSES the other. Projects behind schedule often have budget overruns, but schedule delays don't necessarily cause cost overruns - both may be caused by poor estimation or scope creep.",
+      "knowledge_area": "Governance",
+      "card_type": "why",
+      "why_it_matters": "Confusing correlation with causation leads to wrong solutions. If you think schedule causes cost issues, you'll focus on schedule. But if poor estimation is the root cause, fixing the schedule won't fix the budget. Dig deeper.",
+      "related_concepts": ["Root Cause Analysis", "Data Analysis", "Problem Solving", "Decision Making"]
+    },
+    {
+      "id": "gov_017",
+      "question": "What is the Integrate and Align Project Plans process?",
+      "answer": "The process of consolidating all performance domain plan components into a unified project management plan that details how the project will be executed, monitored/controlled, and closed. Creates a single source of truth for project direction.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Individual plans (scope, schedule, cost, risk) can conflict. Integration ensures they work together - resource assignments match schedule needs, risk reserves match identified risks, etc. Without integration, plans fight each other.",
+      "related_concepts": ["Project Management Plan", "Baselines", "Plan Components", "Coordination"]
+    },
+    {
+      "id": "gov_018",
+      "question": "What happens to change management in Adaptive (Agile) approaches?",
+      "answer": "Instead of formal change requests and CCB approval, changes are managed through backlog management. Proposed changes become backlog items, prioritized against other work. Low priority = effectively deferred. Not added to backlog = effectively rejected.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Agile embraces change but still governs it. The backlog IS the change control mechanism - everything competes for priority. This is faster than formal CCB but still provides governance through transparent prioritization.",
+      "related_concepts": ["Product Backlog", "Prioritization", "Agile Change Management", "Sprint Planning"]
+    },
+    {
+      "id": "gov_019",
+      "question": "WHY must projects have feedback mechanisms in their governance framework?",
+      "answer": "Because without feedback, governance can't improve. Feedback loops allow periodic reviews, lessons learned, and adjustments to governance practices themselves. Governance without feedback becomes rigid and disconnected from project reality.",
+      "knowledge_area": "Governance",
+      "card_type": "why",
+      "why_it_matters": "Governance should adapt as the project learns. What worked in early phases may not work later. Feedback mechanisms let you tune governance intensity, change decision rights, or adjust metrics as circumstances change.",
+      "related_concepts": ["Continuous Improvement", "Retrospectives", "Adaptive Governance", "Learning Organization"]
+    },
+    {
+      "id": "gov_020",
+      "question": "What activities are part of Close Project or Phase?",
+      "answer": "Confirming deliverables are accepted, closing accounts, reassigning/releasing personnel, disposing of excess materials, archiving project information, documenting lessons learned, measuring stakeholder satisfaction, and ensuring all obligations are met.",
+      "knowledge_area": "Governance",
+      "card_type": "definition",
+      "why_it_matters": "Poor closure leaves loose ends - unreleased resources, unarchived knowledge, dangling contracts. Proper closure frees resources for new projects, preserves organizational knowledge, and provides clean legal/financial completion.",
+      "related_concepts": ["Administrative Closure", "Lessons Learned", "Resource Release", "Final Report"]
+    }
+  ]
+}

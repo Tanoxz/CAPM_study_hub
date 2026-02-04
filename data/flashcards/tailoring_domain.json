@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "updated": "2026-02-03T16:07:39.258456",
+  "cards": [
+    {
+      "id": "tail_001",
+      "question": "What is tailoring in project management?",
+      "answer": "The deliberate adaptation of the project management approach, governance, and processes to align with the project's environment and objectives.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:05:45.608442",
+      "why_it_matters": "No single approach works for all projects. A 2-week internal project doesn't need the same rigor as a 3-year regulated construction project.",
+      "related_concepts": [
+        "Life cycle selection",
+        "Process adaptation",
+        "Governance"
+      ]
+    },
+    {
+      "id": "tail_002",
+      "question": "Why is tailoring necessary?",
+      "answer": "Too few processes lead to ineffective management; too many are costly and wasteful. Tailoring optimizes the approach for the specific project context.",
+      "knowledge_area": "Tailoring",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T15:31:10.877693",
+      "why_it_matters": "Applying a heavy methodology to a simple project wastes resources. Applying a light methodology to a complex project invites failure.",
+      "related_concepts": [
+        "Process efficiency",
+        "Project context",
+        "Resource optimization"
+      ]
+    },
+    {
+      "id": "tail_003",
+      "question": "What are the three main aspects that can be tailored?",
+      "answer": "1) Life cycle and development approach selection, 2) Processes, 3) Engagement (people, empowerment, integration)",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:07:39.164844",
+      "why_it_matters": "These three areas cover the 'what' (processes), 'how' (life cycle), and 'who' (engagement) of project execution.",
+      "related_concepts": [
+        "Development approach",
+        "Process adaptation",
+        "Team engagement"
+      ]
+    },
+    {
+      "id": "tail_004",
+      "question": "What is a suitability filter?",
+      "answer": "A decision-making tool that helps project teams evaluate their unique circumstances to determine the best fit among predictive, adaptive, or hybrid approaches.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-02-04T15:59:10.337744",
+      "why_it_matters": "It provides structured thinking for approach selection rather than defaulting to 'what we always do.'",
+      "related_concepts": [
+        "Development approach",
+        "Decision-making",
+        "Project context"
+      ]
+    },
+    {
+      "id": "tail_005",
+      "question": "What are the four steps in the tailoring process?",
+      "answer": "1) Select initial development approach, 2) Tailor for organization, 3) Tailor for project, 4) Implement ongoing improvement",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-02-04T15:30:42.865675",
+      "why_it_matters": "Tailoring isn't one-time - it starts with approach selection and continues with ongoing refinement throughout the project.",
+      "related_concepts": [
+        "Continuous improvement",
+        "Development approach",
+        "Organizational standards"
+      ]
+    },
+    {
+      "id": "tail_006",
+      "question": "What does process tailoring involve?",
+      "answer": "Determining which process elements should be added, modified, removed, blended, or aligned to fit the project.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:00:11.207369",
+      "why_it_matters": "Each of these actions serves a purpose: add for unique conditions, remove to reduce waste, modify to fit needs, blend for added value, align for consistency.",
+      "related_concepts": [
+        "Process optimization",
+        "Waste reduction",
+        "Project fit"
+      ]
+    },
+    {
+      "id": "tail_007",
+      "question": "What does tailoring engagement involve?",
+      "answer": "Assessing people (skills/capabilities), empowerment (decision-making authority), and integration (creating one team from diverse contributors).",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:03:09.720890",
+      "why_it_matters": "A highly skilled, experienced team can handle more autonomy. A new team may need more guidance. Tailoring adapts to reality.",
+      "related_concepts": [
+        "Team empowerment",
+        "Decision authority",
+        "Team integration"
+      ]
+    },
+    {
+      "id": "tail_008",
+      "question": "When might a project use a hybrid development approach?",
+      "answer": "When different parts of the project have different characteristics - e.g., predictive for construction (well-defined) and adaptive for software (evolving requirements).",
+      "knowledge_area": "Tailoring",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:03:50.584587",
+      "why_it_matters": "Real projects often have mixed needs. Forcing one approach on everything creates inefficiency.",
+      "related_concepts": [
+        "Hybrid approach",
+        "Predictive",
+        "Adaptive"
+      ]
+    },
+    {
+      "id": "tail_009",
+      "question": "What factors influence the degree of tailoring possible?",
+      "answer": "Organizational policies, contractual requirements, regulatory standards, and organizational maturity may limit tailoring options.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:04:07.325760",
+      "why_it_matters": "You can't always tailor freely - external constraints (contracts, regulations) may mandate specific approaches.",
+      "related_concepts": [
+        "Constraints",
+        "Governance",
+        "Compliance"
+      ]
+    },
+    {
+      "id": "tail_010",
+      "question": "What variables factor into the tailoring process?",
+      "answer": "Project criticality, scale, duration, complexity, industry standards, organizational culture, number of stakeholders, and organizational PM maturity.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-02-04T15:59:51.845738",
+      "why_it_matters": "A nuclear reactor project needs more rigor than an office renovation. These variables help determine the right level of process.",
+      "related_concepts": [
+        "Project context",
+        "Complexity",
+        "Risk tolerance"
+      ]
+    },
+    {
+      "id": "tail_011",
+      "question": "What are the benefits of tailoring?",
+      "answer": "More team commitment (they helped shape the approach), customer-oriented focus, and more efficient use of project resources.",
+      "knowledge_area": "Tailoring",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T14:07:29.638942",
+      "why_it_matters": "Teams that participate in tailoring feel ownership. Customers get approaches suited to their needs. Resources aren't wasted on unnecessary processes.",
+      "related_concepts": [
+        "Team engagement",
+        "Customer focus",
+        "Efficiency"
+      ]
+    },
+    {
+      "id": "tail_012",
+      "question": "How does organizational risk appetite affect tailoring?",
+      "answer": "Low risk appetite organizations implement more structured processes and oversight. High risk tolerance organizations prioritize agility and decision-making autonomy.",
+      "knowledge_area": "Tailoring",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T15:59:27.477736",
+      "why_it_matters": "The organization's comfort with uncertainty shapes how much flexibility project teams have in their approach.",
+      "related_concepts": [
+        "Risk tolerance",
+        "Governance",
+        "Organizational culture"
+      ]
+    },
+    {
+      "id": "tail_013",
+      "question": "What competing demands must tailoring balance?",
+      "answer": "Delivering quickly, minimizing costs, optimizing value, creating quality deliverables, ensuring compliance, satisfying stakeholders, and adapting to change.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-02-04T16:05:31.634606",
+      "why_it_matters": "These demands often conflict. Tailoring is about finding the right balance for THIS project, not optimizing for just one factor.",
+      "related_concepts": [
+        "Triple constraint",
+        "Stakeholder expectations",
+        "Trade-offs"
+      ]
+    },
+    {
+      "id": "tail_014",
+      "question": "What is 'Tailor for Organization' in the tailoring process?",
+      "answer": "Modifying the development approach based on organizational requirements, policies, and standards.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T15:56:56.630655",
+      "why_it_matters": "Even if a pure adaptive approach would work best, the organization may require certain governance or documentation standards.",
+      "related_concepts": [
+        "Organizational standards",
+        "Governance",
+        "Compliance"
+      ]
+    },
+    {
+      "id": "tail_015",
+      "question": "What is 'Tailor for Project' in the tailoring process?",
+      "answer": "Adjusting the approach based on the project's specific size, criticality, complexity, and other unique factors.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:06:46.276423",
+      "why_it_matters": "After organizational requirements, the project's unique characteristics drive further tailoring decisions.",
+      "related_concepts": [
+        "Project characteristics",
+        "Complexity",
+        "Scale"
+      ]
+    },
+    {
+      "id": "tail_016",
+      "question": "What is 'Implement Ongoing Improvement' in the tailoring process?",
+      "answer": "Continuously inspecting and adapting the approach throughout the project based on what's learned.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:04:49.524596",
+      "why_it_matters": "Tailoring isn't done once at the start. As the project progresses, the team learns and refines the approach.",
+      "related_concepts": [
+        "Continuous improvement",
+        "Lessons learned",
+        "Adaptation"
+      ]
+    },
+    {
+      "id": "tail_017",
+      "question": "Why might you ADD process elements when tailoring?",
+      "answer": "To address unique conditions or increase rigor where needed (e.g., adding extra reviews for a safety-critical project).",
+      "knowledge_area": "Tailoring",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:03:24.535910",
+      "why_it_matters": "Sometimes the standard approach isn't rigorous enough. Tailoring lets you add what's needed.",
+      "related_concepts": [
+        "Process rigor",
+        "Risk mitigation",
+        "Quality"
+      ]
+    },
+    {
+      "id": "tail_018",
+      "question": "Why might you REMOVE process elements when tailoring?",
+      "answer": "To reduce unnecessary cost or effort when a process doesn't add value for this particular project.",
+      "knowledge_area": "Tailoring",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T16:07:00.297598",
+      "why_it_matters": "Not every process is needed for every project. Removing unnecessary steps saves time and money.",
+      "related_concepts": [
+        "Waste reduction",
+        "Efficiency",
+        "Value"
+      ]
+    },
+    {
+      "id": "tail_019",
+      "question": "What does empowerment mean in the context of tailoring engagement?",
+      "answer": "Choosing which responsibilities and decision-making authority should be delegated to the project team based on their capabilities and the project environment.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-02-04T14:08:00.595501",
+      "why_it_matters": "Experienced teams thrive with autonomy. Less experienced teams may need more direction. Match empowerment to capability.",
+      "related_concepts": [
+        "Decision authority",
+        "Team capability",
+        "Autonomy"
+      ]
+    },
+    {
+      "id": "tail_020",
+      "question": "What guides the tailoring process?",
+      "answer": "The guiding project management principles from The Standard for Project Management.",
+      "knowledge_area": "Tailoring",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-02-04T16:00:35.167176",
+      "why_it_matters": "Principles provide the 'why' behind decisions. When tailoring, you're applying principles to context, not following rules blindly.",
+      "related_concepts": [
+        "PM Principles",
+        "Standards",
+        "Guidance"
+      ]
+    }
+  ]
+}

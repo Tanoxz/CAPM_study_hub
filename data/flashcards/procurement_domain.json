@@ -1,0 +1,187 @@
+{
+  "deck_id": "procurement_domain",
+  "name": "Procurement Management",
+  "description": "Contracts, vendor management, and procurement processes",
+  "cards": [
+    {
+      "id": "proc_001",
+      "question": "What is a fixed-price contract?",
+      "answer": "A contract with a predetermined fee for a clearly defined scope. Transfers cost risk to the seller while giving budget predictability to the buyer.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Use when scope is well-defined. Seller bears cost overrun risk but is motivated to control costs.",
+      "related_concepts": ["Contract types", "Risk transfer", "Scope definition"]
+    },
+    {
+      "id": "proc_002",
+      "question": "What is a cost-reimbursable contract?",
+      "answer": "A contract where the buyer pays the seller's actual costs plus a fee (profit). Used when scope is uncertain or project is high-risk.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Buyer bears cost risk but gets flexibility. Common in R&D and complex projects where scope can't be precisely defined upfront.",
+      "related_concepts": ["Contract types", "Risk retention", "Uncertainty"]
+    },
+    {
+      "id": "proc_003",
+      "question": "What is a Time and Materials (T&M) contract?",
+      "answer": "A hybrid contract combining aspects of fixed-price and cost-reimbursable. Buyer pays for actual time and materials plus a profit margin.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Good for smaller projects or when scope isn't clear. Provides flexibility but requires monitoring to control costs.",
+      "related_concepts": ["Contract types", "Hybrid contracts", "Flexibility"]
+    },
+    {
+      "id": "proc_004",
+      "question": "Who bears the cost risk in a fixed-price contract?",
+      "answer": "The seller. If costs exceed the fixed price, the seller absorbs the loss.",
+      "knowledge_area": "Procurement",
+      "card_type": "why",
+      "why_it_matters": "This motivates sellers to control costs but may lead to conservative estimates or cut corners if margins are tight.",
+      "related_concepts": ["Risk allocation", "Seller motivation", "Contract negotiation"]
+    },
+    {
+      "id": "proc_005",
+      "question": "Who bears the cost risk in a cost-reimbursable contract?",
+      "answer": "The buyer. They pay whatever the actual costs turn out to be.",
+      "knowledge_area": "Procurement",
+      "card_type": "why",
+      "why_it_matters": "Buyer needs good oversight to ensure costs are reasonable. Seller has less incentive to control costs.",
+      "related_concepts": ["Risk allocation", "Cost control", "Oversight"]
+    },
+    {
+      "id": "proc_006",
+      "question": "What is a make-or-buy analysis?",
+      "answer": "Analysis to determine whether work should be done by the project team (make) or purchased from external sources (buy).",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Considers cost, capability, capacity, risk, and strategic factors. Not everything should be outsourced; not everything should be done in-house.",
+      "related_concepts": ["Procurement planning", "Outsourcing", "Strategic decisions"]
+    },
+    {
+      "id": "proc_007",
+      "question": "What is an RFP (Request for Proposal)?",
+      "answer": "A document used to solicit proposals from potential sellers when the scope is complex and the buyer wants the vendor to propose a solution.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "RFPs allow vendors to propose creative solutions. Used when you need expertise, not just a commodity.",
+      "related_concepts": ["Bid documents", "Vendor selection", "Procurement"]
+    },
+    {
+      "id": "proc_008",
+      "question": "What is an RFQ (Request for Quote)?",
+      "answer": "A document used when price is the main deciding factor and the solution is readily available/standardized.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "For commodity purchases where the 'what' is clear, you just need the best price.",
+      "related_concepts": ["Bid documents", "Price competition", "Commodities"]
+    },
+    {
+      "id": "proc_009",
+      "question": "What is an RFI (Request for Information)?",
+      "answer": "A document used to gather information from the market before issuing formal bid documents. Helps understand options and capabilities.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Used for market research before committing to a procurement approach. Helps write better RFPs.",
+      "related_concepts": ["Market research", "Procurement planning", "Vendor discovery"]
+    },
+    {
+      "id": "proc_010",
+      "question": "What is a bidder conference?",
+      "answer": "A meeting with all prospective sellers to answer questions and provide clarifying information about the procurement.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Ensures all bidders have the same information. Questions and answers are shared with everyone for fairness.",
+      "related_concepts": ["Procurement process", "Fairness", "Clarification"]
+    },
+    {
+      "id": "proc_011",
+      "question": "What is source selection?",
+      "answer": "The process of evaluating vendor bids against predefined criteria (cost, quality, experience, delivery capability) to choose the best vendor.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Lowest price isn't always best. Selection criteria should be defined before bids come in to ensure objectivity.",
+      "related_concepts": ["Vendor evaluation", "Selection criteria", "Weighted scoring"]
+    },
+    {
+      "id": "proc_012",
+      "question": "What is the procurement statement of work (SOW)?",
+      "answer": "A document describing the procurement item in sufficient detail to allow prospective sellers to determine if they can provide it.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "A clear SOW gets better proposals. Vague SOWs lead to mismatched expectations and disputes.",
+      "related_concepts": ["Scope definition", "Bid documents", "Requirements"]
+    },
+    {
+      "id": "proc_013",
+      "question": "What is contract administration?",
+      "answer": "Managing the contract relationship, monitoring performance, making changes, and ensuring both parties meet their obligations.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Signing a contract is just the start. Ongoing management ensures you get what you paid for.",
+      "related_concepts": ["Contract management", "Performance monitoring", "Change control"]
+    },
+    {
+      "id": "proc_014",
+      "question": "What is a claim in procurement?",
+      "answer": "A request for compensation or other remedy for contested issues under the contract, such as scope changes or delays.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Claims are formal disputes. Good contract management and documentation help resolve or prevent them.",
+      "related_concepts": ["Disputes", "Contract administration", "Change control"]
+    },
+    {
+      "id": "proc_015",
+      "question": "What is design-build (DB)?",
+      "answer": "A project delivery method where one entity is responsible for both design and construction, providing single-point accountability.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Simplifies accountability and can speed delivery, but buyer has less control over design details.",
+      "related_concepts": ["Delivery methods", "Construction", "Accountability"]
+    },
+    {
+      "id": "proc_016",
+      "question": "What is design-bid-build (DBB)?",
+      "answer": "A traditional delivery method where design is completed first, then contractors bid on the construction based on completed designs.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Provides more control over design but takes longer and separates design accountability from construction.",
+      "related_concepts": ["Delivery methods", "Construction", "Sequential approach"]
+    },
+    {
+      "id": "proc_017",
+      "question": "What factors are considered in a make-or-buy decision?",
+      "answer": "Current resource allocation, skills and abilities, need for specialized expertise, avoiding permanent employment, need for independent expertise, and risks.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "It's not just about cost. Strategic considerations like core competency and flexibility matter too.",
+      "related_concepts": ["Outsourcing", "Strategic planning", "Resource management"]
+    },
+    {
+      "id": "proc_018",
+      "question": "What is an outcome-based contract?",
+      "answer": "A contract that focuses on measurable results rather than prescribed processes. Payment tied to achieving defined outcomes.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Aligns seller incentives with buyer goals. Seller has flexibility in how to achieve results.",
+      "related_concepts": ["Contract types", "Performance-based", "Incentives"]
+    },
+    {
+      "id": "proc_019",
+      "question": "What is integrated project delivery (IPD)?",
+      "answer": "A collaborative delivery method with multiparty agreements, shared risks and rewards, early involvement of key participants, and open-book accounting.",
+      "knowledge_area": "Procurement",
+      "card_type": "definition",
+      "why_it_matters": "Aligns all parties toward project success rather than individual profit optimization. Used in complex projects.",
+      "related_concepts": ["Collaboration", "Shared risk", "Complex projects"]
+    },
+    {
+      "id": "proc_020",
+      "question": "What is the difference between buyer and seller perspectives on fixed-price contracts?",
+      "answer": "Buyer gets budget certainty but pays a premium for risk transfer. Seller accepts risk but may limit profit potential if estimates are conservative.",
+      "knowledge_area": "Procurement",
+      "card_type": "why",
+      "why_it_matters": "Understanding both perspectives helps negotiate better contracts and anticipate the other party's concerns.",
+      "related_concepts": ["Negotiation", "Risk allocation", "Contract strategy"]
+    }
+  ]
+}

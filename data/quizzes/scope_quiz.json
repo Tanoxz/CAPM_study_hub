@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:45:00",
+  "domain": "Scope Performance Domain",
+  "questions": [
+    {
+      "id": "scope_q001",
+      "question": "A team builds a feature that meets all technical specifications but the customer says 'that's not what I wanted.' Which check was likely missed?",
+      "options": [
+        "Quality Control - the deliverable had defects",
+        "Validate Scope - stakeholder acceptance wasn't confirmed",
+        "Control Quality - testing was inadequate",
+        "Define Scope - requirements weren't documented"
+      ],
+      "correct_answer": 1,
+      "explanation": "Validate Scope (stakeholder acceptance) answers 'did we build the right thing?' Control Quality answers 'did we build it right?' A technically correct deliverable that customers reject passed QC but failed scope validation. The scope was built correctly but wasn't what was actually needed.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "scope_q002",
+      "question": "A developer adds extra error handling and logging 'because it would be useful' even though it wasn't requested. What is this called?",
+      "options": [
+        "Scope creep - stakeholders added unapproved features",
+        "Gold plating - team added unrequested features thinking it adds value",
+        "Progressive elaboration - refining scope as more is known",
+        "Continuous improvement - making the product better"
+      ],
+      "correct_answer": 1,
+      "explanation": "Gold plating is when the team adds unrequested features thinking it adds value. Unlike scope creep (which comes from stakeholders), gold plating originates inside the team. Both consume resources without approved business justification and bypass the business case.",
+      "knowledge_area": "Scope",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q003",
+      "question": "A project's WBS doesn't include training users on the new system. What problem does this create?",
+      "options": [
+        "Training isn't usually part of projects",
+        "Training should be in a separate project",
+        "If it's not in the WBS, it's not in scope - the work may be forgotten or unfunded",
+        "The WBS only includes technical work, not soft skills"
+      ],
+      "correct_answer": 2,
+      "explanation": "The '100% rule' states the WBS must capture ALL project work. If training isn't in the WBS, it's not in scope and won't be estimated, scheduled, or funded. The WBS represents the complete project scope - missing work packages lead to surprises and scope gaps.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "scope_q004",
+      "question": "What is the key difference between Product Scope and Project Scope?",
+      "options": [
+        "They are the same thing, just different terms",
+        "Product scope = features of the deliverable; Project scope = all work needed to deliver it",
+        "Product scope is larger; Project scope is a subset",
+        "Product scope is for manufacturing; Project scope is for services"
+      ],
+      "correct_answer": 1,
+      "explanation": "Product scope defines the features and functions of the deliverable itself. Project scope includes ALL work needed to deliver that product - including project management, documentation, testing, training, and deployment. Confusing them leads to underestimating project effort.",
+      "knowledge_area": "Scope",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q005",
+      "question": "A requirement changed mid-project. The team needs to know which test cases, design documents, and code modules are affected. What tool addresses this?",
+      "options": [
+        "Risk Register - to track the change as a risk",
+        "Requirements Traceability Matrix - to trace requirements to all related artifacts",
+        "Change Log - to record what changed",
+        "Lessons Learned - to document the impact"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Requirements Traceability Matrix (RTM) links each requirement to its source, design elements, code, and test cases. When a requirement changes, the RTM shows exactly what's affected. Without traceability, impact analysis is guesswork and things get missed.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "scope_q006",
+      "question": "An agile team refines detailed requirements just before each sprint rather than defining everything upfront. Why is this appropriate?",
+      "options": [
+        "Agile teams don't do requirements",
+        "Adaptive approaches assume scope emerges through iterations and learning",
+        "It's not appropriate - requirements should always be complete upfront",
+        "The team is being lazy and avoiding documentation"
+      ],
+      "correct_answer": 1,
+      "explanation": "Adaptive approaches embrace change - detailed scope emerges over time through iterations. Defining everything upfront assumes you can know it all in advance, which works for well-understood projects but fails for novel/complex ones. Just-in-time requirements definition reduces waste from building the wrong thing.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q007",
+      "question": "The acceptance criteria for a feature states 'the system should be user-friendly.' What is wrong with this?",
+      "options": [
+        "Nothing - user-friendliness is important",
+        "It's not measurable - different people will interpret it differently, causing disputes",
+        "It's too technical",
+        "It doesn't mention the deadline"
+      ],
+      "correct_answer": 1,
+      "explanation": "Acceptance criteria must be specific and measurable. 'User-friendly' is subjective - one person's friendly is another's confusing. Better criteria: 'New users can complete the checkout process in under 3 minutes with no training.' Clear criteria prevent scope disputes at acceptance.",
+      "knowledge_area": "Scope",
+      "difficulty": "easy",
+      "question_type": "application"
+    },
+    {
+      "id": "scope_q008",
+      "question": "Why does PMBOK combine Scope and Quality in the same Performance Domain?",
+      "options": [
+        "To save space in the document",
+        "Because quality is defined by meeting requirements - which ARE the scope",
+        "They are completely unrelated concepts",
+        "Quality only applies to manufacturing projects"
+      ],
+      "correct_answer": 1,
+      "explanation": "Quality is defined by meeting stakeholder expectations and fulfilling requirements. You can't assess quality without knowing what was supposed to be delivered (scope). Scope isn't just 'what we build' but 'what we build to what standard.' Separating them leads to deliverables that technically meet specs but don't satisfy stakeholders.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q009",
+      "question": "A WBS work package is estimated at 80 hours. The 8/80 rule suggests this is appropriate. Why does this rule exist?",
+      "options": [
+        "It's a PMI requirement",
+        "Work packages between 8-80 hours are small enough to manage but large enough to avoid micro-planning overhead",
+        "Smaller packages are always better",
+        "80 hours is the maximum allowed"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 8/80 rule is a guideline: work packages should be estimable within 8-80 hours (or 1-10 days). Smaller than 8 hours creates excessive overhead. Larger than 80 hours is too big to estimate accurately and lacks visibility into progress. It's a balance between control and efficiency.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q010",
+      "question": "The WBS Dictionary for a work package is missing. Why is this a problem?",
+      "options": [
+        "The dictionary is optional",
+        "Without it, team members may interpret the work package differently, leading to missed work or wrong deliverables",
+        "It only matters for large projects",
+        "The WBS itself provides all needed information"
+      ],
+      "correct_answer": 1,
+      "explanation": "The WBS shows WHAT work exists; the WBS Dictionary explains WHAT EACH PIECE MEANS - description, acceptance criteria, responsible party, resources. Without it, 'User Interface Design' might mean very different things to different people.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "scope_q011",
+      "question": "A stakeholder says 'I'll know good quality when I see it.' How should the PM respond?",
+      "options": [
+        "Accept this - experienced stakeholders know quality",
+        "Work with the stakeholder to define specific, measurable acceptance criteria before building",
+        "Let the team decide what quality means",
+        "Skip acceptance criteria since the stakeholder is flexible"
+      ],
+      "correct_answer": 1,
+      "explanation": "Subjective quality judgments lead to disputes. The PM should work with stakeholders to define measurable acceptance criteria upfront - 'page loads in under 2 seconds', 'supports 1000 concurrent users'. Clear criteria prevent arguments about whether deliverables meet expectations.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "scope_q012",
+      "question": "What techniques are commonly used for collecting requirements?",
+      "options": [
+        "Only formal written documents from stakeholders",
+        "Interviews, focus groups, workshops, questionnaires, observation, prototypes, and document analysis",
+        "Requirements are only collected from the sponsor",
+        "Technical specifications from the development team"
+      ],
+      "correct_answer": 1,
+      "explanation": "Multiple techniques capture different perspectives. Executives prefer interviews; end users reveal needs through observation; prototypes expose misunderstandings. Using only one technique misses requirements that other methods would uncover.",
+      "knowledge_area": "Scope",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q013",
+      "question": "The team delivers a working prototype. Users say 'Oh, that's not what I meant at all.' Why is this discovery GOOD news?",
+      "options": [
+        "It's not good news - the prototype was a failure",
+        "Finding misalignment early (with a prototype) is cheaper than finding it after full development",
+        "Prototypes always fail",
+        "Users don't understand what they want"
+      ],
+      "correct_answer": 1,
+      "explanation": "Cost of fixing requirements errors increases exponentially over time. A $5,000 prototype that reveals misalignment prevents $500,000 of rework later. Early discovery is a success - it's exactly what prototypes are for.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "scope_q014",
+      "question": "Progressive Elaboration means adding detail as more is known. How is this DIFFERENT from Scope Creep?",
+      "options": [
+        "They are the same thing",
+        "Progressive elaboration refines HOW to deliver agreed scope; scope creep adds WHAT is being delivered without approval",
+        "Progressive elaboration is for agile; scope creep is for waterfall",
+        "Progressive elaboration requires sponsor approval each time"
+      ],
+      "correct_answer": 1,
+      "explanation": "Progressive elaboration adds detail about HOW to accomplish already-defined scope as more information becomes available. Scope creep adds NEW scope without proper change control. Refining 'design the user interface' into detailed screen specs is elaboration; adding a new module is scope creep.",
+      "knowledge_area": "Scope",
+      "difficulty": "hard",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q015",
+      "question": "A deliverable has been verified (passed QC) but not yet accepted. What's the difference?",
+      "options": [
+        "They are the same thing",
+        "Verified = technically correct (team confirms); Accepted = stakeholder approves (meets their needs)",
+        "Verification comes after acceptance",
+        "Only agile projects use acceptance"
+      ],
+      "correct_answer": 1,
+      "explanation": "Verification checks technical correctness (QC - did we build it right?). Acceptance is stakeholder approval (Validate Scope - did we build the right thing?). You can verify something that stakeholders won't accept - it's technically correct but not what they wanted.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q016",
+      "question": "What is Definition of Done in agile?",
+      "options": [
+        "When the developer says it's done",
+        "A shared checklist of criteria that must be met before work is considered complete (coded, tested, documented, deployed)",
+        "When the sprint ends",
+        "When 80% of features work"
+      ],
+      "correct_answer": 1,
+      "explanation": "Definition of Done is the team's shared agreement on what 'done' means - typically includes code complete, tests passing, documentation updated, potentially deployed. Without it, 'done' means different things to different people, creating hidden work and technical debt.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q017",
+      "question": "Why are requirements often categorized as Functional vs. Non-Functional?",
+      "options": [
+        "To make documentation longer",
+        "Because they need different treatment - functional = WHAT it does, non-functional = HOW it performs (speed, security)",
+        "Non-functional requirements are optional",
+        "Only large projects need this distinction"
+      ],
+      "correct_answer": 1,
+      "explanation": "Functional requirements describe WHAT the system does (features). Non-functional describe HOW it performs (speed, security, scalability). Teams often miss non-functional requirements if not categorized separately - the system works but is too slow, insecure, or can't scale.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q018",
+      "question": "Control Scope ensures changes go through proper change control. Why does this apply to scope REDUCTIONS as well as additions?",
+      "options": [
+        "It only applies to additions",
+        "Because removing scope can affect the business case and stakeholder expectations - both directions need governance",
+        "Reductions don't need approval",
+        "The PM can reduce scope unilaterally"
+      ],
+      "correct_answer": 1,
+      "explanation": "Scope can creep inward as well as outward. Quietly removing features might save cost but violate stakeholder expectations. Both additions AND reductions should go through change control to ensure the value proposition remains intact.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q019",
+      "question": "The Scope Baseline consists of what three components?",
+      "options": [
+        "Schedule, Budget, Resources",
+        "Scope Statement, WBS, and WBS Dictionary",
+        "Requirements, Tests, Documentation",
+        "Charter, Plan, Report"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Scope Baseline = Scope Statement (what's in/out and acceptance criteria) + WBS (hierarchical decomposition of work) + WBS Dictionary (detailed descriptions of each element). Together they define and detail the approved project scope for performance measurement.",
+      "knowledge_area": "Scope",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "scope_q020",
+      "question": "A stakeholder requests a change that would add significant value but requires 20% more budget. What should happen?",
+      "options": [
+        "Reject it - the budget is fixed",
+        "Accept it - stakeholder satisfaction is paramount",
+        "Submit through change control for impact analysis and CCB decision",
+        "Absorb the cost by cutting other features"
+      ],
+      "correct_answer": 2,
+      "explanation": "Changes go through change control regardless of merit. The CCB evaluates impact on scope, schedule, cost, and risk, then makes an informed decision. The change might be worth the extra budget, or it might not - but that's a governance decision, not automatic acceptance or rejection.",
+      "knowledge_area": "Scope",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "version": 1,
+  "updated": "2026-01-20T17:24:27.180873",
+  "cards": [
+    {
+      "id": "tool_001",
+      "question": "What is an affinity diagram?",
+      "answer": "A tool that organizes large numbers of ideas into groups for review and analysis. Also used to classify potential causes of defects into focus areas.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:18:11.749898",
+      "why_it_matters": "When brainstorming generates many ideas, affinity diagrams help make sense of them by finding natural groupings.",
+      "related_concepts": [
+        "Brainstorming",
+        "Root cause analysis",
+        "Categorization"
+      ]
+    },
+    {
+      "id": "tool_002",
+      "question": "What is a fishbone (Ishikawa) diagram?",
+      "answer": "A cause-and-effect diagram that shows potential causes of a problem organized into categories. Categories often include: Methods, Machines, Materials, Measurement, Environment, People.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:16:27.904303",
+      "why_it_matters": "It provides structured root cause analysis, ensuring you explore all potential cause categories rather than jumping to conclusions.",
+      "related_concepts": [
+        "Root cause analysis",
+        "Problem solving",
+        "Quality management"
+      ]
+    },
+    {
+      "id": "tool_003",
+      "question": "What is the Delphi technique?",
+      "answer": "A method for gathering expert opinions anonymously through multiple rounds until consensus emerges. Anonymity prevents groupthink and dominant personalities from skewing results.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:23:19.676617",
+      "why_it_matters": "Experts can give honest opinions without social pressure. Iterative rounds allow refinement toward consensus.",
+      "related_concepts": [
+        "Expert judgment",
+        "Estimation",
+        "Risk identification"
+      ]
+    },
+    {
+      "id": "tool_004",
+      "question": "What is the Pareto Principle (80/20 rule)?",
+      "answer": "The principle that roughly 80% of effects come from 20% of causes. Focus on the vital few, not the trivial many.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:22:16.012247",
+      "why_it_matters": "It helps prioritize effort. Fixing the top 20% of defect causes often eliminates 80% of defects.",
+      "related_concepts": [
+        "Prioritization",
+        "Quality management",
+        "Problem solving"
+      ]
+    },
+    {
+      "id": "tool_005",
+      "question": "What is analogous estimating?",
+      "answer": "Estimating duration, cost, or resources based on historical data from similar past projects. A top-down, gross-value approach.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:21:47.347674",
+      "why_it_matters": "It's quick and cheap but less accurate. Best used early in projects when detailed information isn't available.",
+      "related_concepts": [
+        "Estimation",
+        "Historical data",
+        "Top-down estimating"
+      ]
+    },
+    {
+      "id": "tool_006",
+      "question": "What is parametric estimating?",
+      "answer": "Estimating using statistical relationships between historical data and other variables (e.g., cost per square foot, hours per function point).",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:14:54.965728",
+      "why_it_matters": "More accurate than analogous when you have good historical data and the relationship is valid.",
+      "related_concepts": [
+        "Estimation",
+        "Statistical analysis",
+        "Historical data"
+      ]
+    },
+    {
+      "id": "tool_007",
+      "question": "What is three-point estimating (PERT)?",
+      "answer": "Using three estimates - Optimistic (O), Most Likely (M), Pessimistic (P) - to calculate a weighted average: (O + 4M + P) / 6.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:22:05.349416",
+      "why_it_matters": "It accounts for uncertainty better than single-point estimates. The formula weights the most likely scenario heavily.",
+      "related_concepts": [
+        "Estimation",
+        "Uncertainty",
+        "Schedule management"
+      ]
+    },
+    {
+      "id": "tool_008",
+      "question": "What is bottom-up estimating?",
+      "answer": "Estimating by breaking work into smaller components, estimating each component, then aggregating for a total.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:23:40.872797",
+      "why_it_matters": "More accurate than top-down approaches but takes more time and requires detailed scope definition.",
+      "related_concepts": [
+        "Estimation",
+        "WBS",
+        "Detail planning"
+      ]
+    },
+    {
+      "id": "tool_009",
+      "question": "What is an After-Action Review (AAR)?",
+      "answer": "A structured process to analyze what happened, why it happened, and how it can be done better. Asks: What was supposed to happen? What actually happened? Why the difference? What can we learn?",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:14:22.166857",
+      "why_it_matters": "It captures lessons learned while they're fresh, involving all participants for comprehensive understanding.",
+      "related_concepts": [
+        "Lessons learned",
+        "Continuous improvement",
+        "Reflection"
+      ]
+    },
+    {
+      "id": "tool_010",
+      "question": "What is active listening?",
+      "answer": "Techniques including acknowledging, clarifying, confirming, understanding, and addressing barriers to effective communication.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:18:32.182606",
+      "why_it_matters": "Reduces misunderstandings, especially critical in cross-cultural environments where messages may be interpreted differently.",
+      "related_concepts": [
+        "Communication",
+        "Stakeholder engagement",
+        "Conflict resolution"
+      ]
+    },
+    {
+      "id": "tool_011",
+      "question": "What is alternative analysis?",
+      "answer": "A method to evaluate identified options to select the best approach for achieving project objectives within constraints.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:20:30.834128",
+      "why_it_matters": "Ensures decisions are made by comparing options systematically rather than defaulting to the first idea.",
+      "related_concepts": [
+        "Decision-making",
+        "Options analysis",
+        "Trade-offs"
+      ]
+    },
+    {
+      "id": "tool_012",
+      "question": "What is assumption and constraint analysis?",
+      "answer": "Exploring the validity of assumptions and constraints to identify which pose risks to the project (from inaccuracy, instability, inconsistency, or incompleteness).",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:21:23.842756",
+      "why_it_matters": "Invalid assumptions become risks. Identifying them early allows proactive management.",
+      "related_concepts": [
+        "Risk identification",
+        "Planning",
+        "Validation"
+      ]
+    },
+    {
+      "id": "tool_013",
+      "question": "What is a RACI chart?",
+      "answer": "A responsibility assignment matrix showing who is Responsible (does work), Accountable (owns outcome), Consulted (provides input), and Informed (kept updated) for each activity.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:19:21.923012",
+      "why_it_matters": "Clarifies roles and prevents confusion about who does what. Each activity should have exactly one Accountable person.",
+      "related_concepts": [
+        "Resource management",
+        "Responsibility",
+        "Communication"
+      ]
+    },
+    {
+      "id": "tool_014",
+      "question": "What is a decision tree?",
+      "answer": "A diagram showing different decision paths with associated probabilities and outcomes, used to evaluate options under uncertainty.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:22:57.872601",
+      "why_it_matters": "Visualizes complex decisions with multiple possible outcomes, helping calculate expected monetary value of each path.",
+      "related_concepts": [
+        "Decision-making",
+        "EMV",
+        "Risk analysis"
+      ]
+    },
+    {
+      "id": "tool_015",
+      "question": "What is a Monte Carlo simulation?",
+      "answer": "A technique that runs many iterations with random values within defined ranges to produce probabilistic outcomes (e.g., '80% confidence of completing by June 30').",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:24:27.116834",
+      "why_it_matters": "Provides probability distributions rather than single-point estimates, showing the range of possible outcomes.",
+      "related_concepts": [
+        "Risk analysis",
+        "Quantitative analysis",
+        "Simulation"
+      ]
+    },
+    {
+      "id": "tool_016",
+      "question": "What is a stakeholder register?",
+      "answer": "A document containing information about identified stakeholders including their interests, involvement, influence, and potential impact on project success.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:22:33.881604",
+      "why_it_matters": "You can't manage stakeholders you haven't identified. The register is the foundation for stakeholder engagement planning.",
+      "related_concepts": [
+        "Stakeholder management",
+        "Identification",
+        "Analysis"
+      ]
+    },
+    {
+      "id": "tool_017",
+      "question": "What is a burndown chart?",
+      "answer": "A visual representation of work remaining versus time in an iteration or release. The line should trend toward zero.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:18:57.254007",
+      "why_it_matters": "Provides quick visual feedback on progress. If the line isn't trending down, the team knows immediately.",
+      "related_concepts": [
+        "Agile",
+        "Progress tracking",
+        "Sprint management"
+      ]
+    },
+    {
+      "id": "tool_018",
+      "question": "What is velocity in agile?",
+      "answer": "A measure of the amount of work a team completes in a sprint, typically measured in story points. Used for future sprint planning.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:17:19.316985",
+      "why_it_matters": "Historical velocity helps predict how much work the team can commit to in future sprints.",
+      "related_concepts": [
+        "Agile",
+        "Sprint planning",
+        "Estimation"
+      ]
+    },
+    {
+      "id": "tool_019",
+      "question": "What is a work breakdown structure (WBS)?",
+      "answer": "A hierarchical decomposition of the total scope of work into manageable sections. The lowest level is called a work package.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T17:17:04.544907",
+      "why_it_matters": "The WBS is the foundation for planning. If it's not in the WBS, it's not in scope (100% rule).",
+      "related_concepts": [
+        "Scope management",
+        "Decomposition",
+        "Work packages"
+      ]
+    },
+    {
+      "id": "tool_020",
+      "question": "What is a lessons learned register?",
+      "answer": "A document used to record knowledge gained during a project so it can be used to improve future projects.",
+      "knowledge_area": "Tools & Techniques",
+      "card_type": "definition",
+      "easiness": 2.6,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T17:15:16.742828",
+      "why_it_matters": "Organizational learning requires capturing and sharing lessons. Without documentation, knowledge walks out the door.",
+      "related_concepts": [
+        "Knowledge management",
+        "Continuous improvement",
+        "OPA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:00:00",
+  "domain": "Risk Performance Domain",
+  "cards": [
+    {
+      "id": "risk_001",
+      "question": "What is a project risk?",
+      "answer": "An uncertain event or condition that, if it occurs, has a positive or negative effect on project objectives. Key word: UNCERTAIN - if it's certain, it's not a risk, it's a fact.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Note risks can be POSITIVE (opportunities) not just negative (threats). Managing both maximizes project value. Also: uncertainty is the defining characteristic - certain problems aren't risks.",
+      "related_concepts": ["Opportunity", "Threat", "Issue", "Uncertainty"]
+    },
+    {
+      "id": "risk_002",
+      "question": "WHY does PMI emphasize that risks can be positive?",
+      "answer": "Because only managing threats is half the picture. Opportunities (positive risks) can add value, reduce costs, or accelerate schedules. Actively pursuing good uncertainties is as important as avoiding bad ones.",
+      "knowledge_area": "Risk",
+      "card_type": "why",
+      "why_it_matters": "Teams that only focus on threats miss chances to exceed expectations. Example: A vendor might deliver early - that's a positive risk you could exploit to accelerate the project.",
+      "related_concepts": ["Exploit", "Enhance", "Opportunity Management"]
+    },
+    {
+      "id": "risk_003",
+      "question": "What is the difference between Individual Risk and Overall Project Risk?",
+      "answer": "Individual Risk = specific uncertain event affecting objectives. Overall Project Risk = effect of uncertainty on the project as a whole, arising from all sources including individual risks.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "You can have many small individual risks that collectively threaten the project (overall risk). Or few large individual risks. Both views needed - managing parts doesn't guarantee the whole is managed.",
+      "related_concepts": ["Risk Aggregation", "Portfolio View", "Systemic Risk"]
+    },
+    {
+      "id": "risk_004",
+      "question": "What are the five response strategies for THREATS (negative risks)?",
+      "answer": "1) Avoid - eliminate the threat entirely. 2) Transfer - shift impact to third party. 3) Mitigate - reduce probability or impact. 4) Accept - acknowledge and deal with if it occurs. 5) Escalate - outside project authority.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Each strategy fits different situations. Avoid works for high-impact risks you can redesign around. Transfer works for insurable risks. Mitigate for risks you can reduce. Accept for low-priority risks.",
+      "related_concepts": ["Risk Response Planning", "Contingency", "Fallback"]
+    },
+    {
+      "id": "risk_005",
+      "question": "What are the five response strategies for OPPORTUNITIES (positive risks)?",
+      "answer": "1) Exploit - ensure the opportunity happens. 2) Enhance - increase probability or impact. 3) Share - allocate to third party best able to capture it. 4) Accept - take advantage if it occurs. 5) Escalate - outside project authority.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Notice the parallel to threat responses: Exploit↔Avoid, Enhance↔Mitigate, Share↔Transfer, Accept↔Accept, Escalate↔Escalate. Same logic, opposite direction.",
+      "related_concepts": ["Opportunity Response", "Value Creation", "Upside Risk"]
+    },
+    {
+      "id": "risk_006",
+      "question": "WHY do we calculate Risk Score (Probability × Impact)?",
+      "answer": "To prioritize risks. A high-probability/low-impact risk might be less urgent than a low-probability/high-impact one. The score helps allocate limited risk response resources to what matters most.",
+      "knowledge_area": "Risk",
+      "card_type": "why",
+      "why_it_matters": "You can't respond to every risk equally - resources are limited. Risk score creates a prioritized list. But beware: some low-probability risks (like safety) might need attention regardless of score.",
+      "related_concepts": ["Probability-Impact Matrix", "Risk Prioritization", "Risk Threshold"]
+    },
+    {
+      "id": "risk_007",
+      "question": "What is a Risk Trigger?",
+      "answer": "An indicator or warning sign that a risk is about to occur or has occurred. Triggers activate contingency plans and alert the team that a risk event is imminent.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Without triggers, you're caught off-guard when risks materialize. Triggers give you early warning to activate responses. Example: If vendor misses two progress reports, that triggers escalation.",
+      "related_concepts": ["Early Warning Signs", "Contingency Plan", "Risk Monitoring"]
+    },
+    {
+      "id": "risk_008",
+      "question": "What is the difference between a Risk and an Issue?",
+      "answer": "Risk = uncertain future event (might happen). Issue = current problem that has materialized and needs resolution now. When a risk occurs, it becomes an issue.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Managing them requires different approaches. Risks need monitoring and contingency planning. Issues need immediate action and resolution. Confusing them leads to wrong responses.",
+      "related_concepts": ["Issue Log", "Risk Register", "Problem Solving"]
+    },
+    {
+      "id": "risk_009",
+      "question": "WHY is risk identification an ongoing activity throughout the project?",
+      "answer": "Because new risks emerge as the project progresses and more information becomes available. Early risks may resolve while new ones appear. Static risk management misses evolving threats and opportunities.",
+      "knowledge_area": "Risk",
+      "card_type": "why",
+      "why_it_matters": "A risk register created at project start becomes stale. Regular risk reviews (at milestones, phase gates, or iterations) keep the team aware of current uncertainties, not historical ones.",
+      "related_concepts": ["Iterative Risk Assessment", "Risk Reviews", "Progressive Elaboration"]
+    },
+    {
+      "id": "risk_010",
+      "question": "What is a Contingency Reserve vs. Management Reserve?",
+      "answer": "Contingency Reserve = budget/time for KNOWN risks (identified in risk register). Management Reserve = budget/time for UNKNOWN risks (unforeseen events). Contingency is in baseline; management reserve is not.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Contingency addresses 'known unknowns' - risks you identified but don't know if they'll occur. Management reserve addresses 'unknown unknowns' - things you couldn't anticipate at all.",
+      "related_concepts": ["Budget Reserves", "Schedule Buffer", "Risk Funding"]
+    },
+    {
+      "id": "risk_011",
+      "question": "What is a Risk Register?",
+      "answer": "A document containing all identified risks, their analysis, response strategies, and status. It's the central repository for risk information - living documentation updated throughout the project.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Without a register, risk management is ad-hoc and forgotten. The register provides visibility, enables tracking, and serves as institutional memory. If a risk isn't in the register, it's probably not being managed.",
+      "related_concepts": ["Risk Identification", "Risk Monitoring", "Documentation", "Risk Tracking"]
+    },
+    {
+      "id": "risk_012",
+      "question": "What is Expected Monetary Value (EMV)?",
+      "answer": "EMV = Probability × Impact (in currency). Used in quantitative risk analysis to calculate the weighted average outcome. Positive EMV for opportunities, negative for threats.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "EMV puts risks in financial terms. A 20% chance of $100,000 loss = -$20,000 EMV. Summing EMVs gives an expected impact that can inform contingency reserve sizing and go/no-go decisions.",
+      "related_concepts": ["Quantitative Analysis", "Decision Trees", "Contingency Reserve", "Risk Valuation"]
+    },
+    {
+      "id": "risk_013",
+      "question": "What is Sensitivity Analysis (Tornado Diagram)?",
+      "answer": "A technique that determines which risks have the most potential impact on the project. Shown as a tornado diagram where longer bars represent risks with greater influence on project outcomes.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Not all risks matter equally. Sensitivity analysis identifies which uncertainties actually drive outcomes, so you focus effort on risks that make a difference rather than treating all risks the same.",
+      "related_concepts": ["Quantitative Analysis", "Risk Prioritization", "Key Risk Drivers", "Focus Areas"]
+    },
+    {
+      "id": "risk_014",
+      "question": "What is Monte Carlo Simulation?",
+      "answer": "A quantitative technique that runs thousands of simulations using probability distributions for uncertain variables. Produces a range of possible outcomes with their probabilities, not just a single estimate.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Single-point estimates hide uncertainty. Monte Carlo shows 'there's 80% chance we'll finish by June, 50% chance by May.' This enables risk-aware planning and realistic stakeholder expectations.",
+      "related_concepts": ["Quantitative Analysis", "Probability Distributions", "Schedule Risk Analysis", "Cost Risk Analysis"]
+    },
+    {
+      "id": "risk_015",
+      "question": "What is the difference between Risk Appetite, Tolerance, and Threshold?",
+      "answer": "Appetite = general willingness to take risk (strategic level). Tolerance = acceptable variation from objectives (range). Threshold = specific point where risk becomes unacceptable (trigger for escalation).",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "These define how much risk is acceptable. Organizations with low risk appetite take conservative approaches. Thresholds determine when to escalate. Understanding them aligns risk decisions with organizational values.",
+      "related_concepts": ["Risk Attitude", "Organizational Risk Culture", "Escalation Criteria", "Risk Governance"]
+    },
+    {
+      "id": "risk_016",
+      "question": "What is a Secondary Risk?",
+      "answer": "A new risk that arises as a direct result of implementing a risk response. The cure creates new potential problems that must also be managed.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Risk responses aren't free - they can introduce new risks. Outsourcing to reduce cost risk creates vendor management risks. Secondary risks must be identified and included in the risk register.",
+      "related_concepts": ["Risk Response Planning", "Unintended Consequences", "Risk Analysis", "Response Evaluation"]
+    },
+    {
+      "id": "risk_017",
+      "question": "What is Residual Risk?",
+      "answer": "The risk that remains after responses have been implemented. Even after mitigation, some exposure typically remains. Residual risk should be documented and may require contingency plans.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Risk responses rarely eliminate risk entirely. Mitigation reduces but doesn't eliminate. Understanding residual risk ensures you're not surprised when partially-mitigated risks still affect the project.",
+      "related_concepts": ["Risk Response", "Mitigation", "Contingency Planning", "Acceptance"]
+    },
+    {
+      "id": "risk_018",
+      "question": "What is a Workaround?",
+      "answer": "An unplanned response to a risk that has occurred but was not anticipated (no contingency plan exists). It's reactive problem-solving for risks that weren't identified or risks whose contingency plans failed.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "Not all risks can be identified. When unplanned risks occur, workarounds are necessary. They're documented after the fact and lessons learned captured to improve future risk identification.",
+      "related_concepts": ["Issue Management", "Contingency Plan", "Unknown Risks", "Reactive Response"]
+    },
+    {
+      "id": "risk_019",
+      "question": "WHY should risks be categorized (technical, external, organizational, PM)?",
+      "answer": "Categories help ensure comprehensive identification (checklist by category), enable pattern recognition (are most risks technical?), and match risks to appropriate responders (technical risks to tech leads).",
+      "knowledge_area": "Risk",
+      "card_type": "why",
+      "why_it_matters": "Without categories, risk identification is haphazard and misses areas. A Risk Breakdown Structure (RBS) by category ensures systematic coverage. Patterns reveal systemic issues needing attention.",
+      "related_concepts": ["Risk Breakdown Structure", "Risk Identification", "Systematic Approach", "Root Causes"]
+    },
+    {
+      "id": "risk_020",
+      "question": "What is a Risk Report?",
+      "answer": "A summary of overall project risk status, including key individual risks, overall risk exposure, trends, and risk response effectiveness. Used to communicate risk status to stakeholders.",
+      "knowledge_area": "Risk",
+      "card_type": "definition",
+      "why_it_matters": "The risk register is detailed; the risk report is the executive summary. Stakeholders need visibility into risk status without wading through every entry. Reports enable informed governance decisions.",
+      "related_concepts": ["Risk Communication", "Stakeholder Reporting", "Risk Register", "Governance"]
+    }
+  ]
+}

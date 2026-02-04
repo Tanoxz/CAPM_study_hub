@@ -1,0 +1,307 @@
+{
+  "quiz_id": "procurement_quiz",
+  "name": "Procurement Management Quiz",
+  "description": "Test your knowledge of procurement and contract management",
+  "questions": [
+    {
+      "id": "procq_001",
+      "question": "A project has well-defined requirements and a clear scope. The buyer wants budget predictability. Which contract type is MOST appropriate?",
+      "options": [
+        "Cost-reimbursable",
+        "Time and materials",
+        "Fixed-price",
+        "Cost-plus-percentage"
+      ],
+      "correct_answer": 2,
+      "explanation": "Fixed-price contracts are best when scope is well-defined. They provide budget predictability for the buyer and transfer cost risk to the seller.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "procq_002",
+      "question": "In a fixed-price contract, who bears the cost risk if actual costs exceed estimates?",
+      "options": [
+        "The buyer",
+        "The seller",
+        "Both parties equally",
+        "Neither - the contract is renegotiated"
+      ],
+      "correct_answer": 1,
+      "explanation": "In fixed-price contracts, the seller bears cost risk. If costs exceed the fixed price, the seller absorbs the loss. This motivates sellers to control costs.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_003",
+      "question": "A research and development project has uncertain scope and evolving requirements. Which contract type is MOST appropriate?",
+      "options": [
+        "Firm fixed-price",
+        "Cost-reimbursable",
+        "Fixed-price with economic adjustment",
+        "Lump sum"
+      ],
+      "correct_answer": 1,
+      "explanation": "Cost-reimbursable contracts are best when scope is uncertain or requirements evolve. The buyer pays actual costs plus a fee, providing flexibility for R&D work.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "procq_004",
+      "question": "Which type of document is used when price is the main deciding factor and the solution is readily available?",
+      "options": [
+        "Request for Proposal (RFP)",
+        "Request for Quote (RFQ)",
+        "Request for Information (RFI)",
+        "Statement of Work (SOW)"
+      ],
+      "correct_answer": 1,
+      "explanation": "An RFQ is used when price is the primary factor and the required product/service is standardized. It's essentially asking 'how much for this specific item?'",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_005",
+      "question": "What is the primary purpose of a make-or-buy analysis?",
+      "options": [
+        "To determine the lowest cost option",
+        "To decide whether work should be done internally or purchased externally",
+        "To select the best vendor",
+        "To negotiate contract terms"
+      ],
+      "correct_answer": 1,
+      "explanation": "Make-or-buy analysis determines whether work should be performed by the project team (make) or acquired from external sources (buy). It considers cost, capability, capacity, and strategic factors.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_006",
+      "question": "In a cost-reimbursable contract, who bears the cost risk?",
+      "options": [
+        "The seller",
+        "The buyer",
+        "The project sponsor",
+        "The insurance company"
+      ],
+      "correct_answer": 1,
+      "explanation": "In cost-reimbursable contracts, the buyer bears cost risk - they pay whatever the actual costs turn out to be. Good oversight is needed to ensure costs are reasonable.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_007",
+      "question": "A PM needs to gather information about vendors' capabilities before writing bid documents. Which document should be used?",
+      "options": [
+        "Request for Proposal (RFP)",
+        "Request for Quote (RFQ)",
+        "Request for Information (RFI)",
+        "Invitation for Bid (IFB)"
+      ],
+      "correct_answer": 2,
+      "explanation": "An RFI is used for market research before formal procurement. It helps understand vendor capabilities and options to inform better RFP development.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "procq_008",
+      "question": "A Time and Materials (T&M) contract is considered:",
+      "options": [
+        "A type of fixed-price contract",
+        "A type of cost-reimbursable contract",
+        "A hybrid of fixed-price and cost-reimbursable",
+        "Not a valid contract type"
+      ],
+      "correct_answer": 2,
+      "explanation": "T&M is a hybrid contract combining aspects of both fixed-price (fixed rates for time/materials) and cost-reimbursable (payment based on actual usage).",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_009",
+      "question": "A meeting is held with all prospective sellers to answer questions about the procurement. This is called a:",
+      "options": [
+        "Kick-off meeting",
+        "Bidder conference",
+        "Status meeting",
+        "Negotiation session"
+      ],
+      "correct_answer": 1,
+      "explanation": "A bidder conference brings all prospective sellers together to answer questions and provide clarification. All bidders receive the same information for fairness.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_010",
+      "question": "Which contract type puts the MOST cost risk on the buyer?",
+      "options": [
+        "Firm fixed-price",
+        "Fixed-price incentive",
+        "Cost-plus-percentage-of-cost",
+        "Time and materials"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cost-plus-percentage-of-cost puts maximum risk on the buyer because the seller's fee increases as costs increase - creating an incentive for higher costs.",
+      "knowledge_area": "Procurement",
+      "difficulty": "hard",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_011",
+      "question": "The process of evaluating vendor bids to select the best vendor is called:",
+      "options": [
+        "Bid evaluation",
+        "Source selection",
+        "Vendor qualification",
+        "Contract negotiation"
+      ],
+      "correct_answer": 1,
+      "explanation": "Source selection is the process of evaluating vendor bids against predefined criteria (cost, quality, experience, delivery) to choose the most appropriate vendor.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_012",
+      "question": "A complex project requires innovative solutions from vendors. The buyer wants vendors to propose their approach. Which document should be used?",
+      "options": [
+        "Request for Quote (RFQ)",
+        "Request for Proposal (RFP)",
+        "Invitation for Bid (IFB)",
+        "Purchase Order"
+      ],
+      "correct_answer": 1,
+      "explanation": "An RFP is used when the scope is complex and the buyer wants vendors to propose solutions. It allows for creativity and evaluation of approaches beyond just price.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "procq_013",
+      "question": "A formal request for compensation due to a disputed contract issue is called a:",
+      "options": [
+        "Change request",
+        "Claim",
+        "Variance report",
+        "Issue log entry"
+      ],
+      "correct_answer": 1,
+      "explanation": "A claim is a formal request for compensation or remedy for contested issues under the contract, such as scope changes or delays that one party believes entitles them to additional payment.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_014",
+      "question": "In design-build (DB) delivery, who is responsible for both design and construction?",
+      "options": [
+        "Two separate entities with different contracts",
+        "The buyer's internal team",
+        "A single entity with one contract",
+        "A consortium with shared liability"
+      ],
+      "correct_answer": 2,
+      "explanation": "Design-build means one entity handles both design and construction under a single contract. This provides single-point accountability but gives the buyer less control over design.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_015",
+      "question": "A PM needs to decide whether to outsource a specialized component or develop it in-house. Which factors should be considered?",
+      "options": [
+        "Only the cost difference",
+        "Resource availability, expertise, risk, and strategic factors",
+        "The vendor's location",
+        "The project sponsor's preference"
+      ],
+      "correct_answer": 1,
+      "explanation": "Make-or-buy decisions should consider resource allocation, skills, need for specialized expertise, avoiding permanent employment, independent expertise needs, and risks - not just cost.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "procq_016",
+      "question": "What is the procurement statement of work (SOW)?",
+      "options": [
+        "The contract between buyer and seller",
+        "A description of the procurement item sufficient for sellers to determine if they can provide it",
+        "The project's overall scope statement",
+        "A list of approved vendors"
+      ],
+      "correct_answer": 1,
+      "explanation": "The procurement SOW describes what needs to be procured in enough detail for potential sellers to determine if they can provide it and prepare accurate proposals.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_017",
+      "question": "A small project with undefined scope needs immediate support. Which contract type provides the MOST flexibility?",
+      "options": [
+        "Firm fixed-price",
+        "Fixed-price incentive fee",
+        "Time and materials",
+        "Cost-plus-fixed-fee"
+      ],
+      "correct_answer": 2,
+      "explanation": "Time and materials contracts provide flexibility when scope isn't clearly defined. The buyer pays for actual time and materials, making them suitable for smaller, evolving work.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "procq_018",
+      "question": "What is Integrated Project Delivery (IPD)?",
+      "options": [
+        "A traditional design-bid-build approach",
+        "A collaborative delivery with shared risks, rewards, and early involvement of all parties",
+        "A method where the buyer manages all contractors directly",
+        "A type of fixed-price contract"
+      ],
+      "correct_answer": 1,
+      "explanation": "IPD is a collaborative approach with multiparty agreements, shared risks and rewards, early involvement of key participants, and open-book accounting. Used for complex projects.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "procq_019",
+      "question": "During contract administration, the PM discovers the seller is not meeting performance requirements. What should the PM do FIRST?",
+      "options": [
+        "Terminate the contract immediately",
+        "Document the issue and address it through contract administration processes",
+        "Pay the seller anyway to maintain the relationship",
+        "Find a replacement seller"
+      ],
+      "correct_answer": 1,
+      "explanation": "Contract administration involves monitoring performance and addressing issues. The PM should document problems and work through established processes before escalating to termination.",
+      "knowledge_area": "Procurement",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "procq_020",
+      "question": "The traditional delivery method where design is completed first, then contractors bid on construction, is called:",
+      "options": [
+        "Design-build",
+        "Design-bid-build",
+        "Integrated project delivery",
+        "Build-own-operate-transfer"
+      ],
+      "correct_answer": 1,
+      "explanation": "Design-bid-build is the traditional sequential approach: complete design first, then issue bids for construction based on completed designs. Provides more design control but takes longer.",
+      "knowledge_area": "Procurement",
+      "difficulty": "easy",
+      "question_type": "concept"
+    }
+  ]
+}

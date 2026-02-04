@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:45:00",
+  "domain": "Resources Performance Domain",
+  "questions": [
+    {
+      "id": "res_q001",
+      "question": "A project manager tracks equipment, materials, and team members. Which does the Resources performance domain cover?",
+      "options": [
+        "Only team members - equipment is procurement",
+        "Only equipment and materials - people are in a different domain",
+        "All of them - human resources AND physical/virtual resources",
+        "Only external resources obtained through contracts"
+      ],
+      "correct_answer": 2,
+      "explanation": "The Resources performance domain covers BOTH human resources (project team) AND physical/virtual resources (equipment, materials, facilities, software, licenses). Many PMs focus only on people, but physical resource constraints can block projects just as badly.",
+      "knowledge_area": "Resources",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "res_q002",
+      "question": "A matrix organization PM needs a specific engineer but that person's functional manager says 'no.' What does this illustrate?",
+      "options": [
+        "The PM has full authority over all resources",
+        "The PM may need to negotiate with resource managers who control team assignments",
+        "The engineer should be fired",
+        "Matrix organizations don't work"
+      ],
+      "correct_answer": 1,
+      "explanation": "In matrix organizations, PMs don't 'own' resources - functional/resource managers do. PMs must negotiate, influence, and sometimes escalate to acquire needed team members. Understanding this organizational dynamic is critical for acquiring and retaining the right resources.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "res_q003",
+      "question": "A new team is experiencing conflict and disagreements as members push back on approaches and compete for influence. According to Tuckman, what stage is this?",
+      "options": [
+        "Forming - the team is just getting started",
+        "Storming - conflict is normal as personalities clash and roles are established",
+        "Norming - the team is settling down",
+        "Adjourning - the team is disbanding"
+      ],
+      "correct_answer": 1,
+      "explanation": "Storming is when conflict emerges as team members' personalities clash and they compete for position. This is NORMAL and necessary. Trying to skip storming suppresses healthy conflict. Understanding Tuckman helps PMs support teams through transitions rather than being alarmed by conflict.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "res_q004",
+      "question": "For a task, Sarah does the work, Mike approves it, Tom provides input, and Lisa needs to know when it's done. Using RACI, what are their roles?",
+      "options": [
+        "Sarah=Accountable, Mike=Responsible, Tom=Informed, Lisa=Consulted",
+        "Sarah=Responsible, Mike=Accountable, Tom=Consulted, Lisa=Informed",
+        "Sarah=Consulted, Mike=Informed, Tom=Responsible, Lisa=Accountable",
+        "They all share responsibility equally"
+      ],
+      "correct_answer": 1,
+      "explanation": "RACI: Responsible (does work) = Sarah, Accountable (approves/owns outcome) = Mike, Consulted (provides input) = Tom, Informed (kept updated) = Lisa. Key rule: only ONE person is Accountable per task, ensuring clear ownership.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "res_q005",
+      "question": "A team member says 'I don't feel empowered to make decisions - I have to escalate everything.' Why is this a problem?",
+      "options": [
+        "It's not a problem - all decisions should be escalated",
+        "Lack of empowerment slows decisions, reduces engagement, and prevents people from contributing their best work",
+        "The team member should just follow orders",
+        "Only senior people should make decisions"
+      ],
+      "correct_answer": 1,
+      "explanation": "Empowered people make better decisions closer to the work, feel ownership, and are more motivated. Micromanagement kills engagement and slows everything. Teams with appropriate empowerment (clear boundaries, not unlimited authority) outperform those requiring escalation for every decision.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "res_q006",
+      "question": "A virtual team struggles with collaboration and trust. What practices might help?",
+      "options": [
+        "Convert everyone to in-person work",
+        "Use collaboration technology, schedule regular video meetings, consider at least one face-to-face kickoff, and create explicit team agreements",
+        "Virtual teams cannot work effectively",
+        "Reduce communication to minimize conflict"
+      ],
+      "correct_answer": 1,
+      "explanation": "Virtual teams need deliberate effort - collaboration sites, video conferencing, messaging tools, explicit working agreements, and ideally at least one in-person meeting to build relationships. Technology enables but doesn't guarantee success; intentional practices make the difference.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "res_q007",
+      "question": "Why does PMBOK have a separate 'Lead the Team' process rather than just 'Manage the Team'?",
+      "options": [
+        "They're the same thing",
+        "Leadership (influencing, motivating, enabling) differs from management (planning, measuring) - both are needed",
+        "Leadership is optional",
+        "Management is more important than leadership"
+      ],
+      "correct_answer": 1,
+      "explanation": "Management focuses on processes, plans, and measurement. Leadership focuses on people - influencing, motivating, listening, enabling. You can manage perfectly and still fail if people aren't inspired. High-performing teams need both management AND leadership.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "res_q008",
+      "question": "A project needs 5 senior developers but only 3 are available. The PM is offered 5 junior developers instead. What should the PM do?",
+      "options": [
+        "Accept any resources - something is better than nothing",
+        "Document the impact (training needs, schedule risk, quality concerns) and make an informed decision about whether alternatives are acceptable",
+        "Reject the project entirely",
+        "Demand the senior developers"
+      ],
+      "correct_answer": 1,
+      "explanation": "Resource substitution has consequences - skill mismatches affect quality, schedule, and risk. The PM should document impacts (training time, lower initial productivity, potential quality issues) and make an informed decision. Sometimes alternatives are acceptable; sometimes they're not.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "res_q009",
+      "question": "What are characteristics associated with high-performing project teams?",
+      "options": [
+        "Strict hierarchy, individual accountability, competition between members",
+        "Open communication, shared understanding, trust, collaboration, adaptability, empowerment",
+        "High turnover and frequent reorganization",
+        "Avoiding all conflict"
+      ],
+      "correct_answer": 1,
+      "explanation": "High-performing teams exhibit: open communication, shared understanding of goals, shared ownership, mutual trust, collaboration (not silos), adaptability, resilience, and empowerment. These aren't accidental - they're cultivated through deliberate leadership practices.",
+      "knowledge_area": "Resources",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "res_q010",
+      "question": "Equipment ordered 6 weeks ago still hasn't arrived, potentially delaying the project. Which process should have caught this earlier?",
+      "options": [
+        "Acquire Resources - ordering is done once",
+        "Monitor and Control Resourcing - tracking resource availability and taking corrective action",
+        "Lead the Team - this is a people issue",
+        "Estimate Resources - the estimate was wrong"
+      ],
+      "correct_answer": 1,
+      "explanation": "Monitor and Control Resourcing ensures resources are available as planned, monitors planned vs. actual, and takes corrective action for shortages. Proactive monitoring would have detected the delivery issue earlier, allowing time for alternatives or escalation.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "res_q011",
+      "question": "A PM can read the room, manage their own stress, and understand why a team member is frustrated even when unstated. What skill is this?",
+      "options": [
+        "Technical expertise",
+        "Emotional Intelligence - recognizing and managing emotions in self and others",
+        "Political awareness",
+        "Financial acumen"
+      ],
+      "correct_answer": 1,
+      "explanation": "Emotional Intelligence (EI) includes self-awareness, self-regulation, empathy, and social skills. Projects are done by people with emotions. A PM who can't read emotional cues, manage stress, or empathize will damage morale and relationships.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "res_q012",
+      "question": "Two team members have a technical disagreement. The PM facilitates a discussion where they find a solution that incorporates ideas from both. What conflict resolution style is this?",
+      "options": [
+        "Competing - one person wins",
+        "Collaborating - finding a win-win solution together",
+        "Avoiding - postponing the conflict",
+        "Accommodating - one gives in"
+      ],
+      "correct_answer": 1,
+      "explanation": "Collaborating (problem-solving) seeks a win-win where all parties contribute to a mutually satisfying solution. It takes more time than other styles but produces better outcomes and maintains relationships. PMI generally favors this style for important conflicts.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "res_q013",
+      "question": "A team works in the same physical location - everyone can see and talk to each other easily. What is this called and why might it help?",
+      "options": [
+        "Remote work",
+        "Colocation - improves communication, builds relationships, enables quick problem-solving",
+        "Matrix organization",
+        "Outsourcing"
+      ],
+      "correct_answer": 1,
+      "explanation": "Colocation places team members together physically. Benefits include spontaneous conversations, faster problem-solving, stronger relationships, and team identity. Even temporary colocation (kickoff week) can accelerate team formation.",
+      "knowledge_area": "Resources",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "res_q014",
+      "question": "Team ground rules are established at project start. Why bother with this when experienced professionals 'should know how to behave'?",
+      "options": [
+        "Ground rules are only for junior teams",
+        "Explicit ground rules prevent misunderstandings - people's assumptions about 'normal' behavior differ",
+        "Ground rules slow down the team",
+        "Professional standards make ground rules unnecessary"
+      ],
+      "correct_answer": 1,
+      "explanation": "Without explicit ground rules, people assume their own rules apply. What's 'normal' for one person might be offensive to another. Ground rules agreed together create shared expectations - meeting etiquette, communication norms, decision process - and a foundation for accountability.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "res_q015",
+      "question": "The proposal promised a specific expert, but that person left the company. What resource management concept is relevant?",
+      "options": [
+        "Team development",
+        "Pre-assignment - the expert was designated before project start, creating a constraint",
+        "Resource leveling",
+        "Training"
+      ],
+      "correct_answer": 1,
+      "explanation": "Pre-assignment occurs when specific resources are designated before the project starts, often through contracts or proposals. Pre-assigned resources become constraints - the PM must plan around their availability. When pre-assigned resources are unavailable, it creates significant risk.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "res_q016",
+      "question": "A Resource Histogram shows one person scheduled for 160% capacity next month. What does this reveal?",
+      "options": [
+        "They will work overtime",
+        "Over-allocation - the person is scheduled for more work than possible, requiring resolution",
+        "Normal scheduling",
+        "High productivity"
+      ],
+      "correct_answer": 1,
+      "explanation": "Histograms visualize resource allocation over time. 160% capacity = over-allocation. This isn't sustainable and must be resolved through resource leveling, acquiring additional resources, or adjusting the schedule. The histogram makes the problem visible.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "res_q017",
+      "question": "A PM publicly recognizes a team member's contribution at a meeting. The team member seems embarrassed rather than pleased. What went wrong?",
+      "options": [
+        "Recognition is always appreciated",
+        "Recognition should be tailored to what individuals value - some prefer private acknowledgment",
+        "The PM should never give recognition",
+        "Only monetary rewards matter"
+      ],
+      "correct_answer": 1,
+      "explanation": "Effective recognition is aligned with what individuals value. Some want public praise; others find it embarrassing and prefer private acknowledgment or different forms of recognition. Know your team members and tailor recognition appropriately.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "res_q018",
+      "question": "The PM sends the team to training on a new technology. Some view this as an expense; the PM views it as an investment. Why?",
+      "options": [
+        "Training is always an expense",
+        "Training pays back in improved productivity, fewer errors, and higher quality - it's an investment in capability",
+        "The PM is wrong",
+        "Training only benefits the individual"
+      ],
+      "correct_answer": 1,
+      "explanation": "Training costs upfront but pays back through improved productivity, fewer mistakes, and higher quality. Teams with skill gaps underperform. Viewing training as investment rather than expense leads to building organizational capability rather than cutting corners.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "res_q019",
+      "question": "The PM needs a resource from another department but has no authority to assign them. What skill is most important?",
+      "options": [
+        "Technical expertise",
+        "Negotiation - PMs often must influence without authority to acquire resources",
+        "Financial analysis",
+        "Risk management"
+      ],
+      "correct_answer": 1,
+      "explanation": "PMs rarely have direct authority over resources, especially in matrix organizations. Negotiation skills - understanding interests, finding win-win solutions, building relationships - are essential for acquiring the right resources without command authority.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "res_q020",
+      "question": "A Resource Breakdown Structure (RBS) categorizes all project resources by type. How is this similar to a WBS?",
+      "options": [
+        "They are unrelated",
+        "Both are hierarchical decompositions - WBS for work, RBS for resources - ensuring completeness",
+        "RBS is a subset of WBS",
+        "WBS is a subset of RBS"
+      ],
+      "correct_answer": 1,
+      "explanation": "Like the WBS decomposes work hierarchically, the RBS decomposes resources by category and type (labor, equipment, materials). It helps ensure all resource needs are identified and supports resource leveling, cost categorization, and identifying shortages by type.",
+      "knowledge_area": "Resources",
+      "difficulty": "medium",
+      "question_type": "concept"
+    }
+  ]
+}

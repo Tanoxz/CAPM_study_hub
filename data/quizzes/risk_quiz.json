@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:45:00",
+  "domain": "Risk Performance Domain",
+  "questions": [
+    {
+      "id": "risk_q001",
+      "question": "A vendor might deliver components 2 weeks early, which would let you start the next phase ahead of schedule. What type of risk is this?",
+      "options": [
+        "It's not a risk - risks are negative",
+        "A positive risk (opportunity) that could benefit the project",
+        "A threat that should be avoided",
+        "An issue that needs immediate resolution"
+      ],
+      "correct_answer": 1,
+      "explanation": "Risks can be positive (opportunities) OR negative (threats). This potential early delivery is an opportunity. You might 'exploit' it (ensure it happens) or 'enhance' it (increase the probability). Only focusing on threats misses chances to add value.",
+      "knowledge_area": "Risk",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q002",
+      "question": "A risk occurred that you had identified and planned for. The contingency plan was activated. Where does budget for this response come from?",
+      "options": [
+        "Management Reserve - because it was unexpected",
+        "Contingency Reserve - because it's a known risk with a planned response",
+        "The project sponsor's personal budget",
+        "A new budget request to finance"
+      ],
+      "correct_answer": 1,
+      "explanation": "Contingency Reserve is for known risks identified in the risk register. Management Reserve is for unknown risks (true surprises). Since you identified this risk and planned a response, contingency reserve is the appropriate funding source. Using management reserve would be incorrect.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "risk_q003",
+      "question": "The team identified 50 risks. Limited time means only some can have detailed response plans. How should they prioritize?",
+      "options": [
+        "Address them in the order they were identified",
+        "Focus equally on all 50 risks",
+        "Use Risk Score (Probability x Impact) to prioritize which risks need attention",
+        "Address only the risks stakeholders mention"
+      ],
+      "correct_answer": 2,
+      "explanation": "Risk Score (Probability x Impact) helps prioritize limited response resources. A high-probability/low-impact risk may be less urgent than a low-probability/high-impact one. The score creates a prioritized list. However, some risks (like safety) may need attention regardless of score.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "risk_q004",
+      "question": "A risk that you identified last month has now occurred. It's no longer uncertain - it's affecting the project. What has the risk become?",
+      "options": [
+        "It's still a risk until the project ends",
+        "An issue - a current problem requiring immediate resolution",
+        "A lesson learned",
+        "A constraint"
+      ],
+      "correct_answer": 1,
+      "explanation": "Risk = uncertain future event (might happen). Issue = current problem that has materialized. When a risk occurs, it becomes an issue needing immediate action. Different management approaches are needed - risks get monitoring and contingency planning; issues get problem-solving and resolution.",
+      "knowledge_area": "Risk",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q005",
+      "question": "For a high-impact threat that the team can completely eliminate by redesigning part of the solution, which response strategy is this?",
+      "options": [
+        "Mitigate - reduce the probability or impact",
+        "Avoid - eliminate the threat entirely",
+        "Transfer - shift impact to a third party",
+        "Accept - acknowledge and deal with if it occurs"
+      ],
+      "correct_answer": 1,
+      "explanation": "Avoid means eliminating the threat entirely - often by changing scope, approach, or design so the risk cannot occur. Mitigate only reduces probability or impact; the risk still exists. Redesigning to completely eliminate a risk is avoidance.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "risk_q006",
+      "question": "The team buys insurance to cover potential property damage during construction. Which risk response strategy is this?",
+      "options": [
+        "Avoid - the risk won't happen",
+        "Mitigate - the probability is reduced",
+        "Transfer - the financial impact is shifted to the insurer",
+        "Accept - they're just acknowledging the risk"
+      ],
+      "correct_answer": 2,
+      "explanation": "Transfer shifts the negative impact of a threat to a third party, typically through insurance, warranties, or contracts. The risk still exists, but the financial consequences transfer to the insurer. Insurance is a classic example of risk transfer.",
+      "knowledge_area": "Risk",
+      "difficulty": "easy",
+      "question_type": "application"
+    },
+    {
+      "id": "risk_q007",
+      "question": "A project risk register was created at kickoff but hasn't been updated in 4 months. What is the problem?",
+      "options": [
+        "Nothing - risk identification is a one-time activity",
+        "The register becomes stale - new risks emerge and old ones may resolve as the project progresses",
+        "The register only needs updating if issues occur",
+        "Risk registers are optional documents"
+      ],
+      "correct_answer": 1,
+      "explanation": "Risk identification is ongoing throughout the project. New risks emerge as more information becomes available, and early risks may resolve. A static risk register reflects historical concerns, not current uncertainties. Regular risk reviews keep the team aware of actual current risks.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "risk_q008",
+      "question": "The vendor's weekly status reports have been progressively later over the past month. Based on risk management principles, what might this represent?",
+      "options": [
+        "A risk trigger - an early warning sign that a risk may be materializing",
+        "An issue that already occurred",
+        "A constraint on the project",
+        "Normal vendor behavior"
+      ],
+      "correct_answer": 0,
+      "explanation": "A risk trigger is an indicator that a risk is about to occur or has occurred. Progressively late reports might signal vendor capacity problems, quality issues, or communication breakdown. Recognizing triggers enables early intervention before risks fully materialize.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "risk_q009",
+      "question": "For a positive risk (opportunity), which strategy ensures the opportunity definitely happens?",
+      "options": [
+        "Enhance - increase the probability",
+        "Exploit - take action to ensure it occurs",
+        "Share - allocate to a third party",
+        "Accept - take advantage if it happens naturally"
+      ],
+      "correct_answer": 1,
+      "explanation": "Exploit means taking deliberate action to ensure a positive risk happens. Unlike Enhance (which only increases probability), Exploit eliminates uncertainty by making the opportunity certain. It's the opposite of Avoid for threats.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q010",
+      "question": "Individual risks are all low-severity, but combined they create significant overall project uncertainty. What concept does this illustrate?",
+      "options": [
+        "Risk Score calculation error",
+        "The difference between Individual Risk and Overall Project Risk",
+        "These risks should be ignored since each is low",
+        "The risk register is too large"
+      ],
+      "correct_answer": 1,
+      "explanation": "Individual Risk = specific uncertain events. Overall Project Risk = the effect of ALL sources of uncertainty on the project as a whole. Many small risks can collectively threaten the project even if none is individually severe. Both perspectives are needed for complete risk management.",
+      "knowledge_area": "Risk",
+      "difficulty": "hard",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q011",
+      "question": "A risk that was 'Mitigated' still occurred, but with less impact than it would have had otherwise. Did the mitigation fail?",
+      "options": [
+        "Yes - mitigation should prevent the risk from occurring",
+        "No - mitigation reduces probability or impact, not eliminates; residual risk remained and occurred",
+        "The mitigation was poorly designed",
+        "Mitigation and avoidance are the same"
+      ],
+      "correct_answer": 1,
+      "explanation": "Mitigation REDUCES probability or impact - it doesn't eliminate the risk. Some residual risk remains. If the risk occurred but with less damage than unmitigated, the mitigation worked. Avoidance eliminates the risk entirely; mitigation manages it.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q012",
+      "question": "A PM calculates EMV for a risk: 30% probability of $100,000 loss. What is the EMV and what does it represent?",
+      "options": [
+        "$100,000 - the potential loss",
+        "-$30,000 - the weighted average impact used for reserve planning",
+        "$30,000 - profit opportunity",
+        "EMV cannot be calculated for threats"
+      ],
+      "correct_answer": 1,
+      "explanation": "EMV = Probability × Impact = 0.30 × -$100,000 = -$30,000. The negative indicates a threat. EMV represents the weighted average outcome - useful for comparing risks and sizing contingency reserves. It's not what you'll actually spend, but the expected value across many similar situations.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "risk_q013",
+      "question": "A tornado diagram shows Risk A has the longest bar. What does this tell you?",
+      "options": [
+        "Risk A is most likely to occur",
+        "Risk A has the greatest potential impact on project outcomes - it's the key driver",
+        "Risk A should be ignored",
+        "Risk A has already occurred"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tornado diagrams (sensitivity analysis) show which risks most influence outcomes. The longest bar = greatest potential impact on the project. This helps focus attention on risks that actually matter rather than treating all risks equally.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "risk_q014",
+      "question": "The organization has low risk appetite. How should this affect project risk management?",
+      "options": [
+        "Ignore it - project risk is separate from organizational risk",
+        "Take more conservative approaches, avoid high-risk options, and ensure robust risk responses",
+        "Take more risks to maximize returns",
+        "Risk appetite doesn't affect projects"
+      ],
+      "correct_answer": 1,
+      "explanation": "Organizational risk appetite guides how much risk is acceptable. Low appetite means conservative approaches - avoiding high-risk options, implementing stronger mitigation, maintaining larger contingency reserves. Risk decisions should align with organizational risk culture.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "risk_q015",
+      "question": "A risk response creates a new risk. For example, outsourcing to reduce cost risk introduces vendor management risks. What is this new risk called?",
+      "options": [
+        "Primary risk",
+        "Secondary risk - a new risk arising from implementing a risk response",
+        "Residual risk",
+        "Overall project risk"
+      ],
+      "correct_answer": 1,
+      "explanation": "Secondary risks arise as direct results of implementing risk responses. The 'cure' creates new potential problems. Outsourcing addresses one risk but creates others. Secondary risks must be identified and included in the risk register with their own responses.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q016",
+      "question": "An unidentified risk occurred - there's no contingency plan because no one saw it coming. What is the PM's response called?",
+      "options": [
+        "Contingency plan",
+        "Workaround - an unplanned response to a risk that wasn't anticipated",
+        "Fallback plan",
+        "Risk avoidance"
+      ],
+      "correct_answer": 1,
+      "explanation": "A Workaround is an unplanned response to a risk that has occurred but was not identified in advance. It's reactive problem-solving for unknown risks. Workarounds should be documented and lessons learned captured to improve future risk identification.",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q017",
+      "question": "Monte Carlo simulation shows 80% probability of finishing by June 30. What does this tell stakeholders?",
+      "options": [
+        "The project will definitely finish by June 30",
+        "There's an 80% chance of finishing by June 30; 20% chance it takes longer - plan accordingly",
+        "Monte Carlo results are unreliable",
+        "June 30 is the worst case"
+      ],
+      "correct_answer": 1,
+      "explanation": "Monte Carlo provides probabilistic outcomes, not single-point predictions. 80% confidence means 4 in 5 chance of meeting the date - but also 1 in 5 chance of missing it. This enables risk-aware planning with realistic stakeholder expectations.",
+      "knowledge_area": "Risk",
+      "difficulty": "hard",
+      "question_type": "application"
+    },
+    {
+      "id": "risk_q018",
+      "question": "The Risk Register should be updated when?",
+      "options": [
+        "Only at project start",
+        "Continuously throughout the project as new risks emerge and existing ones evolve",
+        "Only when risks occur",
+        "At project close"
+      ],
+      "correct_answer": 1,
+      "explanation": "Risk identification is ongoing. New risks emerge as more information becomes available; existing risks may resolve or change. A static risk register reflects historical concerns, not current uncertainties. Regular risk reviews keep it current.",
+      "knowledge_area": "Risk",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q019",
+      "question": "What is the difference between Risk Threshold and Risk Tolerance?",
+      "options": [
+        "They are the same thing",
+        "Tolerance is a range of acceptable variation; Threshold is the specific point triggering escalation",
+        "Threshold is higher than tolerance",
+        "Only large organizations need thresholds"
+      ],
+      "correct_answer": 1,
+      "explanation": "Risk Tolerance is the acceptable variation range from objectives. Risk Threshold is the specific level at which risk becomes unacceptable, triggering escalation or mandatory action. Thresholds are concrete trigger points within the broader tolerance range.",
+      "knowledge_area": "Risk",
+      "difficulty": "hard",
+      "question_type": "concept"
+    },
+    {
+      "id": "risk_q020",
+      "question": "Why should risks be categorized (technical, external, organizational, project management)?",
+      "options": [
+        "For documentation purposes only",
+        "Categories ensure comprehensive identification and help match risks to appropriate responders",
+        "Categories are optional",
+        "All risks are the same type"
+      ],
+      "correct_answer": 1,
+      "explanation": "Risk categories (Risk Breakdown Structure) ensure systematic coverage - using a checklist by category catches risks that freeform brainstorming misses. Categories also match risks to appropriate responders (technical risks to tech leads) and reveal patterns (are most risks technical?).",
+      "knowledge_area": "Risk",
+      "difficulty": "medium",
+      "question_type": "concept"
+    }
+  ]
+}

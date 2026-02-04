@@ -1,0 +1,382 @@
+{
+  "version": 2,
+  "description": "Random ECO domain tidbits for passive learning (PMBOK, Agile, Business Analysis)",
+  "eco_weights": {
+    "domain1_fundamentals": "36%",
+    "domain2_predictive": "17%",
+    "domain3_agile": "20%",
+    "domain4_ba": "27%"
+  },
+  "tidbits": [
+    {
+      "fact": "A project is temporary - it has a definite beginning and end. Operations are ongoing. This distinction is fundamental to understanding why project management exists as a discipline.",
+      "source": "01_principles_management.md",
+      "topic": "Fundamentals"
+    },
+    {
+      "fact": "The 12 PM Principles are not processes to follow, but guidelines that shape behavior and decision-making. They answer 'why we do things' rather than 'what to do'.",
+      "source": "01_principles_management.md",
+      "topic": "Principles"
+    },
+    {
+      "fact": "Stakeholders include anyone who 'may affect, be affected by, or perceives itself to be affected by' the project. Perception matters - even those without formal relationships can become resistors.",
+      "source": "07_stakeholders_management.md",
+      "topic": "Stakeholders"
+    },
+    {
+      "fact": "The Power/Interest Grid has four quadrants: High Power/High Interest = Manage Closely. High Power/Low Interest = Keep Satisfied. Low Power/High Interest = Keep Informed. Low Power/Low Interest = Monitor.",
+      "source": "07_stakeholders_management.md",
+      "topic": "Stakeholders"
+    },
+    {
+      "fact": "Risk can be positive (opportunities) OR negative (threats). Only focusing on threats means missing chances to add value to the project.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "Contingency Reserve is for known risks (in the risk register). Management Reserve is for unknown risks (true surprises). Using the wrong one is a common exam trap.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "Risk response strategies for threats: Avoid (eliminate), Mitigate (reduce), Transfer (shift to third party), Accept (acknowledge). For opportunities: Exploit, Enhance, Share, Accept.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "A Work Breakdown Structure (WBS) decomposes deliverables, not activities. The lowest level is called a 'work package'. Activities come later in schedule planning.",
+      "source": "04_scope_management.md",
+      "topic": "Scope"
+    },
+    {
+      "fact": "Gold plating means adding unrequested features. It sounds helpful but wastes resources, adds risk, and delays delivery. Scope should match requirements - no more, no less.",
+      "source": "04_scope_management.md",
+      "topic": "Scope"
+    },
+    {
+      "fact": "The Critical Path is the longest path through the project network - it determines the minimum project duration. Activities on it have zero float.",
+      "source": "05_schedule_management.md",
+      "topic": "Schedule"
+    },
+    {
+      "fact": "Float (slack) is how long an activity can slip without affecting the project end date. Free Float affects only the next activity; Total Float affects the project end date.",
+      "source": "05_schedule_management.md",
+      "topic": "Schedule"
+    },
+    {
+      "fact": "PERT uses three estimates: Optimistic (O), Most Likely (M), Pessimistic (P). The weighted average is (O + 4M + P) / 6. This accounts for uncertainty better than single-point estimates.",
+      "source": "05_schedule_management.md",
+      "topic": "Schedule"
+    },
+    {
+      "fact": "Crashing adds resources to compress the schedule but increases cost. Fast-tracking overlaps activities but increases risk. Both are schedule compression techniques.",
+      "source": "05_schedule_management.md",
+      "topic": "Schedule"
+    },
+    {
+      "fact": "Earned Value Management answers three questions: What did we plan to spend? (PV) What did we actually spend? (AC) What did we get for it? (EV)",
+      "source": "06_finance_management.md",
+      "topic": "Finance"
+    },
+    {
+      "fact": "CPI = EV/AC (Cost Performance Index). If CPI < 1, you're over budget. SPI = EV/PV (Schedule Performance Index). If SPI < 1, you're behind schedule.",
+      "source": "06_finance_management.md",
+      "topic": "Finance"
+    },
+    {
+      "fact": "EAC (Estimate at Completion) predicts total project cost. The simplest formula: EAC = BAC / CPI. This assumes future performance matches past performance.",
+      "source": "06_finance_management.md",
+      "topic": "Finance"
+    },
+    {
+      "fact": "A project charter formally authorizes the project and gives the PM authority to apply organizational resources. Without it, the PM has no official authority.",
+      "source": "03_governance_management.md",
+      "topic": "Governance"
+    },
+    {
+      "fact": "The sponsor is not the customer. The sponsor provides resources, removes obstacles, and champions the project within the organization. They're the PM's ally at the executive level.",
+      "source": "03_governance_management.md",
+      "topic": "Governance"
+    },
+    {
+      "fact": "Predictive (waterfall) life cycles work well when requirements are stable and well-understood. Adaptive (agile) life cycles work better when requirements are uncertain or likely to change.",
+      "source": "02_life_cycles_management.md",
+      "topic": "Life Cycles"
+    },
+    {
+      "fact": "Hybrid approaches combine predictive and adaptive elements. For example: predictive for infrastructure (known), adaptive for software features (evolving). Match the approach to the work.",
+      "source": "02_life_cycles_management.md",
+      "topic": "Life Cycles"
+    },
+    {
+      "fact": "In Agile, a Sprint is a fixed timebox (usually 2-4 weeks). Work not completed doesn't extend the sprint - it goes back to the backlog. Timeboxes create rhythm and predictability.",
+      "source": "02_life_cycles_management.md",
+      "topic": "Life Cycles"
+    },
+    {
+      "fact": "The product backlog is ordered by value, risk, and dependencies - not just by what stakeholders ask for loudest. The Product Owner owns prioritization.",
+      "source": "02_life_cycles_management.md",
+      "topic": "Life Cycles"
+    },
+    {
+      "fact": "Tailoring means adapting processes to fit the project context. A 2-week internal project doesn't need the same rigor as a 3-year regulated construction project.",
+      "source": "10_tailoring_management.md",
+      "topic": "Tailoring"
+    },
+    {
+      "fact": "Resource leveling adjusts the schedule to address resource constraints (avoiding over-allocation). It often extends the project duration. Resource smoothing keeps the end date fixed.",
+      "source": "08_resources_management.md",
+      "topic": "Resources"
+    },
+    {
+      "fact": "The responsibility assignment matrix (RAM) shows who does what. A RACI chart adds granularity: Responsible (does work), Accountable (owns outcome), Consulted, Informed.",
+      "source": "08_resources_management.md",
+      "topic": "Resources"
+    },
+    {
+      "fact": "Tuckman's team stages: Forming (polite, cautious), Storming (conflict emerges), Norming (agreements form), Performing (high productivity), Adjourning (disbanding).",
+      "source": "08_resources_management.md",
+      "topic": "Resources"
+    },
+    {
+      "fact": "Fixed-price contracts transfer cost risk to the seller. Cost-reimbursable contracts keep cost risk with the buyer. Time & Materials splits the risk.",
+      "source": "12_procurement_management.md",
+      "topic": "Procurement"
+    },
+    {
+      "fact": "A change request isn't automatically bad. It goes through change control - assess impact, get approval, update plans. Uncontrolled changes (scope creep) are the problem.",
+      "source": "03_governance_management.md",
+      "topic": "Governance"
+    },
+    {
+      "fact": "Lessons learned should be captured throughout the project, not just at the end. Waiting until close means forgetting details and missing chances to improve mid-project.",
+      "source": "03_governance_management.md",
+      "topic": "Governance"
+    },
+    {
+      "fact": "EMV (Expected Monetary Value) = Probability × Impact. A 30% chance of $100K loss = -$30K EMV. Use it to compare risks and size contingency reserves.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "A risk trigger is an early warning sign that a risk may be materializing. Recognizing triggers enables early intervention before risks fully materialize.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "Secondary risks arise from implementing risk responses. Outsourcing addresses one risk but creates vendor management risks. Always identify secondary risks.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "A workaround is an unplanned response to a risk that wasn't identified in advance. It's reactive problem-solving for unknown risks.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "Engagement is not the same as communication. You can have excellent communications (regular updates) but poor engagement (not addressing concerns). Both are needed.",
+      "source": "07_stakeholders_management.md",
+      "topic": "Stakeholders"
+    },
+    {
+      "fact": "Trust takes time to build but moments to destroy. Stakeholders prefer early bad news to surprises. Never hide problems hoping they'll improve.",
+      "source": "07_stakeholders_management.md",
+      "topic": "Stakeholders"
+    },
+    {
+      "fact": "The PM facilitates conflict resolution but doesn't always decide. Collaboration (win-win) is generally preferred over compromise (both give up something).",
+      "source": "07_stakeholders_management.md",
+      "topic": "Stakeholders"
+    },
+    {
+      "fact": "Monte Carlo simulation provides probabilistic outcomes, not single-point predictions. '80% confidence by June 30' means 4 in 5 chance - plan for the other 1 in 5.",
+      "source": "09_risk_management.md",
+      "topic": "Risk"
+    },
+    {
+      "fact": "The 100% Rule: The WBS must include 100% of the work defined by scope - nothing more, nothing less. If it's not in the WBS, it's not in the project.",
+      "source": "04_scope_management.md",
+      "topic": "Scope"
+    },
+    {
+      "fact": "Requirements should be SMART: Specific, Measurable, Achievable, Relevant, Time-bound. Vague requirements lead to disputes about whether they were met.",
+      "source": "04_scope_management.md",
+      "topic": "Scope"
+    },
+    {
+      "fact": "A milestone has zero duration - it marks a significant point (phase end, delivery, approval). It's a marker, not work.",
+      "source": "05_schedule_management.md",
+      "topic": "Schedule"
+    },
+    {
+      "fact": "The Project Management Plan isn't just a schedule. It includes scope, schedule, cost, quality, resource, communications, risk, procurement, and stakeholder management plans.",
+      "source": "03_governance_management.md",
+      "topic": "Governance"
+    },
+    {
+      "fact": "Sunk costs are money already spent and unrecoverable. They should NOT influence future decisions. Decide based on future value, not past investment.",
+      "source": "06_finance_management.md",
+      "topic": "Finance"
+    },
+    {
+      "fact": "Opportunity cost is what you give up by choosing one option over another. Choosing Project A means you can't do Project B - that's B's opportunity cost.",
+      "source": "06_finance_management.md",
+      "topic": "Finance"
+    },
+    {
+      "fact": "Net Present Value (NPV) accounts for time value of money. A dollar today is worth more than a dollar next year. Higher NPV = better investment.",
+      "source": "06_finance_management.md",
+      "topic": "Finance"
+    },
+    {
+      "fact": "The Delphi technique gathers expert opinions anonymously in rounds until consensus emerges. Anonymity prevents groupthink and dominant personalities from skewing results.",
+      "source": "11_tools_techniques_management.md",
+      "topic": "Tools"
+    },
+    {
+      "fact": "Affinity diagrams group ideas into categories. Useful for organizing brainstorming output or making sense of large amounts of unstructured information.",
+      "source": "11_tools_techniques_management.md",
+      "topic": "Tools"
+    },
+    {
+      "fact": "A fishbone (Ishikawa) diagram shows cause-and-effect relationships. Categories typically include: Methods, Machines, Materials, Measurement, Environment, People.",
+      "source": "11_tools_techniques_management.md",
+      "topic": "Tools"
+    },
+    {
+      "fact": "The Pareto Principle (80/20 rule): 80% of problems come from 20% of causes. Focus on the vital few, not the trivial many.",
+      "source": "11_tools_techniques_management.md",
+      "topic": "Tools"
+    },
+    {
+      "fact": "Quality is 'the degree to which a set of inherent characteristics fulfills requirements.' It's about meeting requirements, not exceeding them.",
+      "source": "03_governance_management.md",
+      "topic": "Quality"
+    },
+    {
+      "fact": "Prevention over inspection: It's cheaper to build quality in than to find defects later. The cost of fixing defects increases dramatically the later they're found.",
+      "source": "03_governance_management.md",
+      "topic": "Quality"
+    },
+    {
+      "fact": "The Agile Manifesto has four values. Key insight: we value items on the RIGHT (processes, documentation, contracts, plans) but value items on the LEFT MORE. It's not either/or.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "Agile Principle #12: 'At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior.' This is why retrospectives are essential, not optional.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "A Scrum Master is a servant-leader, not a project manager. They remove impediments, facilitate events, and coach the team - but don't assign work or make technical decisions.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "The Product Owner is ONE person, not a committee. This ensures fast, clear decisions. They may represent stakeholders, but final prioritization authority is theirs alone.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "Kanban limits Work In Progress (WIP) to improve flow. Too much WIP = context switching, bottlenecks, longer cycle times. Finishing work beats starting new work.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "High-uncertainty work needs adaptive approaches; definable work suits predictive. Manufacturing a car (known) vs designing a new app (exploratory) require different approaches.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "Velocity measures how much work a team completes per sprint. It's a planning tool for the team, NOT a performance metric to compare teams or pressure for more output.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "User stories follow the format: 'As a [user], I want [goal] so that [benefit].' The 'so that' is crucial - it explains WHY, enabling better solutions.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "The Daily Scrum is 15 minutes, max. It's for the Development Team to synchronize, not a status report to management. Three questions: Did, Will, Blockers.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "Definition of Done (DoD) is a shared understanding of what 'complete' means. Without it, 'done' is subjective and technical debt accumulates.",
+      "source": "14_agile_frameworks.md",
+      "topic": "Agile"
+    },
+    {
+      "fact": "Business analysis is not just for business analysts. Everyone does BA when they identify problems, recommend solutions, or elicit requirements - regardless of job title.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Four types of requirements: Business (high-level needs), Stakeholder (user needs), Solution (features/functions), and Transition (temporary needs to move from as-is to to-be).",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Functional requirements describe WHAT the system does (behaviors, actions). Nonfunctional requirements describe HOW WELL it does it (performance, security, scalability).",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Elicitation is not just asking questions. Techniques include interviews, workshops, observation, document analysis, prototyping, and surveys. Different situations need different approaches.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "A solution isn't just software. It can include processes, people, organizational changes, training - anything that delivers value to meet the business need.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "The business case justifies the investment. It compares costs vs benefits, analyzes alternatives, and enables Go/No-Go decisions. Without it, projects lack clear success criteria.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Root cause analysis asks 'Why?' repeatedly (often 5 times) to find the underlying problem, not just symptoms. Fixing symptoms leaves the real problem unsolved.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Stakeholder analysis in BA identifies who has interest in the solution, their needs, influence, and potential impact. Missing stakeholders = missing requirements = failed solutions.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Traceability links requirements to their source (why needed) and to deliverables (what satisfies them). It answers: Where did this come from? How is it being addressed?",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "A gap analysis compares current state (as-is) to desired future state (to-be). The gap defines what the solution must address. No gap = no need for a solution.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Validation confirms we're building the RIGHT solution (meets business needs). Verification confirms we're building the solution RIGHT (meets specifications). Both are needed.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Acceptance criteria define what success looks like for a requirement. Without clear criteria, stakeholders and teams may have different definitions of 'done'.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Change is inevitable. Good BA practices include change management - assessing impact, getting approval, and updating requirements documentation when changes occur.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    },
+    {
+      "fact": "Solution evaluation measures whether the implemented solution actually delivers the expected benefits. Many projects skip this step, never knowing if they succeeded.",
+      "source": "15_business_analysis.md",
+      "topic": "Business Analysis"
+    }
+  ]
+}

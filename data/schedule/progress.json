@@ -1,0 +1,997 @@
+{
+  "version": 1,
+  "updated": "2026-02-04T14:11:39.155805",
+  "reading_progress": {
+    "principles": {
+      "status": "completed",
+      "started_at": "2026-01-18T10:31:38.112417",
+      "completed_at": "2026-01-19T17:21:35.089001",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "life_cycles": {
+      "status": "completed",
+      "started_at": "2026-01-25T13:00:03.677702",
+      "completed_at": "2026-01-25T13:00:03.678162",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "governance": {
+      "status": "completed",
+      "started_at": "2026-01-27T09:25:12.391830",
+      "completed_at": "2026-01-27T09:25:12.391846",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "scope": {
+      "status": "completed",
+      "started_at": "2026-01-28T18:17:33.043957",
+      "completed_at": "2026-01-28T18:17:33.044015",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "schedule": {
+      "status": "completed",
+      "started_at": "2026-01-29T16:54:55.138421",
+      "completed_at": "2026-01-29T16:54:55.138446",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "finance": {
+      "status": "completed",
+      "started_at": "2026-01-30T17:14:31.722158",
+      "completed_at": "2026-01-30T17:14:31.722173",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "stakeholders": {
+      "status": "completed",
+      "started_at": "2026-02-01T09:28:58.268854",
+      "completed_at": "2026-02-01T09:28:58.268878",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "resources": {
+      "status": "completed",
+      "started_at": "2026-02-01T09:58:20.369452",
+      "completed_at": "2026-02-01T09:58:20.369467",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "risk": {
+      "status": "completed",
+      "started_at": "2026-02-01T11:27:19.447219",
+      "completed_at": "2026-02-01T11:27:19.447233",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "tailoring": {
+      "status": "completed",
+      "started_at": "2026-02-02T16:24:15.793592",
+      "completed_at": "2026-02-02T16:24:15.793602",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "tools": {
+      "status": "completed",
+      "started_at": "2026-02-04T14:09:30.859364",
+      "completed_at": "2026-02-04T14:09:30.859374",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    }
+  },
+  "sessions": [
+    {
+      "id": "sess_20260119_172135",
+      "timestamp": "2026-01-19T17:21:35.089056",
+      "type": "reading",
+      "topic_id": "principles",
+      "duration_minutes": 45,
+      "details": {
+        "guide": "01_principles_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260120_115238",
+      "timestamp": "2026-01-20T11:52:38.243645",
+      "type": "flashcards",
+      "topic_id": "pm_fundamentals",
+      "duration_minutes": 10,
+      "details": {
+        "cards_reviewed": 10,
+        "deck": "pm_fundamentals.json"
+      }
+    },
+    {
+      "id": "sess_20260120_172427",
+      "timestamp": "2026-01-20T17:24:27.184908",
+      "type": "flashcards",
+      "topic_id": "tools",
+      "duration_minutes": 20,
+      "details": {
+        "cards_reviewed": 20,
+        "deck": "tools_domain.json"
+      }
+    },
+    {
+      "id": "sess_20260123_184801",
+      "timestamp": "2026-01-23T18:48:01.881018",
+      "type": "read",
+      "topic_id": "life_cycles",
+      "duration_minutes": 40,
+      "details": {
+        "activity_id": "d1_a2",
+        "title": "Read: Project Life Cycles"
+      }
+    },
+    {
+      "id": "sess_20260123_190628",
+      "timestamp": "2026-01-23T19:06:28.497624",
+      "type": "flashcards",
+      "topic_id": "principles",
+      "duration_minutes": 20,
+      "details": {
+        "cards_reviewed": 20,
+        "deck": "principles_domain.json"
+      }
+    },
+    {
+      "id": "sess_20260123_190644",
+      "timestamp": "2026-01-23T19:06:44.922471",
+      "type": "flashcards",
+      "topic_id": "principles",
+      "duration_minutes": 5,
+      "details": {
+        "activity_id": "d1_a3",
+        "title": "Flashcards: PM Principles"
+      }
+    },
+    {
+      "id": "sess_20260124_183523",
+      "timestamp": "2026-01-24T18:35:23.113042",
+      "type": "watch",
+      "topic_id": "M01",
+      "duration_minutes": 16,
+      "details": {
+        "activity_id": "d2_a5",
+        "title": "Project Management & Product Management"
+      }
+    },
+    {
+      "id": "sess_20260124_184259",
+      "timestamp": "2026-01-24T18:42:59.738821",
+      "type": "watch",
+      "topic_id": "domain1",
+      "duration_minutes": 24,
+      "details": {
+        "lesson_id": "L01.01",
+        "title": "Projects, Programs & Portfolios"
+      }
+    },
+    {
+      "id": "sess_20260125_130003",
+      "timestamp": "2026-01-25T13:00:03.678231",
+      "type": "reading",
+      "topic_id": "life_cycles",
+      "duration_minutes": 40,
+      "details": {
+        "guide": "02_life_cycles_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260125_130118",
+      "timestamp": "2026-01-25T13:01:18.043620",
+      "type": "watch",
+      "topic_id": "M02",
+      "duration_minutes": 29,
+      "details": {
+        "activity_id": "d1_a1",
+        "title": "Project Roles and Their Responsibilities"
+      }
+    },
+    {
+      "id": "sess_20260125_130120",
+      "timestamp": "2026-01-25T13:01:20.945884",
+      "type": "read",
+      "topic_id": "life_cycles",
+      "duration_minutes": 40,
+      "details": {
+        "activity_id": "d1_a2",
+        "title": "Read: Project Life Cycles"
+      }
+    },
+    {
+      "id": "sess_20260125_130900",
+      "timestamp": "2026-01-25T13:09:00.560571",
+      "type": "flashcards",
+      "topic_id": "principles",
+      "duration_minutes": 20,
+      "details": {
+        "cards_reviewed": 20,
+        "deck": "principles_domain.json"
+      }
+    },
+    {
+      "id": "sess_20260125_130910",
+      "timestamp": "2026-01-25T13:09:10.190569",
+      "type": "flashcards",
+      "topic_id": "principles",
+      "duration_minutes": 20,
+      "details": {
+        "activity_id": "d1_a3",
+        "title": "Flashcards: Principles Domain"
+      }
+    },
+    {
+      "id": "sess_20260126_184009",
+      "timestamp": "2026-01-26T18:40:09.721454",
+      "type": "watch",
+      "topic_id": "domain1",
+      "duration_minutes": 23,
+      "details": {
+        "lesson_id": "L03.00",
+        "title": "Projects and Organizations"
+      }
+    },
+    {
+      "id": "sess_20260126_184047",
+      "timestamp": "2026-01-26T18:40:47.687612",
+      "type": "watch",
+      "topic_id": "M03",
+      "duration_minutes": 23,
+      "details": {
+        "activity_id": "d2_a4",
+        "title": "Projects and Organizations"
+      }
+    },
+    {
+      "id": "sess_20260127_092512",
+      "timestamp": "2026-01-27T09:25:12.392324",
+      "type": "reading",
+      "topic_id": "governance",
+      "duration_minutes": 50,
+      "details": {
+        "guide": "03_governance_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260127_092535",
+      "timestamp": "2026-01-27T09:25:35.910484",
+      "type": "read",
+      "topic_id": "governance",
+      "duration_minutes": 50,
+      "details": {
+        "activity_id": "d2_a5",
+        "title": "Read: Governance"
+      }
+    },
+    {
+      "id": "sess_20260127_131539",
+      "timestamp": "2026-01-27T13:15:39.706203",
+      "type": "review",
+      "topic_id": null,
+      "duration_minutes": 17,
+      "details": {
+        "activity_id": "d2_a6",
+        "title": "Review: Weak areas or previous content"
+      }
+    },
+    {
+      "id": "sess_20260128_112450",
+      "timestamp": "2026-01-28T11:24:50.785257",
+      "type": "watch",
+      "topic_id": "M04",
+      "duration_minutes": 28,
+      "details": {
+        "activity_id": "d4_a11",
+        "title": "Predictive or Adaptive: Choosing the Right Approach"
+      }
+    },
+    {
+      "id": "sess_20260128_112455",
+      "timestamp": "2026-01-28T11:24:55.140718",
+      "type": "watch",
+      "topic_id": "M04",
+      "duration_minutes": 31,
+      "details": {
+        "activity_id": "d3_a7",
+        "title": "The Project Life Cycle and Project Phases"
+      }
+    },
+    {
+      "id": "sess_20260128_112458",
+      "timestamp": "2026-01-28T11:24:58.444246",
+      "type": "watch",
+      "topic_id": "M04",
+      "duration_minutes": 24,
+      "details": {
+        "activity_id": "d3_a8",
+        "title": "Waterfall, Agile, and Hybrid Approaches"
+      }
+    },
+    {
+      "id": "sess_20260128_113456",
+      "timestamp": "2026-01-28T11:34:56.367553",
+      "type": "flashcards",
+      "topic_id": "life_cycles",
+      "duration_minutes": 20,
+      "details": {
+        "cards_reviewed": 20,
+        "deck": "life_cycles_domain.json"
+      }
+    },
+    {
+      "id": "sess_20260128_113509",
+      "timestamp": "2026-01-28T11:35:09.495570",
+      "type": "flashcards",
+      "topic_id": "life_cycles",
+      "duration_minutes": 20,
+      "details": {
+        "activity_id": "d3_a9",
+        "title": "Flashcards: Life Cycles Domain"
+      }
+    },
+    {
+      "id": "sess_20260128_113514",
+      "timestamp": "2026-01-28T11:35:14.785517",
+      "type": "review",
+      "topic_id": null,
+      "duration_minutes": 15,
+      "details": {
+        "activity_id": "d3_a10",
+        "title": "Review: Weak areas or previous content"
+      }
+    },
+    {
+      "id": "sess_20260128_181733",
+      "timestamp": "2026-01-28T18:17:33.044074",
+      "type": "reading",
+      "topic_id": "scope",
+      "duration_minutes": 55,
+      "details": {
+        "guide": "04_scope_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260128_181742",
+      "timestamp": "2026-01-28T18:17:42.745886",
+      "type": "read",
+      "topic_id": "scope",
+      "duration_minutes": 55,
+      "details": {
+        "activity_id": "d4_a12",
+        "title": "Read: Scope Management"
+      }
+    },
+    {
+      "id": "sess_20260129_141857",
+      "timestamp": "2026-01-29T14:18:57.837618",
+      "type": "watch",
+      "topic_id": "domain1",
+      "duration_minutes": 27,
+      "details": {
+        "lesson_id": "L05.01",
+        "title": "Leadership and Team Management"
+      }
+    },
+    {
+      "id": "sess_20260129_141917",
+      "timestamp": "2026-01-29T14:19:17.710411",
+      "type": "watch",
+      "topic_id": "M05",
+      "duration_minutes": 27,
+      "details": {
+        "activity_id": "d5_a13",
+        "title": "Leadership and Team Management"
+      }
+    },
+    {
+      "id": "sess_20260129_165455",
+      "timestamp": "2026-01-29T16:54:55.138568",
+      "type": "reading",
+      "topic_id": "schedule",
+      "duration_minutes": 60,
+      "details": {
+        "guide": "05_schedule_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260129_165516",
+      "timestamp": "2026-01-29T16:55:16.724523",
+      "type": "read",
+      "topic_id": "schedule",
+      "duration_minutes": 60,
+      "details": {
+        "activity_id": "d5_a14",
+        "title": "Read: Schedule Management"
+      }
+    },
+    {
+      "id": "sess_20260130_165108",
+      "timestamp": "2026-01-30T16:51:08.708540",
+      "type": "watch",
+      "topic_id": "domain1",
+      "duration_minutes": 22,
+      "details": {
+        "lesson_id": "L05.02",
+        "title": "Competing Project Constraints"
+      }
+    },
+    {
+      "id": "sess_20260130_165120",
+      "timestamp": "2026-01-30T16:51:20.457006",
+      "type": "watch",
+      "topic_id": "M05",
+      "duration_minutes": 22,
+      "details": {
+        "activity_id": "d6_a15",
+        "title": "Competing Project Constraints"
+      }
+    },
+    {
+      "id": "sess_20260130_171431",
+      "timestamp": "2026-01-30T17:14:31.722214",
+      "type": "reading",
+      "topic_id": "finance",
+      "duration_minutes": 55,
+      "details": {
+        "guide": "06_finance_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260130_171453",
+      "timestamp": "2026-01-30T17:14:53.080678",
+      "type": "read",
+      "topic_id": "finance",
+      "duration_minutes": 55,
+      "details": {
+        "activity_id": "d6_a16",
+        "title": "Read: Finance/Cost Management"
+      }
+    },
+    {
+      "id": "sess_20260130_173134",
+      "timestamp": "2026-01-30T17:31:34.237557",
+      "type": "watch",
+      "topic_id": "M05",
+      "duration_minutes": 28,
+      "details": {
+        "activity_id": "d7_a17",
+        "title": "Baselines"
+      }
+    },
+    {
+      "id": "sess_20260201_092858",
+      "timestamp": "2026-02-01T09:28:58.268945",
+      "type": "reading",
+      "topic_id": "stakeholders",
+      "duration_minutes": 45,
+      "details": {
+        "guide": "07_stakeholders_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260201_092909",
+      "timestamp": "2026-02-01T09:29:09.816262",
+      "type": "read",
+      "topic_id": "stakeholders",
+      "duration_minutes": 45,
+      "details": {
+        "activity_id": "d7_a18",
+        "title": "Read: Stakeholder Management"
+      }
+    },
+    {
+      "id": "sess_20260201_092912",
+      "timestamp": "2026-02-01T09:29:12.028552",
+      "type": "review",
+      "topic_id": null,
+      "duration_minutes": 17,
+      "details": {
+        "activity_id": "d7_a19",
+        "title": "Review: Weak areas or previous content"
+      }
+    },
+    {
+      "id": "sess_20260201_095750",
+      "timestamp": "2026-02-01T09:57:50.656457",
+      "type": "read",
+      "topic_id": "resources",
+      "duration_minutes": 50,
+      "details": {
+        "activity_id": "d8_a21",
+        "title": "Read: Resource Management"
+      }
+    },
+    {
+      "id": "sess_20260201_095820",
+      "timestamp": "2026-02-01T09:58:20.369516",
+      "type": "reading",
+      "topic_id": "resources",
+      "duration_minutes": 50,
+      "details": {
+        "guide": "08_resources_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260201_100210",
+      "timestamp": "2026-02-01T10:02:10.121396",
+      "type": "review",
+      "topic_id": null,
+      "duration_minutes": 16,
+      "details": {
+        "activity_id": "d8_a22",
+        "title": "Review: Weak areas or previous content"
+      }
+    },
+    {
+      "id": "sess_20260201_100213",
+      "timestamp": "2026-02-01T10:02:13.400482",
+      "type": "watch",
+      "topic_id": "M06",
+      "duration_minutes": 24,
+      "details": {
+        "activity_id": "d8_a20",
+        "title": "Business Case, Project Statement of Work, & Project Charter"
+      }
+    },
+    {
+      "id": "sess_20260201_112703",
+      "timestamp": "2026-02-01T11:27:03.515718",
+      "type": "read",
+      "topic_id": "risk",
+      "duration_minutes": 55,
+      "details": {
+        "activity_id": "d9_a24",
+        "title": "Read: Risk Management"
+      }
+    },
+    {
+      "id": "sess_20260201_112719",
+      "timestamp": "2026-02-01T11:27:19.447302",
+      "type": "reading",
+      "topic_id": "risk",
+      "duration_minutes": 55,
+      "details": {
+        "guide": "09_risk_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260201_114805",
+      "timestamp": "2026-02-01T11:48:05.813652",
+      "type": "watch",
+      "topic_id": "M06",
+      "duration_minutes": 28,
+      "details": {
+        "activity_id": "d9_a23",
+        "title": "The Project Management Plan"
+      }
+    },
+    {
+      "id": "sess_20260202_105609",
+      "timestamp": "2026-02-02T10:56:09.199483",
+      "type": "watch",
+      "topic_id": "M06",
+      "duration_minutes": 24,
+      "details": {
+        "activity_id": "d10_a25",
+        "title": "The Work Breakdown Structure (WBS)"
+      }
+    },
+    {
+      "id": "sess_20260202_111151",
+      "timestamp": "2026-02-02T11:11:51.007371",
+      "type": "watch",
+      "topic_id": "M06",
+      "duration_minutes": 22,
+      "details": {
+        "activity_id": "d10_a27",
+        "title": "The Project Schedule"
+      }
+    },
+    {
+      "id": "sess_20260202_111200",
+      "timestamp": "2026-02-02T11:12:00.442260",
+      "type": "read",
+      "topic_id": "tailoring",
+      "duration_minutes": 30,
+      "details": {
+        "activity_id": "d10_a26",
+        "title": "Read: Tailoring"
+      }
+    },
+    {
+      "id": "sess_20260202_162415",
+      "timestamp": "2026-02-02T16:24:15.793628",
+      "type": "reading",
+      "topic_id": "tailoring",
+      "duration_minutes": 30,
+      "details": {
+        "guide": "10_tailoring_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260202_163326",
+      "timestamp": "2026-02-02T16:33:26.807708",
+      "type": "flashcards",
+      "topic_id": "principles",
+      "duration_minutes": 20,
+      "details": {
+        "cards_reviewed": 20,
+        "deck": "principles_domain.json"
+      }
+    },
+    {
+      "id": "sess_20260202_163335",
+      "timestamp": "2026-02-02T16:33:35.784801",
+      "type": "flashcards",
+      "topic_id": "principles",
+      "duration_minutes": 20,
+      "details": {
+        "activity_id": "d1_a4",
+        "title": "Flashcards: Principles Domain"
+      }
+    },
+    {
+      "id": "sess_20260203_112046",
+      "timestamp": "2026-02-03T11:20:46.715468",
+      "type": "watch",
+      "topic_id": "domain2",
+      "duration_minutes": 17,
+      "details": {
+        "lesson_id": "L06.05",
+        "title": "The Risk Register"
+      }
+    },
+    {
+      "id": "sess_20260203_113456",
+      "timestamp": "2026-02-03T11:34:56.409973",
+      "type": "watch",
+      "topic_id": "domain2",
+      "duration_minutes": 20,
+      "details": {
+        "lesson_id": "L06.06",
+        "title": "Requirements Traceability Matrix"
+      }
+    },
+    {
+      "id": "sess_20260203_113536",
+      "timestamp": "2026-02-03T11:35:36.599341",
+      "type": "watch",
+      "topic_id": "domain2",
+      "duration_minutes": 19,
+      "details": {
+        "lesson_id": "L06.99",
+        "title": "The Artifacts Game"
+      }
+    },
+    {
+      "id": "sess_20260203_113603",
+      "timestamp": "2026-02-03T11:36:03.650764",
+      "type": "watch",
+      "topic_id": "M06",
+      "duration_minutes": 19,
+      "details": {
+        "activity_id": "d2_a5",
+        "title": "The Artifacts Game"
+      }
+    },
+    {
+      "id": "sess_20260203_120024",
+      "timestamp": "2026-02-03T12:00:24.299628",
+      "type": "read",
+      "topic_id": "tools",
+      "duration_minutes": 40,
+      "details": {
+        "activity_id": "d2_a6",
+        "title": "Read: Tools & Techniques (ECO Domain 2)"
+      }
+    },
+    {
+      "id": "sess_20260203_160739",
+      "timestamp": "2026-02-03T16:07:39.274664",
+      "type": "flashcards",
+      "topic_id": "tailoring",
+      "duration_minutes": 20,
+      "details": {
+        "cards_reviewed": 20,
+        "deck": "tailoring_domain.json"
+      }
+    },
+    {
+      "id": "sess_20260203_160745",
+      "timestamp": "2026-02-03T16:07:45.672268",
+      "type": "flashcards",
+      "topic_id": "tailoring",
+      "duration_minutes": 20,
+      "details": {
+        "activity_id": "d2_a7",
+        "title": "Flashcards: Tailoring Domain"
+      }
+    },
+    {
+      "id": "sess_20260204_134519",
+      "timestamp": "2026-02-04T13:45:19.416217",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 4,
+      "details": {
+        "activity_id": "d3_a8",
+        "title": "Intro to Agile and Scrum Lessons"
+      }
+    },
+    {
+      "id": "sess_20260204_140800",
+      "timestamp": "2026-02-04T14:08:00.321775",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 34,
+      "details": {
+        "activity_id": "d3_a10",
+        "title": "Agile Project Management Overview"
+      }
+    },
+    {
+      "id": "sess_20260204_140930",
+      "timestamp": "2026-02-04T14:09:30.859403",
+      "type": "reading",
+      "topic_id": "tools",
+      "duration_minutes": 40,
+      "details": {
+        "guide": "11_tools_techniques_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260204_141139",
+      "timestamp": "2026-02-04T14:11:39.154980",
+      "type": "review",
+      "topic_id": null,
+      "duration_minutes": 17,
+      "details": {
+        "activity_id": "d3_a11",
+        "title": "Review: Weak areas or previous content"
+      }
+    }
+  ],
+  "streaks": {
+    "current_streak": 4,
+    "longest_streak": 8,
+    "last_study_date": "2026-02-04",
+    "streak_history": [
+      {
+        "start": "2026-01-19",
+        "end": "2026-01-20",
+        "days": 2
+      },
+      {
+        "start": "2026-01-23",
+        "end": "2026-01-30",
+        "days": 8
+      }
+    ]
+  },
+  "daily_summary": {
+    "2026-01-19": {
+      "total_minutes": 45,
+      "sessions_count": 1,
+      "activities": [
+        "reading"
+      ],
+      "topics_touched": [
+        "principles"
+      ],
+      "goal_met": false
+    },
+    "2026-01-20": {
+      "total_minutes": 30,
+      "sessions_count": 2,
+      "activities": [
+        "flashcards"
+      ],
+      "topics_touched": [
+        "pm_fundamentals",
+        "tools"
+      ],
+      "goal_met": false
+    },
+    "2026-01-23": {
+      "total_minutes": 65,
+      "sessions_count": 3,
+      "activities": [
+        "read",
+        "flashcards"
+      ],
+      "topics_touched": [
+        "life_cycles",
+        "principles"
+      ],
+      "goal_met": false
+    },
+    "2026-01-24": {
+      "total_minutes": 40,
+      "sessions_count": 2,
+      "activities": [
+        "watch"
+      ],
+      "topics_touched": [
+        "M01",
+        "domain1"
+      ],
+      "goal_met": false
+    },
+    "2026-01-25": {
+      "total_minutes": 149,
+      "sessions_count": 5,
+      "activities": [
+        "reading",
+        "watch",
+        "read",
+        "flashcards"
+      ],
+      "topics_touched": [
+        "life_cycles",
+        "M02",
+        "principles"
+      ],
+      "goal_met": false
+    },
+    "2026-01-26": {
+      "total_minutes": 46,
+      "sessions_count": 2,
+      "activities": [
+        "watch"
+      ],
+      "topics_touched": [
+        "domain1",
+        "M03"
+      ],
+      "goal_met": false
+    },
+    "2026-01-27": {
+      "total_minutes": 117,
+      "sessions_count": 3,
+      "activities": [
+        "reading",
+        "read",
+        "review"
+      ],
+      "topics_touched": [
+        "governance"
+      ],
+      "goal_met": false
+    },
+    "2026-01-28": {
+      "total_minutes": 248,
+      "sessions_count": 8,
+      "activities": [
+        "watch",
+        "flashcards",
+        "review",
+        "reading",
+        "read"
+      ],
+      "topics_touched": [
+        "M04",
+        "life_cycles",
+        "scope"
+      ],
+      "goal_met": false
+    },
+    "2026-01-29": {
+      "total_minutes": 174,
+      "sessions_count": 4,
+      "activities": [
+        "watch",
+        "reading",
+        "read"
+      ],
+      "topics_touched": [
+        "domain1",
+        "M05",
+        "schedule"
+      ],
+      "goal_met": false
+    },
+    "2026-01-30": {
+      "total_minutes": 182,
+      "sessions_count": 5,
+      "activities": [
+        "watch",
+        "reading",
+        "read"
+      ],
+      "topics_touched": [
+        "domain1",
+        "M05",
+        "finance"
+      ],
+      "goal_met": false
+    },
+    "2026-02-01": {
+      "total_minutes": 385,
+      "sessions_count": 10,
+      "activities": [
+        "reading",
+        "read",
+        "review",
+        "watch"
+      ],
+      "topics_touched": [
+        "stakeholders",
+        "resources",
+        "M06",
+        "risk"
+      ],
+      "goal_met": false
+    },
+    "2026-02-02": {
+      "total_minutes": 146,
+      "sessions_count": 6,
+      "activities": [
+        "watch",
+        "read",
+        "reading",
+        "flashcards"
+      ],
+      "topics_touched": [
+        "M06",
+        "tailoring",
+        "principles"
+      ],
+      "goal_met": false
+    },
+    "2026-02-03": {
+      "total_minutes": 155,
+      "sessions_count": 7,
+      "activities": [
+        "watch",
+        "read",
+        "flashcards"
+      ],
+      "topics_touched": [
+        "domain2",
+        "M06",
+        "tools",
+        "tailoring"
+      ],
+      "goal_met": false
+    },
+    "2026-02-04": {
+      "total_minutes": 95,
+      "sessions_count": 4,
+      "activities": [
+        "watch",
+        "reading",
+        "review"
+      ],
+      "topics_touched": [
+        "M07",
+        "tools"
+      ],
+      "goal_met": false
+    }
+  },
+  "weekly_summary": {}
+}

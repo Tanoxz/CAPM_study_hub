@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:45:00",
+  "domain": "Finance Performance Domain",
+  "questions": [
+    {
+      "id": "fin_q001",
+      "question": "A completely unexpected regulatory change requires $50,000 of additional work. This was not in the risk register. Which reserve should fund this?",
+      "options": [
+        "Contingency Reserve - it's for all risks",
+        "Management Reserve - it's for unknown risks not in the risk register",
+        "Request additional budget from the sponsor",
+        "Reduce scope to absorb the cost"
+      ],
+      "correct_answer": 1,
+      "explanation": "Management Reserve is for 'unknown unknowns' - risks that weren't anticipated and aren't in the risk register. Contingency Reserve is for 'known unknowns' - identified risks with planned responses. Since this was completely unexpected, Management Reserve is appropriate.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q002",
+      "question": "A project is 50% complete, spent $100,000, but has only delivered $80,000 worth of planned work. What does this indicate?",
+      "options": [
+        "The project is under budget",
+        "The project is over budget - spending more than the value of work delivered",
+        "The project is on track",
+        "More information is needed"
+      ],
+      "correct_answer": 1,
+      "explanation": "Using Earned Value: Actual Cost (AC) = $100,000, Earned Value (EV) = $80,000. Cost Variance = EV - AC = -$20,000. The project spent more than the value delivered, meaning it's over budget. This is the insight EVM provides - cost performance relative to work accomplished.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q003",
+      "question": "Why might an agile project budget per iteration rather than for the entire project upfront?",
+      "options": [
+        "Agile teams don't need budgets",
+        "Scope evolves, so funding commitments should match what is known at each stage",
+        "It's easier for accounting",
+        "Sponsors prefer smaller budget requests"
+      ],
+      "correct_answer": 1,
+      "explanation": "Adaptive projects have evolving scope - detailed scope emerges through iterations. Budgeting per iteration matches financial commitment to knowledge. You fund what you know, reassess after each iteration, and adjust based on actual progress and changing priorities.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "fin_q004",
+      "question": "A project team uses analogous estimating based on a similar past project. What is the PRIMARY tradeoff of this approach?",
+      "options": [
+        "It requires too much historical data",
+        "It's fast but less accurate than detailed bottom-up estimating",
+        "It only works for construction projects",
+        "It's too expensive to perform"
+      ],
+      "correct_answer": 1,
+      "explanation": "Analogous (top-down) estimating uses similar past projects as a basis - it's fast and works with limited information, but less accurate because every project is different. Bottom-up is more accurate but requires detailed decomposition and takes more time.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "fin_q005",
+      "question": "The finance department says unused budget cannot carry over to next fiscal year - it must be spent or lost. How does this constraint affect project planning?",
+      "options": [
+        "It doesn't affect projects",
+        "Project cash flow must align with fiscal year boundaries; work may need to be scheduled to match funding availability",
+        "Projects should always finish within one fiscal year",
+        "Finance should change their policy"
+      ],
+      "correct_answer": 1,
+      "explanation": "Funding constraints affect execution. 'Use it or lose it' budgets mean project spending must align with fiscal years. Work might be scheduled to consume budget before year-end, or split across years to match funding. Understanding funding sources and constraints is essential for realistic planning.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "fin_q006",
+      "question": "What is the difference between CapEx and OpEx, and why does it matter for projects?",
+      "options": [
+        "They are the same thing with different names",
+        "CapEx = capital assets, OpEx = operating expenses; they may have different approval processes and budget sources",
+        "CapEx is for big projects, OpEx is for small ones",
+        "CapEx is external spending, OpEx is internal"
+      ],
+      "correct_answer": 1,
+      "explanation": "CapEx (Capital Expenditures) funds physical assets like equipment and buildings. OpEx (Operating Expenditures) funds ongoing operations like salaries and rent. Organizations often treat them differently for accounting, tax, and approval purposes. Mixing them without understanding can cause budget problems.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "fin_q007",
+      "question": "A project shows positive cost variance but stakeholders are unhappy. How is this possible?",
+      "options": [
+        "It's not possible - positive variance means success",
+        "Under budget doesn't mean value delivered - scope/quality may have been sacrificed",
+        "The variance calculation must be wrong",
+        "Stakeholders don't understand finance"
+      ],
+      "correct_answer": 1,
+      "explanation": "Being under budget doesn't guarantee success. The project may have cut corners, reduced scope, or delivered poor quality. Finance domain emphasizes value maximization, not just cost control. A cheap project that doesn't meet stakeholder needs is still a failure.",
+      "knowledge_area": "Finance",
+      "difficulty": "hard",
+      "question_type": "scenario"
+    },
+    {
+      "id": "fin_q008",
+      "question": "Which estimating technique would be MOST appropriate for estimating the cost of building 100 identical houses?",
+      "options": [
+        "Analogous - use a similar past project",
+        "Parametric - use a cost-per-house calculation based on historical data",
+        "Bottom-up - estimate each house individually",
+        "Expert judgment - ask someone experienced"
+      ],
+      "correct_answer": 1,
+      "explanation": "Parametric estimating uses statistical relationships between variables (e.g., $/square foot, cost-per-house). For 100 identical houses, parametric is ideal - calculate the cost for one house and multiply. Bottom-up would be unnecessarily time-consuming for identical units.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q009",
+      "question": "Project A has an ROI of 15%. Project B has an ROI of 25% but higher risk. What does ROI tell you, and what doesn't it tell you?",
+      "options": [
+        "Always choose higher ROI - it's the best measure",
+        "ROI measures return on investment but doesn't capture risk - B has better ROI but more risk",
+        "ROI and risk are the same thing",
+        "Lower ROI is always safer"
+      ],
+      "correct_answer": 1,
+      "explanation": "ROI (Return on Investment) measures financial return but doesn't capture risk, timing, or strategic alignment. Project B's 25% ROI looks better than A's 15%, but higher risk means that return is less certain. Financial metrics like ROI are important but not the only decision factor.",
+      "knowledge_area": "Finance",
+      "difficulty": "hard",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q010",
+      "question": "What is the Cost Baseline used for?",
+      "options": [
+        "Tracking all project spending including reserves",
+        "Comparing planned vs. actual costs to measure performance variance",
+        "Requesting budget increases",
+        "Calculating ROI"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Cost Baseline is the approved, time-phased budget for planned work. It's used for performance measurement - comparing actual costs against the baseline reveals variance. The baseline doesn't include management reserve (that's in the overall budget but not the measurement standard).",
+      "knowledge_area": "Finance",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "fin_q011",
+      "question": "CPI = 0.80 and the project is 40% complete. If current performance continues, approximately how much over budget will the project be?",
+      "options": [
+        "20% over budget",
+        "25% over budget - if CPI stays at 0.80, you get 80 cents value per dollar spent",
+        "40% over budget",
+        "Cannot be calculated"
+      ],
+      "correct_answer": 1,
+      "explanation": "CPI of 0.80 means you're getting 80 cents of value for every dollar spent. If this continues, final cost = BAC ÷ CPI. A project with 0.80 CPI will cost 1/0.80 = 1.25× the original budget, or 25% over. CPI is a strong predictor of final cost outcome.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q012",
+      "question": "EAC is calculated as $1,200,000 and BAC was $1,000,000. What is the Variance at Completion (VAC)?",
+      "options": [
+        "+$200,000 - under budget",
+        "-$200,000 - expected to be over budget",
+        "$200,000 - variance",
+        "Cannot be determined"
+      ],
+      "correct_answer": 1,
+      "explanation": "VAC = BAC - EAC = $1,000,000 - $1,200,000 = -$200,000. The negative VAC indicates expected overrun. VAC gives stakeholders early visibility into whether additional funding will be needed rather than a surprise at project end.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q013",
+      "question": "TCPI = 1.35 based on meeting BAC. What does this indicate about the project?",
+      "options": [
+        "The project is 35% ahead of plan",
+        "Remaining work must be 35% MORE efficient than planned to meet budget - likely unrealistic",
+        "The project is on track",
+        "TCPI values over 1.0 are normal"
+      ],
+      "correct_answer": 1,
+      "explanation": "TCPI (To-Complete Performance Index) shows required efficiency on remaining work. TCPI of 1.35 means you need to be 35% more efficient than planned to meet budget. This is typically unrealistic - the project will likely exceed BAC. Time to reset expectations or take corrective action.",
+      "knowledge_area": "Finance",
+      "difficulty": "hard",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q014",
+      "question": "A project chose the cheapest option and now has high maintenance and support costs. What costing approach was missed?",
+      "options": [
+        "Bottom-up estimating",
+        "Life Cycle Costing - considering total cost of ownership, not just development cost",
+        "Parametric estimating",
+        "Contingency planning"
+      ],
+      "correct_answer": 1,
+      "explanation": "Life Cycle Costing considers TOTAL cost of ownership - development, operations, maintenance, support, and disposal. A cheap development option that creates expensive ongoing costs destroys value. Life cycle thinking prevents 'throw it over the wall' decisions.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "fin_q015",
+      "question": "What is the difference between Direct Costs and Indirect Costs?",
+      "options": [
+        "Direct = variable, Indirect = fixed",
+        "Direct = clearly attributable to project, Indirect = shared overhead allocated to projects",
+        "Direct = internal, Indirect = external",
+        "Direct = labor, Indirect = materials"
+      ],
+      "correct_answer": 1,
+      "explanation": "Direct costs (team salaries, materials) are clearly attributable to the project. Indirect costs (rent, utilities, admin overhead) are shared across the organization and allocated to projects via burden rates. PMs control direct costs; indirect costs are often allocated using formulas.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "fin_q016",
+      "question": "Project A returns $500K in Year 1. Project B returns $500K in Year 5. Which is worth more TODAY and why?",
+      "options": [
+        "They are equal - same amount",
+        "Project A - money today is worth more than money in the future (time value of money)",
+        "Project B - waiting shows patience",
+        "Cannot compare without knowing costs"
+      ],
+      "correct_answer": 1,
+      "explanation": "Time Value of Money: a dollar today is worth more than a dollar in the future due to inflation and opportunity cost. $500K in Year 1 can be invested and grow. NPV and IRR calculations account for this when comparing projects with different cash flow timing.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "fin_q017",
+      "question": "Why should funding releases be tied to project milestones or phase gates?",
+      "options": [
+        "To make accounting easier",
+        "To prevent sunk cost fallacy - fund incrementally based on demonstrated progress",
+        "All funding should be released at project start",
+        "Gates slow down projects"
+      ],
+      "correct_answer": 1,
+      "explanation": "Incremental funding at gates enables course correction. At each gate, stakeholders evaluate whether continued investment makes sense with current information. This prevents continuing to fund failing projects just because money was already spent (sunk cost fallacy).",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "fin_q018",
+      "question": "The sponsor needs to know how much MORE money the project needs to finish. Which metric answers this?",
+      "options": [
+        "EAC - Estimate at Completion (total cost)",
+        "ETC - Estimate to Complete (remaining cost)",
+        "BAC - Budget at Completion",
+        "CPI - Cost Performance Index"
+      ],
+      "correct_answer": 1,
+      "explanation": "ETC (Estimate to Complete) = expected cost to finish remaining work. ETC = EAC - AC. It answers 'how much MORE do we need?' rather than total cost. This is often what stakeholders ask when evaluating whether to continue funding.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q019",
+      "question": "Cost Variance = -$50,000. Schedule Variance = +$30,000. What is the project status?",
+      "options": [
+        "Ahead on both cost and schedule",
+        "Over budget but ahead of schedule",
+        "Under budget but behind schedule",
+        "Behind on both"
+      ],
+      "correct_answer": 1,
+      "explanation": "Negative CV = over budget (spent more than value earned). Positive SV = ahead of schedule (earned more than planned). The project is over budget but ahead of schedule. This is possible - maybe extra resources were added to accelerate, trading cost for schedule.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "fin_q020",
+      "question": "Three-point estimating uses Optimistic, Most Likely, and Pessimistic. Why is this better than single-point estimates?",
+      "options": [
+        "It takes more time so must be more accurate",
+        "It acknowledges uncertainty and produces a weighted average that accounts for risk",
+        "PMI requires three estimates",
+        "Single-point estimates are not allowed"
+      ],
+      "correct_answer": 1,
+      "explanation": "Single-point estimates hide uncertainty. Three-point estimating forces consideration of best/worst cases and produces probabilistic estimates. The PERT formula weights estimates to produce a realistic expected value that acknowledges risk, unlike false precision of single numbers.",
+      "knowledge_area": "Finance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    }
+  ]
+}

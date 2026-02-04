@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:45:00",
+  "domain": "Stakeholders Performance Domain",
+  "questions": [
+    {
+      "id": "stake_q001",
+      "question": "A community group wasn't included in stakeholder analysis because they have no contractual relationship with the project. They now actively oppose the project, causing delays. What was missed?",
+      "options": [
+        "Community groups are never stakeholders",
+        "Stakeholders include anyone who 'perceives itself to be affected' - even without formal ties",
+        "They should have signed a contract",
+        "Opposition is not a project management concern"
+      ],
+      "correct_answer": 1,
+      "explanation": "The stakeholder definition includes anyone who 'may affect, be affected by, or perceives itself to be affected by' the project. The perception matters - even those without formal relationships can become resistors if they believe they have a stake. Missing them leads to surprises.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "stake_q002",
+      "question": "A stakeholder has high power (VP level) but low interest in the project (it's not their priority). According to the Power/Interest Grid, what engagement strategy is appropriate?",
+      "options": [
+        "Manage Closely - they need constant attention",
+        "Keep Satisfied - address their needs but don't overwhelm with details",
+        "Keep Informed - send regular updates",
+        "Monitor - minimal effort required"
+      ],
+      "correct_answer": 1,
+      "explanation": "High Power/Low Interest = Keep Satisfied. They can make or break your project but don't want to be bothered with details. Give them what they need to stay supportive without overwhelming them. High power/high interest would need managing closely.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "stake_q003",
+      "question": "A stakeholder actively opposes the project and vocally criticizes it to executives. How should the PM respond?",
+      "options": [
+        "Ignore them - engaging will make it worse",
+        "Engage them - understand their concerns, which might be valid, and try to address or neutralize opposition",
+        "Escalate immediately to get them removed",
+        "Cancel the project"
+      ],
+      "correct_answer": 1,
+      "explanation": "Ignoring negative stakeholders lets resistance grow unchecked. Engaging reveals their concerns (which might be valid warnings) and provides opportunity to address issues, convert opposition, or at least prepare for objections. Even if you can't satisfy them, understanding their position helps manage risk.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "stake_q004",
+      "question": "What is the difference between stakeholder engagement and communications management?",
+      "options": [
+        "They are the same thing",
+        "Engagement = understanding and addressing needs to gain support; Communications = the mechanics of information exchange",
+        "Engagement is for internal stakeholders; Communications is for external",
+        "Engagement is strategic; Communications is always tactical"
+      ],
+      "correct_answer": 1,
+      "explanation": "Engagement addresses stakeholder needs, expectations, and concerns to build support. Communications handles mechanisms, formats, and frequencies of information exchange. You can have excellent communications (regular updates) but poor engagement (not actually addressing concerns). Both are needed but serve different purposes.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "stake_q005",
+      "question": "A key stakeholder is currently 'Resistant' but needs to be 'Supportive' for project success. What does this gap tell you?",
+      "options": [
+        "The project should be canceled",
+        "Targeted engagement effort is needed to move them from Resistant to Supportive",
+        "Replace the stakeholder",
+        "Proceed and hope they change their mind"
+      ],
+      "correct_answer": 1,
+      "explanation": "The stakeholder assessment matrix compares current vs. desired engagement levels. A gap (Resistant → Supportive) identifies where engagement effort is needed. The PM should investigate why they're resistant, address concerns, and work deliberately to shift their position.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "stake_q006",
+      "question": "The PM sends everyone a detailed 50-page weekly status report. Executives complain they don't have time to read it. What went wrong?",
+      "options": [
+        "Executives should make time for important information",
+        "Communications weren't tailored - executives need summaries, not 50 pages of detail",
+        "Weekly is too frequent",
+        "The report should be 100 pages to be comprehensive"
+      ],
+      "correct_answer": 1,
+      "explanation": "Different stakeholders need different information in different formats. Executives want 5 bullet points, not 50 pages. Technical teams might want detail. Sending everyone the same report wastes time and loses attention. Tailored communication respects stakeholders' needs and time.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "stake_q007",
+      "question": "Why is stakeholder identification done early AND revisited throughout the project?",
+      "options": [
+        "It's only done once at the start",
+        "Early identification allows engagement when influence is highest; revisiting catches new stakeholders who emerge as context changes",
+        "It's required by regulation",
+        "Stakeholders don't change during projects"
+      ],
+      "correct_answer": 1,
+      "explanation": "Early identification engages stakeholders when they have most influence and changes are cheapest. Revisiting catches new stakeholders who emerge as the project progresses (acquisitions, new regulations, new teams). A late-discovered stakeholder who should have been involved early often becomes a resistor.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "stake_q008",
+      "question": "The PM broadcasts updates but never asks for feedback. Stakeholders feel unheard. What type of communication is missing?",
+      "options": [
+        "More frequent updates",
+        "Two-way communication - engagement requires listening, not just broadcasting",
+        "Longer reports",
+        "Formal presentations"
+      ],
+      "correct_answer": 1,
+      "explanation": "Engagement is a two-way process. One-way broadcasting creates information silos. Stakeholders who feel heard are more supportive. Feedback reveals concerns, validates understanding, and builds trust. Listening is as important as telling.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "stake_q009",
+      "question": "What is the project sponsor's role regarding stakeholders the PM cannot reach?",
+      "options": [
+        "Sponsors don't deal with stakeholders",
+        "The sponsor helps manage high-level stakeholders, removes obstacles, and resolves political conflicts beyond PM authority",
+        "The PM should handle all stakeholders alone",
+        "Sponsors only provide funding"
+      ],
+      "correct_answer": 1,
+      "explanation": "PMs often lack organizational authority to influence executives or resolve political conflicts. The sponsor bridges that gap - they can influence peers, secure support, and resolve issues that would block the PM. The sponsor-PM partnership is essential for stakeholder management at all levels.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "stake_q010",
+      "question": "The stakeholder register contains sensitive information about stakeholder attitudes and politics. How should it be handled?",
+      "options": [
+        "Share it with all team members for transparency",
+        "Control access - it often contains sensitive information requiring confidentiality",
+        "Delete it after planning is complete",
+        "Post it publicly for accountability"
+      ],
+      "correct_answer": 1,
+      "explanation": "The stakeholder register often contains sensitive assessments - attitudes, political dynamics, influence strategies. Sharing this widely could damage relationships or create conflict. It should be a controlled document with access limited to those who need it for engagement planning.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "stake_q011",
+      "question": "A stakeholder with high power suddenly becomes very interested in the project after ignoring it for months. How does their engagement strategy change?",
+      "options": [
+        "No change needed",
+        "Move from 'Keep Satisfied' to 'Manage Closely' - high power + high interest requires close management",
+        "Reduce engagement - they're probably a problem",
+        "Remove them from the stakeholder register"
+      ],
+      "correct_answer": 1,
+      "explanation": "Power/Interest Grid: High power + Low interest = Keep Satisfied. High power + High interest = Manage Closely. When interest increases, engagement strategy must increase. A powerful stakeholder who suddenly cares can make or break your project.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "stake_q012",
+      "question": "The Salience Model uses Power, Legitimacy, and Urgency. Why add Urgency when Power/Interest seems sufficient?",
+      "options": [
+        "It's not needed - Power/Interest is complete",
+        "Urgency identifies stakeholders with time-sensitive needs who require immediate attention",
+        "Urgency replaces Interest",
+        "Salience is only for large projects"
+      ],
+      "correct_answer": 1,
+      "explanation": "Urgency captures time-sensitivity that Power/Interest grids miss. A low-power stakeholder might suddenly become critical if they have urgent, legitimate concerns. Salience helps identify whose needs are most pressing RIGHT NOW, not just who's generally important.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "hard",
+      "question_type": "concept"
+    },
+    {
+      "id": "stake_q013",
+      "question": "A PM is politically naive and ignores organizational politics. Why is this a problem?",
+      "options": [
+        "Politics don't affect projects",
+        "Projects exist within organizations with competing interests - ignoring politics leads to unexpected resistance and blocked decisions",
+        "PMs shouldn't engage in politics",
+        "Only executives deal with politics"
+      ],
+      "correct_answer": 1,
+      "explanation": "Ignoring politics doesn't make it go away. Organizations have competing interests, hidden agendas, and power dynamics. Politically aware PMs can anticipate resistance, build alliances, and frame initiatives in terms stakeholders value. Blindsided PMs face unexpected obstacles.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "stake_q014",
+      "question": "A PM always uses direct, assertive communication. Working with a stakeholder from a culture that values indirect communication, issues arise. What went wrong?",
+      "options": [
+        "The stakeholder should adapt",
+        "Cultural awareness was missing - communication styles must be adapted to cultural context",
+        "Direct communication is always best",
+        "Culture doesn't affect business"
+      ],
+      "correct_answer": 1,
+      "explanation": "Cultural differences affect communication styles, decision-making, hierarchy expectations, and conflict approaches. What's assertive in one culture may seem rude in another. Global projects require cultural awareness and adaptation of communication approaches.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "stake_q015",
+      "question": "The PM built trust with a stakeholder over 6 months. Then missed one critical deadline without warning. What likely happens to trust?",
+      "options": [
+        "No effect - the relationship is strong",
+        "Trust is damaged significantly - it takes time to build but moments to destroy",
+        "The stakeholder will understand",
+        "One miss doesn't matter"
+      ],
+      "correct_answer": 1,
+      "explanation": "Trust builds through consistent demonstrated behavior over time, but a single betrayal or failure violates expectations. The surprise is often worse than the miss itself. Stakeholders prefer early bad news to surprises. Rebuilding trust requires starting over with a skeptical audience.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "stake_q016",
+      "question": "Two stakeholders want conflicting things. The PM facilitates a discussion where both understand the other's concerns and find a mutually acceptable solution. What conflict style is this?",
+      "options": [
+        "Compromise - both give up something",
+        "Collaborate - find a win-win solution that addresses both concerns",
+        "Force - PM decides",
+        "Avoid - postpone the decision"
+      ],
+      "correct_answer": 1,
+      "explanation": "Collaboration (problem-solving) seeks solutions that satisfy all parties - not splitting the difference (compromise) but finding creative alternatives that address underlying interests. PMI generally favors this style though it takes more time and effort.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "stake_q017",
+      "question": "A stakeholder has unrealistic expectations about the project deadline. What should the PM do?",
+      "options": [
+        "Agree and hope for the best",
+        "Communicate honestly and early about constraints, involve them in tradeoff decisions",
+        "Ignore them - they'll figure it out",
+        "Promise the deadline and plan to miss it"
+      ],
+      "correct_answer": 1,
+      "explanation": "Unrealistic expectations lead to disappointment regardless of actual performance. Proactive expectation management through early, honest communication creates shared understanding. Stakeholders prefer learning constraints early over late surprises. Never hide bad news hoping it improves.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "stake_q018",
+      "question": "Why is the stakeholder register often a controlled document with limited access?",
+      "options": [
+        "It should be publicly available",
+        "It contains sensitive information about stakeholder attitudes, politics, and influence strategies",
+        "Only the PM needs it",
+        "Registers are always public"
+      ],
+      "correct_answer": 1,
+      "explanation": "The stakeholder register often contains sensitive assessments - attitudes toward the project, political dynamics, influence strategies. Sharing this widely could damage relationships or create conflict. Access should be limited to those who need it for engagement planning.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "stake_q019",
+      "question": "Active listening is considered essential for stakeholder engagement. Why isn't just hearing enough?",
+      "options": [
+        "Hearing and listening are the same",
+        "Active listening involves understanding meaning, asking clarifying questions, and confirming understanding - engagement is two-way",
+        "Listening takes too much time",
+        "Only the PM should talk"
+      ],
+      "correct_answer": 1,
+      "explanation": "Engagement is two-way - not just broadcasting information but understanding stakeholder needs. Active listening involves truly understanding (not just hearing), asking clarifying questions, and confirming. Stakeholders who feel heard are more supportive.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "stake_q020",
+      "question": "The Communications Management Plan specifies who needs what information, when, and how. How is this different from stakeholder engagement?",
+      "options": [
+        "They are the same thing",
+        "Communications = mechanics of information exchange; Engagement = building relationships and addressing concerns",
+        "Only large projects need both",
+        "Communications is strategic; Engagement is tactical"
+      ],
+      "correct_answer": 1,
+      "explanation": "Communications handles WHAT information goes WHERE and HOW. Engagement handles building relationships, understanding concerns, and gaining support. You can have excellent communications (regular updates, clear reports) but poor engagement (not addressing concerns). Both are needed.",
+      "knowledge_area": "Stakeholders",
+      "difficulty": "medium",
+      "question_type": "concept"
+    }
+  ]
+}

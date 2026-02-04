@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-16T19:45:00",
+  "domain": "Governance Performance Domain",
+  "questions": [
+    {
+      "id": "gov_q001",
+      "question": "A project has been running for 6 months. The team realizes the original business case is no longer valid due to market changes, and continuing would waste resources. What governance action is most appropriate?",
+      "options": [
+        "Continue the project since it was approved and funded",
+        "Request early termination for negative cause and document lessons learned",
+        "Reduce scope to minimize remaining costs",
+        "Fast-track remaining work to finish before more changes occur"
+      ],
+      "correct_answer": 1,
+      "explanation": "Early termination for negative cause is appropriate when the value proposition is no longer achievable. Continuing would waste resources. Good governance means making hard decisions that protect organizational value, not blindly following original plans. This is actually a governance success, not a failure.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q002",
+      "question": "You notice that team morale is low and stakeholders are disengaging from the project. Which type of indicator is this?",
+      "options": [
+        "Lagging indicator - it measures past performance",
+        "Leading indicator - it predicts future problems",
+        "Vanity metric - it looks important but isn't actionable",
+        "Performance baseline - it establishes the measurement standard"
+      ],
+      "correct_answer": 1,
+      "explanation": "Low morale and stakeholder disengagement are leading indicators - they predict future problems before they fully materialize. Lagging indicators measure after-the-fact results like cost variance or deliverables completed. Recognizing this as a leading indicator allows you to intervene before performance actually degrades.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "gov_q003",
+      "question": "An agile team is being asked to follow the same formal governance processes as a large waterfall construction project. What tailoring consideration should be raised?",
+      "options": [
+        "Agile teams should accept heavier governance to ensure compliance",
+        "Governance should be tailored - agile projects often use lighter self-governance",
+        "All projects need the same governance regardless of approach",
+        "The agile team should be converted to waterfall"
+      ],
+      "correct_answer": 1,
+      "explanation": "Governance should be tailored to the development approach. Agile projects typically use lighter, self-governance because teams need autonomy to respond quickly. Heavy formal governance kills agility. The right amount depends on project complexity, risk, and organizational context - not a one-size-fits-all standard.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q004",
+      "question": "A stakeholder wants to add a feature that wasn't in the original scope. The project has an approved baseline. What should happen?",
+      "options": [
+        "Add it immediately since stakeholder satisfaction is important",
+        "Submit a change request for CCB review and impact analysis",
+        "Add it only if it doesn't cost anything extra",
+        "Reject it outright since the scope is frozen"
+      ],
+      "correct_answer": 1,
+      "explanation": "Changes to baselined scope require formal change control. The Change Control Board (CCB) evaluates impact on scope, schedule, cost, and risk before approving. Neither automatic acceptance nor automatic rejection is appropriate - the change might add value or might not be worth the impact. Impact analysis enables informed decisions.",
+      "knowledge_area": "Governance",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q005",
+      "question": "Your organization captures lessons learned only at project close. What is the main problem with this approach?",
+      "options": [
+        "It doesn't allow for formal documentation",
+        "Insights are too late to help the current project, and context is often lost",
+        "End-of-project reviews are too expensive",
+        "Team members are typically unavailable at project close"
+      ],
+      "correct_answer": 1,
+      "explanation": "Lessons learned only at close are often rushed, incomplete, and come too late to help the current project. Knowledge management throughout the project captures insights when they're fresh and enables course correction. By close, team members have moved on mentally, context is lost, and lessons rarely get applied to future projects.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "gov_q006",
+      "question": "Why would a project have both Quality Assurance AND Quality Control?",
+      "options": [
+        "They are the same thing - organizations just use different terms",
+        "QA ensures processes are followed correctly; QC ensures deliverables meet specs - you need both",
+        "QA is for waterfall projects; QC is for agile projects",
+        "QA is internal; QC is done by external auditors"
+      ],
+      "correct_answer": 1,
+      "explanation": "QA focuses on process effectiveness (are we following good practices?). QC focuses on deliverable correctness (does the product meet requirements?). You can follow perfect processes and still produce defects (QA without QC), or catch defects without preventing them (QC without QA). Both are needed for quality outcomes.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "gov_q007",
+      "question": "A project manager is assigned to a new project but has not received a project charter. What is the main governance risk?",
+      "options": [
+        "The schedule cannot be created without a charter",
+        "The PM lacks formal authority and organizational commitment may be questioned",
+        "Stakeholders won't know who to contact",
+        "The budget cannot be established"
+      ],
+      "correct_answer": 1,
+      "explanation": "The charter formally authorizes the project and grants the PM authority to use organizational resources. Without it, the PM's mandate can be questioned, stakeholders may not recognize the project's legitimacy, and organizational commitment is unclear. The charter documents the sponsor's support and the PM's authority.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q008",
+      "question": "A team is setting project goals. Which goal meets SMART criteria?",
+      "options": [
+        "Improve customer satisfaction significantly",
+        "Reduce system response time to under 2 seconds for 95% of transactions by Q3",
+        "Build a better product than competitors",
+        "Make the project successful and on budget"
+      ],
+      "correct_answer": 1,
+      "explanation": "SMART = Specific, Measurable, Achievable, Realistic, Time-bound. 'Under 2 seconds for 95% of transactions by Q3' is specific (response time), measurable (2 seconds, 95%), and time-bound (Q3). The other options are vague ('significantly', 'better', 'successful') and cannot be objectively measured.",
+      "knowledge_area": "Governance",
+      "difficulty": "easy",
+      "question_type": "application"
+    },
+    {
+      "id": "gov_q009",
+      "question": "The project team is measuring website page views as a key metric. The numbers look great but conversions are flat. What measurement problem does this illustrate?",
+      "options": [
+        "The data collection is wrong",
+        "Vanity metrics - data that looks good but doesn't inform decisions",
+        "The team should measure more metrics",
+        "Page views are always meaningless"
+      ],
+      "correct_answer": 1,
+      "explanation": "Page views is a vanity metric if what matters is conversions. Vanity metrics look impressive but don't help you make decisions. Actionable metrics (like conversion rate) tell you if you're achieving business outcomes. Always question whether metrics drive decisions.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q010",
+      "question": "Projects behind schedule often have budget overruns. Does this mean schedule delays CAUSE budget overruns?",
+      "options": [
+        "Yes - schedule delays directly cause cost increases",
+        "Not necessarily - correlation doesn't prove causation; both might be caused by other factors",
+        "No - budget and schedule are completely independent",
+        "Only in waterfall projects"
+      ],
+      "correct_answer": 1,
+      "explanation": "Correlation (happening together) doesn't prove causation (one causes the other). Both schedule and budget problems might be caused by the same root cause - poor estimation, scope creep, or inadequate risk management. Treating the symptom (schedule) without finding the root cause won't fix the budget.",
+      "knowledge_area": "Governance",
+      "difficulty": "hard",
+      "question_type": "concept"
+    },
+    {
+      "id": "gov_q011",
+      "question": "An experienced developer knows exactly how to solve a technical problem but has trouble explaining it to newer team members. What type of knowledge is this?",
+      "options": [
+        "Explicit knowledge - documented in procedures",
+        "Tacit knowledge - embedded in experience, hard to articulate",
+        "Organizational knowledge - stored in systems",
+        "Formal knowledge - taught in training"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tacit knowledge is personal, experience-based knowledge that's hard to put into words - 'know-how' that experts develop but struggle to transfer. Unlike explicit knowledge (documents, procedures), tacit knowledge typically transfers through mentoring, observation, and collaboration.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "gov_q012",
+      "question": "A project needs specialized skills not available internally. What governance document guides whether to develop internally or outsource?",
+      "options": [
+        "Project Charter",
+        "Sourcing Strategy Plan - guides make-or-buy decisions",
+        "Stakeholder Register",
+        "Communications Plan"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Sourcing Strategy Plan guides decisions about internal vs. external resources. It considers factors like organizational culture, specialized skills, capacity, risk, and overall value proposition to determine whether to insource or outsource specific project work.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "gov_q013",
+      "question": "In an agile project, a stakeholder wants to add a new feature. There's no formal CCB. How is this change handled?",
+      "options": [
+        "It can't be - agile has no change control",
+        "Add it to the backlog; prioritization determines if/when it's built",
+        "The Scrum Master must approve it",
+        "Every change requires sponsor approval"
+      ],
+      "correct_answer": 1,
+      "explanation": "In agile, the product backlog IS the change control mechanism. New requests become backlog items and compete for priority. Low priority = effectively deferred. Not added = effectively rejected. The Product Owner manages prioritization, replacing formal CCB approval with continuous prioritization.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q014",
+      "question": "A PM is blocked by a decision that requires executive authority. The PM has raised it but nothing happens. What governance mechanism should be used?",
+      "options": [
+        "Wait for the executives to decide",
+        "Escalation - formally elevate to appropriate authority level",
+        "Make the decision anyway",
+        "Cancel the blocked work"
+      ],
+      "correct_answer": 1,
+      "explanation": "Escalation is the governance mechanism for elevating issues beyond the PM's authority. It's not a sign of failure - it's appropriate use of organizational hierarchy. Effective escalation includes clear description of the issue, impact of delay, and options for decision.",
+      "knowledge_area": "Governance",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q015",
+      "question": "A lender financing a construction project requires approval at each major phase before releasing the next round of funding. What governance concept is this?",
+      "options": [
+        "Change control",
+        "Investment control - formal stewardship with decision points",
+        "Quality assurance",
+        "Stakeholder management"
+      ],
+      "correct_answer": 1,
+      "explanation": "Investment control provides formal stewardship of project funding with defined decision points. At each gate, funders evaluate whether continued investment makes business sense. This protects against sunk cost fallacy and allows course correction based on current information.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "application"
+    },
+    {
+      "id": "gov_q016",
+      "question": "A team starts measuring individual lines of code written. Team members begin padding code unnecessarily. What phenomenon is this?",
+      "options": [
+        "Normal productivity increase",
+        "Hawthorne Effect - behavior changes because it's being measured",
+        "Quality improvement",
+        "Healthy competition"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Hawthorne Effect means the act of measuring influences behavior. When you measure lines of code, people optimize for that - even if it hurts quality. What you measure is what you get, whether or not it's what you wanted. Metrics must be chosen carefully to avoid gaming.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q017",
+      "question": "A project achieved its original goals 3 months early and under budget. Resources should be released to other projects. What closure activity is this?",
+      "options": [
+        "Early termination for negative cause",
+        "Early termination for positive cause - goals achieved, proper closure needed",
+        "Project cancellation",
+        "Phase gate"
+      ],
+      "correct_answer": 1,
+      "explanation": "Early termination for positive cause occurs when project goals are achieved ahead of schedule. It's a governance success, not failure. Proper closure still requires documenting lessons learned, releasing resources, archiving information, and celebrating success.",
+      "knowledge_area": "Governance",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q018",
+      "question": "The governance framework requires formal reporting but the project team finds the reports take hours to prepare and nobody reads them. What should happen?",
+      "options": [
+        "Continue - governance requirements must be followed",
+        "Provide feedback to improve governance - it should add value, not just overhead",
+        "Stop reporting without permission",
+        "Delegate reporting to an administrator"
+      ],
+      "correct_answer": 1,
+      "explanation": "Governance should protect and enhance value. If reporting creates overhead without value, the governance framework should be challenged through appropriate channels. Feedback mechanisms allow governance practices to be adjusted. Governance without value is just bureaucracy.",
+      "knowledge_area": "Governance",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "gov_q019",
+      "question": "What project document consolidates all performance domain plans into a unified approach for executing, monitoring, and closing the project?",
+      "options": [
+        "Project Charter",
+        "Project Management Plan - integrates and aligns all components",
+        "Risk Register",
+        "Stakeholder Register"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Project Management Plan consolidates all component plans (scope, schedule, cost, quality, etc.) into a unified document. It describes how the project will be executed, monitored/controlled, and closed. The Integrate and Align Project Plans process creates this unified plan.",
+      "knowledge_area": "Governance",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "gov_q020",
+      "question": "At project close, what activities ensure knowledge is preserved for future projects?",
+      "options": [
+        "Pay final invoices and release resources immediately",
+        "Document lessons learned, archive project information, and transfer knowledge",
+        "Delete all draft documents",
+        "Move on to the next project quickly"
+      ],
+      "correct_answer": 1,
+      "explanation": "Proper closure includes documenting lessons learned, archiving project information, and transferring knowledge. Without these activities, organizational learning is lost and future projects repeat the same mistakes. Close Project or Phase isn't just about finishing work - it's about preserving value.",
+      "knowledge_area": "Governance",
+      "difficulty": "easy",
+      "question_type": "concept"
+    }
+  ]
+}

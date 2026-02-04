@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "updated": "2026-01-22T20:00:00",
+  "domain": "Business Analysis Frameworks (ECO Domain 4)",
+  "questions": [
+    {
+      "id": "ba_q001",
+      "question": "A project team is about to start development, but stakeholders have different understandings of what problem they're solving. What should the Business Analyst do FIRST?",
+      "options": [
+        "Start gathering requirements from each stakeholder",
+        "Facilitate creation of a Situation Statement",
+        "Begin designing the solution architecture",
+        "Create a project schedule"
+      ],
+      "correct_answer": 1,
+      "explanation": "A Situation Statement ensures all stakeholders agree on the problem before jumping to solutions. Without shared understanding of the problem, requirements will conflict and the solution may miss the mark.",
+      "knowledge_area": "Needs Assessment",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q002",
+      "question": "A stakeholder defines a project objective as 'improve customer satisfaction.' What should the Business Analyst recommend?",
+      "options": [
+        "Accept it and begin elicitation",
+        "Make it SMART by adding specific, measurable criteria",
+        "Reject it as too vague",
+        "Assign a satisfaction metric internally"
+      ],
+      "correct_answer": 1,
+      "explanation": "SMART objectives (Specific, Measurable, Achievable, Relevant, Time-bound) enable clear success criteria. 'Improve customer satisfaction by 15% in 6 months as measured by NPS' is actionable.",
+      "knowledge_area": "Needs Assessment",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q003",
+      "question": "When conducting stakeholder interviews, users describe their current process very differently from what you observe during job shadowing. What does this indicate?",
+      "options": [
+        "Users are being dishonest",
+        "The observation was conducted at an atypical time",
+        "There's a gap between stated and actual processes",
+        "The interview questions were poorly designed"
+      ],
+      "correct_answer": 2,
+      "explanation": "People often can't articulate tacit knowledge - they do things automatically. Observation reveals workarounds and actual behaviors that interviews miss. Both techniques are valuable together.",
+      "knowledge_area": "Elicitation",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q004",
+      "question": "What is the PRIMARY purpose of a Requirements Traceability Matrix?",
+      "options": [
+        "To track project costs",
+        "To link requirements from origin through delivery",
+        "To assign requirements to team members",
+        "To document requirement change history"
+      ],
+      "correct_answer": 1,
+      "explanation": "The RTM traces requirements from business need → stakeholder requirement → solution requirement → design → test. This ensures nothing is missed and provides impact analysis for changes.",
+      "knowledge_area": "Requirements Management",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q005",
+      "question": "A customer requests a feature during development. The team can build it, but it wasn't in the original scope. What should happen?",
+      "options": [
+        "Build it since the customer is always right",
+        "Reject it to avoid scope creep",
+        "Assess impact and follow change control process",
+        "Add it to a future release without assessment"
+      ],
+      "correct_answer": 2,
+      "explanation": "Change requests need impact analysis (cost, schedule, risk) before decision. Neither automatic acceptance nor rejection is appropriate - the change might add value or might not be worth the cost.",
+      "knowledge_area": "Requirements Management",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q006",
+      "question": "A Business Analyst creates personas for a mobile app. What is the main benefit?",
+      "options": [
+        "Satisfies documentation requirements",
+        "Helps the team empathize with and design for real user types",
+        "Replaces the need for user testing",
+        "Identifies all possible users"
+      ],
+      "correct_answer": 1,
+      "explanation": "Personas make abstract user groups concrete. 'Sara, the tech-savvy first-time homebuyer' is more actionable than 'the user.' Teams design better when they can empathize with specific people.",
+      "knowledge_area": "Stakeholder Analysis",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q007",
+      "question": "A defect is found after deployment. Root cause analysis reveals unclear requirements. Using the 5 Whys, what should the BA investigate?",
+      "options": [
+        "Who wrote the requirements",
+        "Why the requirements were unclear and what process failed",
+        "Which developer made the mistake",
+        "When the defect was introduced"
+      ],
+      "correct_answer": 1,
+      "explanation": "5 Whys digs into systemic causes, not blame. The question is: Why unclear? → Not reviewed → Why? → No review process → ROOT CAUSE. Fixing the process prevents recurrence.",
+      "knowledge_area": "Root Cause Analysis",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q008",
+      "question": "What is the difference between Business Requirements and Solution Requirements?",
+      "options": [
+        "Business requirements are for executives; solution requirements are for developers",
+        "Business requirements define WHY; solution requirements define WHAT and HOW",
+        "They are the same thing at different detail levels",
+        "Business requirements come first; solution requirements replace them"
+      ],
+      "correct_answer": 1,
+      "explanation": "Business requirements state organizational goals (WHY we need a solution). Solution requirements specify what the solution must do (functional) and how it must perform (non-functional).",
+      "knowledge_area": "Requirements",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q009",
+      "question": "A Business Analyst is creating a product roadmap. What timeframe should have the MOST detail?",
+      "options": [
+        "All timeframes should have equal detail",
+        "Near-term items with decreasing detail further out",
+        "Long-term vision with less detail near-term",
+        "Only the next release should be detailed"
+      ],
+      "correct_answer": 1,
+      "explanation": "Roadmaps show certainty through detail. Near-term is well understood; distant future is uncertain. Pretending to know long-term details creates false expectations. 'Now/Next/Later' format works well.",
+      "knowledge_area": "Product Management",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q010",
+      "question": "When should a Go/No-Go decision be made on a project?",
+      "options": [
+        "Only at project initiation",
+        "At defined checkpoints throughout the project lifecycle",
+        "Only when problems arise",
+        "After all work is complete"
+      ],
+      "correct_answer": 1,
+      "explanation": "Go/No-Go decisions should occur at phase gates throughout the project. Conditions change; continuing a project that no longer makes business sense wastes resources. Regular checkpoints enable early termination when needed.",
+      "knowledge_area": "Solution Evaluation",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q011",
+      "question": "A user story states: 'As a user, I want search functionality.' What is wrong with this story?",
+      "options": [
+        "It's too technical",
+        "It lacks the 'so that' benefit clause",
+        "Users shouldn't request features",
+        "Nothing - it follows the format"
+      ],
+      "correct_answer": 1,
+      "explanation": "The 'so that [benefit]' clause forces articulation of business value. Without it, we might build the wrong kind of search. The complete format ensures we understand WHY the user wants it.",
+      "knowledge_area": "Requirements",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q012",
+      "question": "A stakeholder who was not identified initially emerges late in the project with new requirements. What does this indicate?",
+      "options": [
+        "Normal project dynamics",
+        "Incomplete stakeholder analysis",
+        "The stakeholder is being difficult",
+        "Requirements are always changing"
+      ],
+      "correct_answer": 1,
+      "explanation": "Missing stakeholders usually means incomplete stakeholder analysis. Tools like the Stakeholder Onion Diagram help identify all affected parties early, preventing late-stage requirement surprises.",
+      "knowledge_area": "Stakeholder Analysis",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q013",
+      "question": "What makes acceptance criteria effective?",
+      "options": [
+        "Written by the development team",
+        "Specific, testable, and agreed upon before work begins",
+        "Flexible enough to accommodate changes during development",
+        "Detailed enough to specify implementation approach"
+      ],
+      "correct_answer": 1,
+      "explanation": "Acceptance criteria must be testable (pass/fail), agreed before work starts (contract between PO and team), and specific enough to avoid ambiguity. They define WHAT, not HOW.",
+      "knowledge_area": "Requirements",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q014",
+      "question": "A Business Analyst notices the development team building features not in the requirements. What should they do?",
+      "options": [
+        "Document it as scope creep and escalate",
+        "Understand why - there may be valid reasons",
+        "Immediately stop the development",
+        "Update requirements to match what's being built"
+      ],
+      "correct_answer": 1,
+      "explanation": "First understand the situation. The team may have discovered something during implementation, or there's a miscommunication. Understanding precedes action - it might be valid or might need correction.",
+      "knowledge_area": "Requirements Management",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q015",
+      "question": "What is the purpose of a Business Case?",
+      "options": [
+        "To document all requirements",
+        "To justify the investment and enable go/no-go decisions",
+        "To plan the project schedule",
+        "To assign roles and responsibilities"
+      ],
+      "correct_answer": 1,
+      "explanation": "The business case answers 'Why should we do this?' with cost-benefit analysis, risks, and alternatives. It justifies investment and serves as a reference throughout the project to maintain alignment.",
+      "knowledge_area": "Needs Assessment",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q016",
+      "question": "When using a Fishbone (Ishikawa) diagram, what are you trying to identify?",
+      "options": [
+        "Project timeline",
+        "Potential causes of a problem",
+        "Stakeholder relationships",
+        "Solution options"
+      ],
+      "correct_answer": 1,
+      "explanation": "Fishbone diagrams categorize potential causes of a problem (often using categories like People, Process, Technology, Environment). It's a root cause analysis tool that helps explore multiple contributing factors.",
+      "knowledge_area": "Root Cause Analysis",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q017",
+      "question": "A BA needs to validate that the solution meets business needs before release. Which activity is most appropriate?",
+      "options": [
+        "User acceptance testing",
+        "Unit testing",
+        "Code review",
+        "Performance testing"
+      ],
+      "correct_answer": 0,
+      "explanation": "User Acceptance Testing (UAT) validates that the solution meets business needs from the user's perspective. Technical testing (unit, integration, performance) validates the solution works; UAT validates it's the RIGHT solution.",
+      "knowledge_area": "Solution Evaluation",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q018",
+      "question": "What is story mapping used for?",
+      "options": [
+        "Tracking individual story status",
+        "Visualizing the user journey and identifying release slices",
+        "Estimating story points",
+        "Assigning stories to team members"
+      ],
+      "correct_answer": 1,
+      "explanation": "Story mapping arranges stories along the user journey (horizontal) and by priority (vertical). This preserves context that a flat backlog loses, making it easier to define MVPs and release increments.",
+      "knowledge_area": "Requirements",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "ba_q019",
+      "question": "A solution was delivered but users aren't adopting it. What should the BA investigate?",
+      "options": [
+        "Technical performance issues",
+        "Whether the solution actually solves the original problem",
+        "Marketing and communication",
+        "Training adequacy"
+      ],
+      "correct_answer": 1,
+      "explanation": "Low adoption may indicate the solution doesn't address real user needs. Return to the original situation statement and business requirements - was the right problem solved? This is solution evaluation.",
+      "knowledge_area": "Solution Evaluation",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "ba_q020",
+      "question": "Why do Business Analysts use wireframes before development?",
+      "options": [
+        "To satisfy documentation requirements",
+        "To validate understanding cheaply before expensive development",
+        "To replace user testing",
+        "To provide exact specifications to developers"
+      ],
+      "correct_answer": 1,
+      "explanation": "Wireframes are cheap to create and change. Validating concepts visually catches misunderstandings before code is written. It's much cheaper to change a wireframe than to rework developed software.",
+      "knowledge_area": "Solution Design",
+      "difficulty": "easy",
+      "question_type": "concept"
+    }
+  ]
+}

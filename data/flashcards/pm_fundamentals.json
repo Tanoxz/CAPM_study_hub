@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "updated": "2026-01-20T17:13:31.987873",
+  "cards": [
+    {
+      "id": "fund_001",
+      "question": "What is a project?",
+      "answer": "A temporary endeavor undertaken to create a unique product, service, or result.",
+      "knowledge_area": "Fundamentals",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T11:44:42.319126",
+      "why_it_matters": "Understanding this definition helps distinguish projects from operations. Operations are ongoing and repetitive; projects are temporary and unique. This distinction affects how you manage them.",
+      "related_concepts": [
+        "Operations",
+        "Program",
+        "Portfolio"
+      ]
+    },
+    {
+      "id": "fund_002",
+      "question": "WHY is a project considered 'temporary'?",
+      "answer": "Because it has a definite beginning and end. The end is reached when objectives are achieved, when the project is terminated because objectives cannot be met, or when the need for the project no longer exists.",
+      "knowledge_area": "Fundamentals",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T11:48:41.991241",
+      "why_it_matters": "Temporary doesn't mean short duration - it means finite. A 10-year construction project is still temporary. This concept drives how we plan resource allocation and stakeholder expectations.",
+      "related_concepts": [
+        "Project Lifecycle",
+        "Project Closure",
+        "Objectives"
+      ]
+    },
+    {
+      "id": "fund_003",
+      "question": "What are the five Process Groups in project management?",
+      "answer": "Initiating, Planning, Executing, Monitoring & Controlling, and Closing.",
+      "knowledge_area": "Fundamentals",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T11:42:39.069815",
+      "why_it_matters": "Process groups are NOT phases - they can repeat within phases. Understanding this prevents the mistake of treating PM as purely sequential. M&C runs throughout the entire project.",
+      "related_concepts": [
+        "Project Phases",
+        "Project Lifecycle",
+        "Iterations"
+      ]
+    },
+    {
+      "id": "fund_004",
+      "question": "WHY do Monitoring & Controlling activities run throughout the entire project?",
+      "answer": "Because you need to continuously compare actual performance against the plan, identify variances, and take corrective action. Waiting until the end to check progress would be too late to course-correct.",
+      "knowledge_area": "Fundamentals",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T11:48:03.290269",
+      "why_it_matters": "This is why status meetings and progress reports exist. Early detection of issues gives you more options to respond. The later you find a problem, the more expensive it is to fix.",
+      "related_concepts": [
+        "Variance Analysis",
+        "Change Control",
+        "Performance Reporting"
+      ]
+    },
+    {
+      "id": "fund_005",
+      "question": "What is the primary purpose of the Project Charter?",
+      "answer": "To formally authorize the project's existence and provide the project manager with authority to apply organizational resources to project activities.",
+      "knowledge_area": "Integration Management",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T11:45:37.108905",
+      "why_it_matters": "Without a charter, the PM has no official authority. Stakeholders can ignore requests, resources can be pulled, decisions can be overruled. The charter is your 'license to operate.'",
+      "related_concepts": [
+        "Project Sponsor",
+        "PM Authority",
+        "Project Initiation"
+      ]
+    },
+    {
+      "id": "fund_006",
+      "question": "WHY must the Project Charter be issued by someone external to the project?",
+      "answer": "Because the PM cannot authorize their own authority. The sponsor (or PMO) has organizational power to allocate resources and commit the organization. The PM only has authority WITHIN the project, not over the organization.",
+      "knowledge_area": "Integration Management",
+      "card_type": "why",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T11:46:23.407987",
+      "why_it_matters": "This explains why sponsor engagement is critical. If your sponsor disappears, your authority source disappears. It also explains why PMs can't just 'start' projects - they need organizational authorization.",
+      "related_concepts": [
+        "Sponsor Role",
+        "Organizational Structure",
+        "PM Authority"
+      ]
+    },
+    {
+      "id": "fund_007",
+      "question": "What is the difference between a project, program, and portfolio?",
+      "answer": "Project: temporary effort for unique result. Program: group of related projects managed together for benefits not available from managing them individually. Portfolio: collection of projects/programs/operations managed together to achieve strategic objectives.",
+      "knowledge_area": "Fundamentals",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T11:47:33.636817",
+      "why_it_matters": "Programs exist when projects share resources, dependencies, or outcomes. Portfolios exist to align work with strategy. Understanding the hierarchy helps you know where decisions should be made.",
+      "related_concepts": [
+        "Strategic Alignment",
+        "Benefits Management",
+        "Resource Management"
+      ]
+    },
+    {
+      "id": "fund_008",
+      "question": "What does 'progressive elaboration' mean in project management?",
+      "answer": "The iterative process of increasing the level of detail in a project management plan as greater amounts of information and more accurate estimates become available.",
+      "knowledge_area": "Fundamentals",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T11:52:38.150385",
+      "why_it_matters": "You can't know everything upfront. Planning is not a one-time event - it continues as you learn more. This is why the planning process group overlaps with executing and why change requests exist.",
+      "related_concepts": [
+        "Rolling Wave Planning",
+        "Iterative Planning",
+        "Change Management"
+      ]
+    },
+    {
+      "id": "fund_009",
+      "question": "WHY is stakeholder identification done during project initiation?",
+      "answer": "Because stakeholders have the most influence at the start when changes are cheap. Missing key stakeholders early leads to costly changes later when their requirements surface. Early identification allows for proper engagement planning.",
+      "knowledge_area": "Stakeholder Management",
+      "card_type": "why",
+      "easiness": 2.5,
+      "interval": 1,
+      "repetitions": 1,
+      "next_review": "2026-01-21T11:44:13.938271",
+      "why_it_matters": "The cost of changes increases dramatically over time. A requirement discovered in testing is 10-100x more expensive to address than one caught during initiation. Early stakeholder ID is preventive, not just administrative.",
+      "related_concepts": [
+        "Stakeholder Register",
+        "Cost of Change",
+        "Requirements Gathering"
+      ]
+    },
+    {
+      "id": "fund_010",
+      "question": "What is a deliverable?",
+      "answer": "Any unique and verifiable product, result, or capability to perform a service that is produced to complete a process, phase, or project.",
+      "knowledge_area": "Fundamentals",
+      "card_type": "definition",
+      "easiness": 2.1799999999999997,
+      "interval": 1,
+      "repetitions": 0,
+      "next_review": "2026-01-21T11:51:22.128192",
+      "why_it_matters": "Deliverables are what you're actually creating. They must be verifiable (you can prove they exist and meet requirements). Scope is defined by deliverables, not activities. This drives acceptance criteria and quality standards.",
+      "related_concepts": [
+        "Work Breakdown Structure",
+        "Acceptance Criteria",
+        "Scope"
+      ]
+    }
+  ]
+}

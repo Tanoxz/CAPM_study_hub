@@ -1,0 +1,307 @@
+{
+  "quiz_id": "tools_quiz",
+  "name": "Tools & Techniques Quiz",
+  "description": "Test your knowledge of project management tools and techniques",
+  "questions": [
+    {
+      "id": "toolq_001",
+      "question": "A project team has identified many potential causes of a quality problem. They want to organize these causes into categories for analysis. Which tool should they use?",
+      "options": [
+        "Pareto chart",
+        "Fishbone (Ishikawa) diagram",
+        "Scatter diagram",
+        "Control chart"
+      ],
+      "correct_answer": 1,
+      "explanation": "A fishbone diagram organizes potential causes into categories (typically Methods, Machines, Materials, Measurement, Environment, People) for systematic root cause analysis.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_002",
+      "question": "The PM needs to gather expert opinions on project risks but is concerned that senior experts might dominate the discussion. Which technique would be MOST appropriate?",
+      "options": [
+        "Brainstorming",
+        "Delphi technique",
+        "Focus groups",
+        "Interviews"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Delphi technique gathers expert opinions anonymously through multiple rounds. Anonymity prevents dominant personalities from influencing others and reduces groupthink.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_003",
+      "question": "Analysis shows that 80% of defects come from 20% of the causes. This principle is known as:",
+      "options": [
+        "The fishbone principle",
+        "The Pareto principle",
+        "The Delphi principle",
+        "The Monte Carlo principle"
+      ],
+      "correct_answer": 1,
+      "explanation": "The Pareto principle (80/20 rule) states that roughly 80% of effects come from 20% of causes. It helps prioritize which problems to address first.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_004",
+      "question": "Early in a project, the PM needs a quick cost estimate but has limited detailed information. Which estimation technique is MOST appropriate?",
+      "options": [
+        "Bottom-up estimating",
+        "Analogous estimating",
+        "Three-point estimating",
+        "Reserve analysis"
+      ],
+      "correct_answer": 1,
+      "explanation": "Analogous estimating uses historical data from similar projects for quick, rough estimates. It's best when detailed information isn't available, though less accurate than other methods.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_005",
+      "question": "A PM wants to account for uncertainty in duration estimates. The team provides optimistic (10 days), most likely (15 days), and pessimistic (26 days) estimates. Using PERT, what is the expected duration?",
+      "options": [
+        "15 days",
+        "16 days",
+        "17 days",
+        "18 days"
+      ],
+      "correct_answer": 1,
+      "explanation": "PERT formula: (O + 4M + P) / 6 = (10 + 4(15) + 26) / 6 = (10 + 60 + 26) / 6 = 96/6 = 16 days. The formula weights the most likely estimate heavily.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "hard",
+      "question_type": "application"
+    },
+    {
+      "id": "toolq_006",
+      "question": "Which estimating technique breaks work into smaller components, estimates each, then aggregates for a total?",
+      "options": [
+        "Analogous estimating",
+        "Parametric estimating",
+        "Bottom-up estimating",
+        "Expert judgment"
+      ],
+      "correct_answer": 2,
+      "explanation": "Bottom-up estimating decomposes work into smaller components, estimates each, then rolls up to a total. More accurate but requires more time and detailed scope definition.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_007",
+      "question": "A team has completed a project phase and wants to capture lessons learned while they're fresh. Which technique should they use?",
+      "options": [
+        "Brainstorming",
+        "After-Action Review (AAR)",
+        "SWOT analysis",
+        "Decision tree analysis"
+      ],
+      "correct_answer": 1,
+      "explanation": "An After-Action Review is a structured process asking: What was supposed to happen? What actually happened? Why the difference? What can we learn? It captures lessons while fresh.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_008",
+      "question": "The PM needs to determine the probability of completing the project by a specific date. Which technique provides probabilistic outcomes?",
+      "options": [
+        "Critical path method",
+        "Precedence diagramming",
+        "Monte Carlo simulation",
+        "Earned value analysis"
+      ],
+      "correct_answer": 2,
+      "explanation": "Monte Carlo simulation runs many iterations to produce probability distributions (e.g., '80% confidence by June 30') rather than single-point estimates.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_009",
+      "question": "A RACI chart shows roles as Responsible, Accountable, Consulted, and Informed. How many people should be Accountable for each activity?",
+      "options": [
+        "As many as needed",
+        "Exactly one",
+        "At least two",
+        "None required"
+      ],
+      "correct_answer": 1,
+      "explanation": "Each activity should have exactly one Accountable person - the one who owns the outcome. Multiple accountable people creates confusion about who is ultimately responsible.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_010",
+      "question": "A brainstorming session generated 50 ideas. Which tool would help organize these ideas into logical groups?",
+      "options": [
+        "Pareto chart",
+        "Affinity diagram",
+        "Control chart",
+        "Scatter diagram"
+      ],
+      "correct_answer": 1,
+      "explanation": "An affinity diagram groups large numbers of ideas into categories for review and analysis. It helps make sense of unstructured brainstorming output.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_011",
+      "question": "Parametric estimating uses:",
+      "options": [
+        "Historical data from similar projects",
+        "Statistical relationships between variables (e.g., cost per unit)",
+        "Team member opinions",
+        "Three-point estimates"
+      ],
+      "correct_answer": 1,
+      "explanation": "Parametric estimating uses statistical relationships between historical data and variables (e.g., cost per square foot, hours per function point) to calculate estimates.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_012",
+      "question": "During a stakeholder meeting, the PM notices that some participants seem disengaged. Which communication technique should the PM use?",
+      "options": [
+        "Send a follow-up email",
+        "Active listening",
+        "Written documentation",
+        "Formal presentations"
+      ],
+      "correct_answer": 1,
+      "explanation": "Active listening techniques (acknowledging, clarifying, confirming) help engage participants and ensure understanding. It addresses barriers to effective communication.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_013",
+      "question": "Which tool shows work remaining versus time and is commonly used in agile projects?",
+      "options": [
+        "Gantt chart",
+        "Network diagram",
+        "Burndown chart",
+        "PERT chart"
+      ],
+      "correct_answer": 2,
+      "explanation": "A burndown chart shows work remaining versus time. The line should trend toward zero. It provides quick visual feedback on sprint/iteration progress.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_014",
+      "question": "A PM needs to evaluate whether a project assumption poses a risk. Which technique is MOST appropriate?",
+      "options": [
+        "SWOT analysis",
+        "Assumption and constraint analysis",
+        "Earned value management",
+        "Quality audits"
+      ],
+      "correct_answer": 1,
+      "explanation": "Assumption and constraint analysis explores the validity of assumptions to determine which pose risks from inaccuracy, instability, inconsistency, or incompleteness.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_015",
+      "question": "Velocity in agile measures:",
+      "options": [
+        "How fast team members work",
+        "The amount of work completed per sprint (usually in story points)",
+        "The number of defects found",
+        "Customer satisfaction"
+      ],
+      "correct_answer": 1,
+      "explanation": "Velocity measures work completed per sprint, typically in story points. Historical velocity helps predict how much work the team can commit to in future sprints.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_016",
+      "question": "A PM needs to decide between two options, each with different potential outcomes and probabilities. Which tool would help analyze this decision?",
+      "options": [
+        "Fishbone diagram",
+        "Decision tree",
+        "Affinity diagram",
+        "Pareto chart"
+      ],
+      "correct_answer": 1,
+      "explanation": "A decision tree shows different paths with associated probabilities and outcomes, helping calculate expected monetary value and compare options under uncertainty.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_017",
+      "question": "The lowest level of a WBS is called a:",
+      "options": [
+        "Activity",
+        "Task",
+        "Work package",
+        "Deliverable"
+      ],
+      "correct_answer": 2,
+      "explanation": "The lowest level of the WBS is called a work package. Work packages can be estimated, scheduled, and controlled. Activities are derived from work packages later.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_018",
+      "question": "Which technique would help a PM compare different solutions to address a project need?",
+      "options": [
+        "Root cause analysis",
+        "Alternative analysis",
+        "Trend analysis",
+        "Variance analysis"
+      ],
+      "correct_answer": 1,
+      "explanation": "Alternative analysis evaluates identified options to select the best approach for achieving objectives within constraints. It ensures systematic comparison rather than jumping to the first idea.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "toolq_019",
+      "question": "A PM needs to document who is responsible for each project activity and who needs to be kept informed. Which tool is MOST appropriate?",
+      "options": [
+        "Stakeholder register",
+        "RACI chart",
+        "Organization chart",
+        "Resource histogram"
+      ],
+      "correct_answer": 1,
+      "explanation": "A RACI chart (Responsible, Accountable, Consulted, Informed) clarifies roles for each activity. It prevents confusion about who does what and who needs communication.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "toolq_020",
+      "question": "What is the PRIMARY limitation of analogous estimating?",
+      "options": [
+        "It takes too long",
+        "It requires detailed scope definition",
+        "It's generally less accurate than other techniques",
+        "It can only be used for cost estimates"
+      ],
+      "correct_answer": 2,
+      "explanation": "Analogous estimating is quick and cheap but generally less accurate because it relies on similarity to past projects. It's best for early estimates when detail is unavailable.",
+      "knowledge_area": "Tools & Techniques",
+      "difficulty": "medium",
+      "question_type": "concept"
+    }
+  ]
+}

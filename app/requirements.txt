@@ -1,0 +1,4 @@
+# ABOUTME: Python dependencies for the CAPM Study Hub Streamlit app.
+# ABOUTME: Install with: pip install -r requirements.txt
+
+streamlit>=1.28.0

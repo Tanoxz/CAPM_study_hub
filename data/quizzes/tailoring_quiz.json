@@ -1,0 +1,307 @@
+{
+  "quiz_id": "tailoring_quiz",
+  "name": "Tailoring Quiz",
+  "description": "Test your understanding of tailoring project management approaches",
+  "questions": [
+    {
+      "id": "tq_001",
+      "question": "A project manager is starting a small, low-risk internal project. The organization has a comprehensive project management methodology with many required artifacts. What should the PM do?",
+      "options": [
+        "Follow the full methodology exactly as documented",
+        "Tailor the methodology to fit the project's size and risk level",
+        "Skip the methodology entirely since it's a small project",
+        "Ask the sponsor to exempt the project from all processes"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tailoring is the deliberate adaptation of approaches to fit the project context. A small, low-risk project doesn't need the same rigor as a large, complex one. The PM should tailor, not abandon, the methodology.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_002",
+      "question": "What is the PRIMARY purpose of tailoring in project management?",
+      "options": [
+        "To reduce documentation requirements",
+        "To align the approach with the project's environment and objectives",
+        "To make projects easier to manage",
+        "To standardize all projects across the organization"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tailoring aligns the project management approach with the project's specific environment and objectives. It's not about reducing work or standardizing - it's about optimizing the approach for the context.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_003",
+      "question": "A construction project involves building a data center. The physical construction is well-defined, but the computing requirements are still evolving. Which approach is MOST appropriate?",
+      "options": [
+        "Use a purely predictive approach for the entire project",
+        "Use a purely adaptive approach for the entire project",
+        "Use a hybrid approach - predictive for construction, adaptive for computing",
+        "Wait until all requirements are known before starting"
+      ],
+      "correct_answer": 2,
+      "explanation": "A hybrid approach matches the development approach to the nature of the work. Construction with well-defined requirements suits predictive; evolving computing requirements suit adaptive.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_004",
+      "question": "Which of the following is NOT one of the three main aspects that can be tailored?",
+      "options": [
+        "Life cycle and development approach",
+        "Processes",
+        "Engagement",
+        "Organizational strategy"
+      ],
+      "correct_answer": 3,
+      "explanation": "The three aspects that can be tailored are: 1) Life cycle and development approach, 2) Processes, 3) Engagement. Organizational strategy is outside the scope of project-level tailoring.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_005",
+      "question": "A PM is working with a highly experienced, self-organizing team. According to tailoring principles, the PM should consider:",
+      "options": [
+        "Adding more oversight to ensure quality",
+        "Granting higher levels of empowerment and decision-making authority",
+        "Requiring more detailed status reports",
+        "Implementing stricter process controls"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tailoring engagement involves matching empowerment to team capability. Experienced, self-organizing teams thrive with more autonomy. Adding oversight would be counterproductive.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_006",
+      "question": "What is a suitability filter in the context of tailoring?",
+      "options": [
+        "A tool for screening potential vendors",
+        "A decision-making tool for evaluating project characteristics to select the best approach",
+        "A process for filtering out unnecessary requirements",
+        "A method for selecting the right team members"
+      ],
+      "correct_answer": 1,
+      "explanation": "A suitability filter helps project teams analyze project characteristics to determine the best fit among predictive, adaptive, or hybrid approaches. It's a structured decision-making tool.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_007",
+      "question": "An organization has a low risk appetite and operates in a heavily regulated industry. When tailoring, the PM should expect:",
+      "options": [
+        "Complete freedom to choose any development approach",
+        "More structured processes and oversight mechanisms",
+        "Minimal documentation requirements",
+        "Highly autonomous project teams"
+      ],
+      "correct_answer": 1,
+      "explanation": "Organizations with low risk appetite and regulatory requirements typically implement structured processes and oversight. This limits tailoring flexibility but ensures compliance and control.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_008",
+      "question": "The four steps of the tailoring process are: Select initial approach, Tailor for organization, Tailor for project, and:",
+      "options": [
+        "Document all decisions",
+        "Get stakeholder approval",
+        "Implement ongoing improvement",
+        "Create the project charter"
+      ],
+      "correct_answer": 2,
+      "explanation": "The fourth step is 'Implement ongoing improvement' - continuously inspecting and adapting the approach throughout the project. Tailoring is not a one-time activity.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_009",
+      "question": "A PM decides to remove a standard review gate because it doesn't add value for this particular project. This is an example of:",
+      "options": [
+        "Scope creep",
+        "Non-compliance",
+        "Process tailoring",
+        "Risk avoidance"
+      ],
+      "correct_answer": 2,
+      "explanation": "Removing process elements that don't add value is a legitimate tailoring activity. The key is that it's a deliberate decision based on project context, not negligence.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "easy",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_010",
+      "question": "Which factor would MOST likely limit a project team's ability to tailor their approach?",
+      "options": [
+        "Team member experience levels",
+        "Contractual requirements mandating a specific approach",
+        "Project budget constraints",
+        "Number of stakeholders"
+      ],
+      "correct_answer": 1,
+      "explanation": "Contractual requirements can mandate specific approaches, limiting tailoring flexibility. While other factors influence tailoring decisions, contracts create hard constraints that must be followed.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_011",
+      "question": "What does 'Tailor for Organization' mean in the tailoring process?",
+      "options": [
+        "Changing the organization's structure for the project",
+        "Modifying the approach based on organizational requirements and standards",
+        "Selecting team members from the organization",
+        "Creating organizational charts"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Tailor for Organization' means adapting the selected approach to comply with organizational policies, standards, and requirements before further tailoring for the specific project.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_012",
+      "question": "A PM adds extra risk reviews to a safety-critical project beyond what the standard methodology requires. This is an example of:",
+      "options": [
+        "Gold plating",
+        "Process tailoring by adding elements",
+        "Scope creep",
+        "Non-compliance"
+      ],
+      "correct_answer": 1,
+      "explanation": "Adding process elements to address unique conditions (safety-critical nature) is legitimate tailoring. It's not gold plating because it addresses genuine risk, not unnecessary features.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_013",
+      "question": "What guides the tailoring process according to PMBOK?",
+      "options": [
+        "Historical project data",
+        "The project sponsor's preferences",
+        "The guiding project management principles",
+        "Industry benchmarks"
+      ],
+      "correct_answer": 2,
+      "explanation": "The tailoring process is driven by the guiding project management principles from The Standard for Project Management. Principles provide the 'why' that informs tailoring decisions.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_014",
+      "question": "A project involves team members from multiple external contractors, channel partners, and internal staff. Which aspect of tailoring is MOST relevant?",
+      "options": [
+        "Life cycle selection",
+        "Process modification",
+        "Engagement and integration",
+        "Development approach"
+      ],
+      "correct_answer": 2,
+      "explanation": "Tailoring engagement includes integration - creating one project team from diverse contributors. This is crucial when team members come from different organizations with different cultures.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_015",
+      "question": "What are the potential consequences of NOT tailoring when it's needed?",
+      "options": [
+        "The project will always fail",
+        "Too few processes may lead to ineffective management; too many processes waste resources",
+        "Stakeholders will be satisfied",
+        "The project team will be more productive"
+      ],
+      "correct_answer": 1,
+      "explanation": "Without tailoring, a project might have insufficient processes (risking failure) or excessive processes (wasting resources). Tailoring optimizes the approach for the specific context.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_016",
+      "question": "A PM is leading a project very similar to one completed last year. What should the PM do?",
+      "options": [
+        "Use the exact same approach without modification",
+        "Start from scratch to ensure a fresh perspective",
+        "Use the previous approach as a starting point but tailor for any differences",
+        "Let the team decide the approach through voting"
+      ],
+      "correct_answer": 2,
+      "explanation": "Similar projects provide a good starting point, but each project has unique context. The PM should tailor based on any differences in stakeholders, constraints, or environment.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    },
+    {
+      "id": "tq_017",
+      "question": "Which of the following is a benefit of involving the team in tailoring the project approach?",
+      "options": [
+        "It reduces the PM's workload",
+        "It creates more commitment from team members",
+        "It eliminates the need for a project charter",
+        "It guarantees project success"
+      ],
+      "correct_answer": 1,
+      "explanation": "When team members participate in tailoring the approach, they feel ownership and are more committed. This is one of the documented benefits of tailoring.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_018",
+      "question": "A project must balance delivering quickly, minimizing costs, and ensuring regulatory compliance. These represent:",
+      "options": [
+        "Project constraints that limit tailoring",
+        "Competing demands that tailoring must balance",
+        "Reasons to avoid tailoring",
+        "Organizational process assets"
+      ],
+      "correct_answer": 1,
+      "explanation": "These are competing demands that tailoring must consider and balance. Tailoring helps find the right approach that addresses these potentially conflicting factors.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_019",
+      "question": "When should tailoring decisions be revisited during a project?",
+      "options": [
+        "Never - decisions made at the start should remain fixed",
+        "Only if the project fails",
+        "Continuously throughout the project as part of ongoing improvement",
+        "Only at formal phase gates"
+      ],
+      "correct_answer": 2,
+      "explanation": "The fourth step of tailoring is 'Implement ongoing improvement' - continuously inspecting and adapting. Tailoring is iterative, not a one-time decision.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "easy",
+      "question_type": "concept"
+    },
+    {
+      "id": "tq_020",
+      "question": "A PM modifies the standard change control process to combine two approval steps into one for a fast-moving project. This is an example of:",
+      "options": [
+        "Bypassing governance",
+        "Blending process elements for efficiency",
+        "Removing necessary controls",
+        "Non-compliance with standards"
+      ],
+      "correct_answer": 1,
+      "explanation": "Blending process elements to create added value is a valid tailoring activity. Combining approval steps for a fast-moving project can maintain control while improving speed.",
+      "knowledge_area": "Tailoring",
+      "difficulty": "medium",
+      "question_type": "scenario"
+    }
+  ]
+}
