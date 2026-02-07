@@ -182,6 +182,15 @@
       "card_type": "definition",
       "why_it_matters": "Starting unclear work (not 'ready') causes mid-sprint confusion. Declaring work done prematurely ('almost done') creates hidden technical debt. Both definitions create shared understanding of expectations.",
       "related_concepts": ["Agile", "Sprint Planning", "Acceptance Criteria", "Quality Standards"]
+    },
+    {
+      "id": "scope_021",
+      "question": "What is the difference between Validation and Verification?",
+      "answer": "Verification = 'Did we build it RIGHT?' (meets specifications/requirements). Validation = 'Did we build the RIGHT thing?' (meets stakeholder needs/intended use). Verification checks conformance to requirements; validation checks fitness for purpose.",
+      "knowledge_area": "Scope",
+      "card_type": "definition",
+      "why_it_matters": "A product can pass all verification tests (built correctly per specs) yet fail validation (nobody wants it). Verification catches defects; validation catches wrong requirements. Both are needed - verification without validation means technically perfect failures.",
+      "related_concepts": ["Quality Management", "Acceptance Criteria", "Requirements", "Testing"]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 5,
   "generated": "2026-02-02T11:54:25.118567",
   "certification": "CAPM",
   "exam_date": "2026-03-23",
@@ -139,8 +139,8 @@
           "duration_minutes": 35,
           "topic_id": "procurement",
           "lesson_id": null,
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-05T16:37:09.474208",
           "details": {
             "has_flashcards": true
           }
@@ -185,8 +185,8 @@
           "duration_minutes": 77,
           "topic_id": "M07",
           "lesson_id": "L07.02",
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-05T17:36:08.505576",
           "details": {
             "eco_domain": "domain3"
           }
@@ -205,8 +205,8 @@
           "duration_minutes": 38,
           "topic_id": "M07",
           "lesson_id": "L07.03",
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-06T17:08:32.901904",
           "details": {
             "eco_domain": "domain3"
           }
@@ -218,8 +218,8 @@
           "duration_minutes": 29,
           "topic_id": "M07",
           "lesson_id": "L07.04",
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-06T18:43:01.103348",
           "details": {
             "eco_domain": "domain3"
           }
@@ -231,8 +231,8 @@
           "duration_minutes": 20,
           "topic_id": "tools",
           "lesson_id": null,
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-06T19:01:11.424428",
           "details": {
             "deck": "tools_domain.json",
             "card_count": 20
@@ -252,8 +252,8 @@
           "duration_minutes": 13,
           "topic_id": "M07",
           "lesson_id": "L07.05",
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-07T10:43:54.441403",
           "details": {
             "eco_domain": "domain3"
           }
@@ -265,8 +265,8 @@
           "duration_minutes": 20,
           "topic_id": "glossary",
           "lesson_id": null,
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-07T18:46:57.323908",
           "details": {
             "has_flashcards": true
           }
@@ -278,8 +278,8 @@
           "duration_minutes": 16,
           "topic_id": "M07",
           "lesson_id": "L07.06",
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-07T10:43:56.260131",
           "details": {
             "eco_domain": "domain3"
           }
@@ -291,8 +291,8 @@
           "duration_minutes": 24,
           "topic_id": "M07",
           "lesson_id": "L07.07",
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-07T10:43:57.937458",
           "details": {
             "eco_domain": "domain3"
           }
@@ -304,8 +304,8 @@
           "duration_minutes": 17,
           "topic_id": null,
           "lesson_id": null,
-          "status": "pending",
-          "completed_date": null,
+          "status": "completed",
+          "completed_date": "2026-02-07T18:47:00.153716",
           "details": {
             "focus": "weak_areas"
           }
@@ -784,7 +784,7 @@
           "id": "d15_a52",
           "activity_type": "flashcards",
           "title": "Flashcards: Agile Domain",
-          "duration_minutes": 20,
+          "duration_minutes": 60,
           "topic_id": "agile",
           "lesson_id": null,
           "status": "pending",
@@ -2846,5 +2846,6 @@
   "_preservation_info": {
     "preserved_count": 3,
     "preservation_applied": true
-  }
+  },
+  "migrated": "2026-02-04T18:02:34.398386"
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "source": "PM PrepCast for CAPM",
-  "updated": "2026-02-04T14:08:00.326790",
+  "updated": "2026-02-07T10:43:57.960759",
   "total_core_minutes": 1382,
   "total_optional_minutes": 674,
   "eco_domains": {
@@ -480,8 +480,8 @@
       "is_core": true,
       "duration_minutes": 77,
       "eco_domain": "domain3",
-      "status": "not_watched",
-      "watched_date": null,
+      "status": "watched",
+      "watched_date": "2026-02-05",
       "comprehension_rating": null,
       "notes": ""
     },
@@ -494,8 +494,8 @@
       "is_core": true,
       "duration_minutes": 38,
       "eco_domain": "domain3",
-      "status": "not_watched",
-      "watched_date": null,
+      "status": "watched",
+      "watched_date": "2026-02-06",
       "comprehension_rating": null,
       "notes": ""
     },
@@ -508,8 +508,8 @@
       "is_core": true,
       "duration_minutes": 29,
       "eco_domain": "domain3",
-      "status": "not_watched",
-      "watched_date": null,
+      "status": "watched",
+      "watched_date": "2026-02-06",
       "comprehension_rating": null,
       "notes": ""
     },
@@ -522,8 +522,8 @@
       "is_core": true,
       "duration_minutes": 13,
       "eco_domain": "domain3",
-      "status": "not_watched",
-      "watched_date": null,
+      "status": "watched",
+      "watched_date": "2026-02-07",
       "comprehension_rating": null,
       "notes": ""
     },
@@ -536,8 +536,8 @@
       "is_core": true,
       "duration_minutes": 16,
       "eco_domain": "domain3",
-      "status": "not_watched",
-      "watched_date": null,
+      "status": "watched",
+      "watched_date": "2026-02-07",
       "comprehension_rating": null,
       "notes": ""
     },
@@ -550,8 +550,8 @@
       "is_core": true,
       "duration_minutes": 24,
       "eco_domain": "domain3",
-      "status": "not_watched",
-      "watched_date": null,
+      "status": "watched",
+      "watched_date": "2026-02-07",
       "comprehension_rating": null,
       "notes": ""
     },

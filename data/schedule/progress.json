@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-02-04T14:11:39.155805",
+  "updated": "2026-02-07T18:47:20.366356",
   "reading_progress": {
     "principles": {
       "status": "completed",
@@ -86,6 +86,22 @@
       "status": "completed",
       "started_at": "2026-02-04T14:09:30.859364",
       "completed_at": "2026-02-04T14:09:30.859374",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "procurement": {
+      "status": "completed",
+      "started_at": "2026-02-05T16:36:58.704437",
+      "completed_at": "2026-02-05T16:36:58.704453",
+      "time_spent_minutes": 0,
+      "comprehension_checked": false,
+      "notes": ""
+    },
+    "glossary": {
+      "status": "completed",
+      "started_at": "2026-02-07T18:47:20.365099",
+      "completed_at": "2026-02-07T18:47:20.365111",
       "time_spent_minutes": 0,
       "comprehension_checked": false,
       "notes": ""
@@ -773,12 +789,177 @@
         "activity_id": "d3_a11",
         "title": "Review: Weak areas or previous content"
       }
+    },
+    {
+      "id": "sess_20260205_163658",
+      "timestamp": "2026-02-05T16:36:58.704495",
+      "type": "reading",
+      "topic_id": "procurement",
+      "duration_minutes": 35,
+      "details": {
+        "guide": "12_procurement_management.md",
+        "completed": true
+      }
+    },
+    {
+      "id": "sess_20260205_163709",
+      "timestamp": "2026-02-05T16:37:09.483532",
+      "type": "read",
+      "topic_id": "procurement",
+      "duration_minutes": 35,
+      "details": {
+        "activity_id": "d3_a9",
+        "title": "Read: Procurement Management (ECO Domain 2)"
+      }
+    },
+    {
+      "id": "sess_20260205_173608",
+      "timestamp": "2026-02-05T17:36:08.521051",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 77,
+      "details": {
+        "activity_id": "d4_a12",
+        "title": "The Agile Manifesto"
+      }
+    },
+    {
+      "id": "sess_20260206_170827",
+      "timestamp": "2026-02-06T17:08:27.032897",
+      "type": "watch",
+      "topic_id": "domain3",
+      "duration_minutes": 38,
+      "details": {
+        "lesson_id": "L07.03",
+        "title": "Introduction to Scrum"
+      }
+    },
+    {
+      "id": "sess_20260206_170832",
+      "timestamp": "2026-02-06T17:08:32.920150",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 38,
+      "details": {
+        "activity_id": "d5_a13",
+        "title": "Introduction to Scrum"
+      }
+    },
+    {
+      "id": "sess_20260206_184253",
+      "timestamp": "2026-02-06T18:42:53.931836",
+      "type": "watch",
+      "topic_id": "domain3",
+      "duration_minutes": 29,
+      "details": {
+        "lesson_id": "L07.04",
+        "title": "Scrum - Scrum & Agile Defined"
+      }
+    },
+    {
+      "id": "sess_20260206_184301",
+      "timestamp": "2026-02-06T18:43:01.122213",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 29,
+      "details": {
+        "activity_id": "d5_a14",
+        "title": "Scrum - Scrum & Agile Defined"
+      }
+    },
+    {
+      "id": "sess_20260206_190101",
+      "timestamp": "2026-02-06T19:01:01.435141",
+      "type": "flashcards",
+      "topic_id": "tools",
+      "duration_minutes": 20,
+      "details": {
+        "cards_reviewed": 20,
+        "deck": "tools_domain.json"
+      }
+    },
+    {
+      "id": "sess_20260206_190111",
+      "timestamp": "2026-02-06T19:01:11.437558",
+      "type": "flashcards",
+      "topic_id": "tools",
+      "duration_minutes": 20,
+      "details": {
+        "activity_id": "d5_a15",
+        "title": "Flashcards: Tools Domain"
+      }
+    },
+    {
+      "id": "sess_20260207_104354",
+      "timestamp": "2026-02-07T10:43:54.464912",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 13,
+      "details": {
+        "activity_id": "d6_a16",
+        "title": "Scrum - Roles Overview"
+      }
+    },
+    {
+      "id": "sess_20260207_104356",
+      "timestamp": "2026-02-07T10:43:56.277559",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 16,
+      "details": {
+        "activity_id": "d6_a18",
+        "title": "Scrum - Roles & Responsibilities Detailed Review"
+      }
+    },
+    {
+      "id": "sess_20260207_104357",
+      "timestamp": "2026-02-07T10:43:57.953315",
+      "type": "watch",
+      "topic_id": "M07",
+      "duration_minutes": 24,
+      "details": {
+        "activity_id": "d6_a19",
+        "title": "Scrum - Strategic Meetings"
+      }
+    },
+    {
+      "id": "sess_20260207_184657",
+      "timestamp": "2026-02-07T18:46:57.355326",
+      "type": "read",
+      "topic_id": "glossary",
+      "duration_minutes": 20,
+      "details": {
+        "activity_id": "d6_a17",
+        "title": "Read: Glossary & Terms (ECO Domain 1)"
+      }
+    },
+    {
+      "id": "sess_20260207_184700",
+      "timestamp": "2026-02-07T18:47:00.178908",
+      "type": "review",
+      "topic_id": null,
+      "duration_minutes": 17,
+      "details": {
+        "activity_id": "d6_a20",
+        "title": "Review: Weak areas or previous content"
+      }
+    },
+    {
+      "id": "sess_20260207_184720",
+      "timestamp": "2026-02-07T18:47:20.365145",
+      "type": "reading",
+      "topic_id": "glossary",
+      "duration_minutes": 20,
+      "details": {
+        "guide": "13_glossary_management.md",
+        "completed": true
+      }
     }
   ],
   "streaks": {
-    "current_streak": 4,
+    "current_streak": 7,
     "longest_streak": 8,
-    "last_study_date": "2026-02-04",
+    "last_study_date": "2026-02-07",
     "streak_history": [
       {
         "start": "2026-01-19",
@@ -989,6 +1170,49 @@
       "topics_touched": [
         "M07",
         "tools"
+      ],
+      "goal_met": false
+    },
+    "2026-02-05": {
+      "total_minutes": 147,
+      "sessions_count": 3,
+      "activities": [
+        "reading",
+        "read",
+        "watch"
+      ],
+      "topics_touched": [
+        "procurement",
+        "M07"
+      ],
+      "goal_met": false
+    },
+    "2026-02-06": {
+      "total_minutes": 174,
+      "sessions_count": 6,
+      "activities": [
+        "watch",
+        "flashcards"
+      ],
+      "topics_touched": [
+        "domain3",
+        "M07",
+        "tools"
+      ],
+      "goal_met": false
+    },
+    "2026-02-07": {
+      "total_minutes": 110,
+      "sessions_count": 6,
+      "activities": [
+        "watch",
+        "read",
+        "review",
+        "reading"
+      ],
+      "topics_touched": [
+        "M07",
+        "glossary"
       ],
       "goal_met": false
     }
